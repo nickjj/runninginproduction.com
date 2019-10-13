@@ -1,0 +1,14 @@
+{% assign item_count = site.categories.interviews | size %}
+{% if item_count > 0 %}
+  <p>Choose an interview from the sidebar or filter interviews by tag:</p>
+  {% include tag-list.html filter_by_category="interviews" %}
+{% else %}
+  <p>
+    This site just launched. There's no interviews yet. Do you want to
+    <strong>
+      <a href="{{ site.links.get_interviewed }}">
+        get interviewed?
+      </a>
+    </strong>
+  </p>
+{% endif %}

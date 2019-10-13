@@ -1,0 +1,30 @@
+header {
+  a {
+    &:visited, &:hover, &:active {
+      text-decoration: none;
+    }
+  }
+}
+
+.header-background {
+  background-image: asset_url("header.jpg");
+  background-position: center top;
+  background-size: 100% 350px;
+}
+
+.logo {
+  color: #fff;
+
+  &:hover, &:active, &:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.sub-text {
+  color: #c8dbfd;
+}
+
+.nav-push-left {
+  margin-left: -16px;
+}

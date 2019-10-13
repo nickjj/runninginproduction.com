@@ -1,0 +1,39 @@
+.item {
+  h1, h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  img {
+    @include img-fluid;
+  }
+
+  ul {
+    padding-left: 25px;
+    list-style-type: circle;
+  }
+
+  // All links without any class (ie. not the badges or buttons, etc.).
+  a:not([class]) {
+    border-bottom: 1px solid $primary;
+
+    &:hover, &:visited, &:active {
+      text-decoration: none;
+    }
+  }
+}

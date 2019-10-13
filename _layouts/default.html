@@ -1,0 +1,64 @@
+---
+layout: "base"
+---
+
+<header>
+  <div class="bg-primary header-background" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <a class="logo h1" href="{{ site.url }}">
+            Running in <span class="text-warning">Production</span>
+          </a>
+          <p class="sub-text mt-2">
+            A podcast where folks talk about running small &amp; large web apps
+            in production. Topics include tech stacks, success stories, lessons
+            learned and deployment tips.
+          </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <div class="clearfix avatar-card">
+            {% image avatars/nick-janetakis.jpg width:60 height:60 class:"avatar" %}
+            <h5 class="text-white mb-1">{{ site.author.name }}</h5>
+            <h6 class="text-secondary mt-0">
+              <a class="text-warning"
+                 href="https://twitter.com/{{ site.author.links.twitter }}">
+                @{{ site.author.links.twitter }}
+              </a>
+            </h6>
+            <p class="sub-text small mb-0 float-left">
+              {{ site.author.title }}. Author of multiple
+              <a class="text-warning" href="{{ site.author.links.courses }}">
+                web development and deployment courses</a>. Technical death metal enthusiast.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar box-shadow">
+    <div class="container">
+      <ul class="nav nav-push-left">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.url }}/podcast/"><strong>Podcast</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.url }}/interviews/"><strong>Interviews</strong></a>
+        </li>
+      </ul>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a href="{{ site.links.ask_question }}" class="btn btn-sm btn-outline-primary">
+            Ask a question &rarr;
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+  <section class="jumbotron bg-light">
+    {{ content }}
+  </section>
+</main>

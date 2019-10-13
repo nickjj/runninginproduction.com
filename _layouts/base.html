@@ -1,0 +1,72 @@
+---
+layout: "compress"
+---
+
+{% assign title = page.title | default: layout.title %}
+{% assign slug = page.slug | default: layout.slug %}
+{% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <link rel="icon" href="{{ site.url }}/favicon.ico" sizes="16x16" >
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.url }}/podcast/" href="{{ site.url }}/podcast/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.url }}/interviews/" href="{{ site.url }}/interviews/feed.xml">
+
+  {% include meta.html %}
+
+  {% stylesheet main %}
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+
+  {% javascript main %}
+
+  {% include integrations/google-ua.html %}
+</head>
+
+<body>
+
+{{ content | extlinks }}
+
+<footer class="text-muted">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <p class="mb-0">
+          &copy; {{ site.time | date: "%Y" }}
+          <a target="_blank" rel="noopener" href="{{ site.author.links.website }}">{{ site.author.name }}</a>
+        </p>
+
+        <p class="small text-muted">
+          Built with Jekyll.
+          Hosted on <a target="_blank" href="{{ site.links.digitalocean }}">DigitalOcean</a>.
+          Open source on <a target="_blank" href="{{ site.links.repo }}">GitHub</a>.
+        </p>
+      </div>
+      <div class="col-sm-4 text-right">
+        <p>
+          {% if page.url contains "/interviews/" %}
+            <a target="_blank" rel="noopener" href="{{ site.links.get_interviewed }}"
+               class="btn btn-sm btn-outline-primary">
+              Get interviewed &rarr;
+            </a>
+          {% else %}
+            <a target="_blank" rel="noopener" href="{{ site.links.become_guest }}"
+               class="btn btn-sm btn-outline-primary">
+              Become a guest &rarr;
+            </a>
+          {% endif %}
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+---
+layout: "default"
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <ul id="podcasts_or_interviews" class="list-group overflow-auto">
+        {% capture category %}{{ page.category | default: page.title | downcase }}{% endcapture %}
+        {% include items.html category=category %}
+      </ul>
+    </div>
+    <div class="col-sm-8 mt-4 mt-sm-0">
+      <div class="card">
+        <div id="podcast_or_interview" class="card-body item">
+          {% capture mp3_url %}{{ site.mp3_url_path }}{{ page.slug | split: "-" | first }}.mp3{% endcapture %}
+
+          {% if page.category == "podcast" %}
+            <audio class="mb-2" controls="true" src="{{ mp3_url }}">
+              Your browser does not support the <code>audio</code> element.
+            </audio>
+            <div class="text-right mb-3">
+              <a class="btn btn-sm btn-light mb-4" href="{{ mp3_url }}"
+                 target="_blank" rel="noopener"
+                 role="button" title="Right click and save link as...">
+                👇 Download Episode
+              </a>
+            </div>
+          {% endif %}
+
+          <h1 class="h2">{{ post.title | default: page.title }}</h1>
+          <ul class="list-inline pl-0">
+            {% for tag in page.tags %}
+              <li class="list-inline-item">
+                {% include item-tag.html bs_class="light" tag=tag %}
+              </li>
+            {% endfor %}
+          </ul>
+
+          {% if page.date %}
+            <div class="clearfix avatar--item">
+              {% capture avatar %}{{ page.guest_avatar | default: "unknown.jpg" }}{% endcapture %}
+              {% image avatars/{{avatar}} width:60 height:60 class:"avatar" %}
+              <h5 class="mb-1">{{ site.author.name }}</h5>
+              <h6 class="text-secondary mt-0">
+                {% if page.guest_website %}
+                  <a href="{{ page.guest_website }}">{{ page.guest_website }}</a>
+                {% elsif page.guest_title %}
+                  {{ page.guest_title }}
+                {% endif %}
+              </h6>
+            </div>
+          {% endif %}
+
+          {{ content }}
+
+          {% if page.date %}
+            {% if page.category == "podcast" %}
+              <h2>Questions and Suggestions</h2>
+              <ul>
+                <li>
+                  Want to discuss this episode on Twitter?
+                  Tag <a href="https://twitter.com/{{ site.author.links.twitter }}">@{{ site.author.links.twitter }}</a>
+                  or use <code>#RunningInProduction</code>
+                </li>
+                <li>
+                  Have a question or suggestion for a future episode?
+                  <a href="{{ site.links.ask_question }}">Fill out this 1 question form</a></li>
+              </ul>
+            {% endif %}
+            <p class="text-muted small mt-5">{% include date.html %}</p>
+            <a class="btn btn-sm btn-light"
+               role="button"
+               href="{{ site.links.repo }}/edit/master/_posts/{{ page.category }}/{{ page.date | split: " " | first }}-{{ page.slug }}.md">
+               ✏️ Edit on GitHub
+             </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  <div>
+</div>

@@ -1,0 +1,17 @@
+{% capture first_tag %}{{ item.tags | first }}{% endcapture %}
+{% if include.category == "podcast" %}
+  {% assign category_label = "episode" %}
+{% elsif include.category == "interviews" %}
+  {% assign category_label = "interview" %}
+{% endif %}
+<li class="list-group-item">
+  <p class="text-muted mb-0">
+    <small>
+      {{ category_label | upcase }} {{ item.slug | split: "-" | first }}
+    </small>
+    {% include item-tag.html tag=first_tag %}
+  </p>
+  <a href="{{ item.url }}">
+    <h5 class="h6"><strong>{{ item.title }}</strong></h5>
+  </a>
+</li>

@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#173781" />
+
+{% assign item_count = slug | split: "-" | first %}
+
+{% if page.category == "podcast" %}
+  <title>{{ title }} &mdash; Running in Production Podcast {{ item_count }}</title>
+{% elsif page.category == "interviews" %}
+  <title>{{ title }} &mdash; Running in Production Interview {{ item_count }}</title>
+{% elsif page.layout == "tags" %}
+  <title>{{ title }} &mdash; Podcast and Interviews</title>
+{% elsif page.url == "/" %}
+  <title>{{ title }}</title>
+{% else %}
+  <title>{{ title }} &mdash; Running in Production</title>
+{% endif %}
+
+{% assign description = page.description | default: layout.description | strip_html %}
+
+<meta name="description" content="{{ description }}">
+<meta name="author" content="{{ site.author.name }}">
+
+<meta property="og:locale" content="{{ site.locale }}">
+{% if page.category == "podcast" %}
+  {% capture mp3_url %}{{ site.mp3_url_path }}{{ item_count }}.mp3{% endcapture %}
+  <meta property="og:type" content="music.song" />
+  <meta property="og:audio:type" content="audio/mp3" />
+  <meta property="og:audio" content="{{ mp3_url }}" />
+  <meta property="og:audio:secure_url" content="{{ mp3_url }}" />
+{% elsif page.category == "interview" or page.date %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+{% else %}
+  <meta property="og:type" content="page">
+{% endif %}
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:site_name" content="Running in Production Podcast and Interviews">
+<meta property="og:image" content="{{ site.url }}{% asset_path running-in-production-banner.png %}">

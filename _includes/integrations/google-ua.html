@@ -1,0 +1,17 @@
+{% if site.integrations.google.analytics_ua != "" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.integrations.google.analytics_ua }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "{{ site.integrations.google.analytics_ua }}");
+
+  document.addEventListener("turbolinks:load", event => {
+    if (typeof gtag === "function") {
+      gtag("config", "{{ site.integrations.google.analytics_ua }}", {
+        "page_location": event.data.url
+      });
+    }
+  });
+</script>
+{% endif %}

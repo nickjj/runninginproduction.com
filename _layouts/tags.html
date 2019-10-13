@@ -1,0 +1,38 @@
+---
+layout: "default"
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2 class="card-title">
+        Podcast <span class="text-muted">#{{ page.tag }}</span>
+      </h2>
+      <ul id="podcasts" class="list-group">
+        {% if site.categories.podcast and site.tags[page.tag] %}
+          {% include items.html category="podcast" filter_by_tag=page.tag %}
+        {% else %}
+          <li class="list-group-item">
+            <p>No episodes found with this tag.</p>
+            <a class="btn btn-sm btn-primary" href="{{ site.url }}/podcast/">View all episodes</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+    <div class="col-sm-6 mt-4 mt-sm-0">
+      <h2 class="card-title">
+        Interviews <span class="text-muted">#{{ page.tag }}
+      </h2>
+      <ul id="interviews" class="list-group">
+        {% if site.categories.interviews and site.tags[page.tag] %}
+          {% include items.html category="interviews" filter_by_tag=page.tag %}
+        {% else %}
+          <li class="list-group-item">
+            <p>No interviews found with this tag.</p>
+            <a class="btn btn-sm btn-primary" href="{{ site.url }}/interviews/">View all interviews</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  <div>
+</div>

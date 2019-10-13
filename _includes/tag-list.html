@@ -1,0 +1,13 @@
+{% assign sorted_tags = site.tags | sort %}
+<ul>
+  {% for tag in sorted_tags %}
+    {% assign tags = tag[1] | where: "category", include.filter_by_category | sort %}
+    {% if tags != empty %}
+      <li>
+        <a class="badge badge-light" href="{{ site.url }}/tags/{{ tag[0] }}">
+          #{{ tag[0] }} ({{ tags | size }})
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

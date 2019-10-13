@@ -1,0 +1,85 @@
+# Site configuration.
+locale: "en_US"
+url: "https://runninginproduction.com"
+mp3_url_path: "https://runninginproduction.com/assets/podcast/running-in-production-"
+
+
+# External link configuration.
+links:
+  repo: "https://github.com/nickjj/runninginproduction.com"
+  digitalocean: "https://m.do.co/c/0a14c0d916b3"
+  become_guest: "https://docs.google.com/forms/d/e/1FAIpQLSdaCRorXztETX1rQxcYT67OTkF3BKb-max99RYpRPrEiO-sKw/viewform"
+  get_interviewed: "https://docs.google.com/forms/d/e/1FAIpQLSebe-PQxxw7HmtVbMEalavpzF5ZTmrd0X2EYNcEr2-23zmOng/viewform"
+  ask_question: "https://docs.google.com/forms/d/e/1FAIpQLSe8QZHIGRk9cBmkpPUq2JBmnxI3kUE-9wjAUUquCqhVMNXJKg/viewform"
+
+
+# Author configuration.
+author:
+  name: "Nick Janetakis"
+  title: "Full stack developer"
+  links:
+    website: "https://nickjanetakis.com"
+    courses: "https://nickjanetakis.com/courses/"
+    email: "nick.janetakis@gmail.com"
+    twitter: "nickjanetakis"
+    github: "nickjj"
+
+
+# Integration configuration.
+integrations:
+  google:
+    analytics_ua: "UA-149874773-1"
+
+
+# jekyll configuration.
+#   Defaults: https://jekyllrb.com/docs/configuration/
+permalink: "/:categories/:slug"
+exclude:
+  - ".asset-cache"
+  - ".bundle"
+  - ".git"
+  - ".jekyll-cache"
+  - ".jekyll-metadata"
+  - "log"
+  - ".tweet-cache"
+  - "tmp"
+  - ".gitignore"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "README.md"
+  - "*.sw*"
+  - "Session.Vim"
+
+
+# jekyll-assets configuration.
+#  Defaults: https://github.com/jekyll/jekyll-assets
+assets:
+  sources:
+    - "_assets/stylesheets"
+    - "_assets/javascripts"
+  assets:
+    - "*.woff2"
+    - "*.woff"
+    - "*.tff"
+    - "*.png"
+    - "*.svg"
+    - "*.gif"
+    - "*.jpg"
+  cdn: ""
+  features:
+    liquid: true
+
+
+# HTML compression configuration.
+#  Defaults: http://jch.penibelst.de/
+compress_html:
+  clippings: "all"
+  comments: "all"
+  ignore:
+    envs: "development"
+
+
+# External link configuration.
+extlinks:
+  attributes: {rel: "noopener", target: "_blank"}

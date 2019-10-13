@@ -1,0 +1,14 @@
+{% assign item_count = site.categories.podcast | size %}
+{% if item_count > 0 %}
+  <p>Choose an episode from the sidebar or filter episodes by tag:</p>
+  {% include tag-list.html filter_by_category="podcast" %}
+{% else %}
+  <p>
+    This site just launched. There's no episodes yet. Do you want to
+    <strong>
+      <a href="{{ site.links.become_guest }}">
+        become a guest?
+      </a>
+    </strong>
+  </p>
+{% endif %}

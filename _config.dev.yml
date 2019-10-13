@@ -1,0 +1,14 @@
+# Site configuration.
+url: "http://localhost:4000"
+mp3_url_path: "http://localhost:4000/assets/podcast/running-in-production-"
+
+
+# Integration configuration.
+integrations:
+  google:
+    analytics_ua: ""
+
+
+# jekyll-assets configuration.
+assets:
+  cdn: ""

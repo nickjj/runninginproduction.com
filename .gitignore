@@ -1,0 +1,11 @@
+*.sw
+Session.vim
+
+.asset-cache/
+.jekyll-cache/
+.tweet-cache/
+_drafts/
+_private/
+_site/
+assets/*
+.jekyll-metadata

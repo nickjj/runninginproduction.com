@@ -1,0 +1,23 @@
+.avatar-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 8px;
+}
+
+.avatar--item {
+  margin-top: 30px;
+  padding: 8px;
+  padding-bottom: 0;
+  background-color: $gray-100;
+  border: 1px solid $gray-300;
+  border-radius: 4px;
+}
+
+.avatar {
+  float: left;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
