@@ -49,12 +49,12 @@ on the HackerNews front page a few times.
 Before I used Jekyll, I hosted my blog on Tumblr for a while but I wasn't crazy
 about the writing experience there. As a developer I felt the most comfortable
 in my code editor and having to copy / paste everything between my editor and
-their editor was slowing me down.
+Tumblr's web editor was slowing me down.
 
 I think a static site is a perfect match for most blogs. The writing experience
 is fantastic, you can version control it, you have total control over
 everything, it doesn't take a ton of effort to get going and page load speeds
-are very really fast because you're just serving static content.
+are very fast because you're just serving static content.
 
 Prior to using Jekyll I had some Ruby experience ([Jekyll is a Ruby based
 static site generator](https://en.wikipedia.org/wiki/Jekyll_(software))) but
