@@ -289,7 +289,7 @@ I also use [Uptime Robot](https://uptimerobot.com/) which pings my site every
 5 minutes to ensure a configured URL reports back a 200 status code. Their free
 plan is very useful. I've been using them for years.
 
-## What's your advice for others who are running similar sites in production?
+## What's your advice for others who are running similar stacks in production?
 
 I think it's a really good idea to be in control of your own blog's content.
 
