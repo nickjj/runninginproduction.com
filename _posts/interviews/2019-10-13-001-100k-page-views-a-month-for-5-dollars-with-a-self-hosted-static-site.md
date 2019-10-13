@@ -150,7 +150,7 @@ I use Google Analytics mainly to get a 10 second overview of how the site is
 doing. Is it growing every month? What pages are people mostly visiting? It's
 also handy to help make sense of where your traffic is coming from.
 
-{% image interviews/001/nick-janetakis-google-analytics.jpg %}
+{% image interviews/001/nick-janetakis-ga.jpg %}
 
 My page views were a bit higher that month due to a post trending on HN for
 half a day.
