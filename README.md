@@ -18,9 +18,9 @@ This site is built with Jekyll and hosted on DigitalOcean.
 #### Getting set up locally
 
 ```sh
-git clone https://github.com/nickjj/runninginproduction.git
+git clone https://github.com/nickjj/runninginproduction.com.git
 
-cd runninginproduction
+cd runninginproduction.com
 
 bundle install
 
