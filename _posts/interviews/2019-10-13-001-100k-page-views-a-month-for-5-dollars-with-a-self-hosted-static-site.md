@@ -73,6 +73,9 @@ Pelican, Gatsby and others. Ultimately I felt like Jekyll offered the best
 bang for my buck when it came to getting up to speed with it, features and ease
 of customization.
 
+With that said, even if I started the blog today instead of ~5 years ago I
+would still choose Jekyll.
+
 ## Is your site a monolith or broken up into microservices?
 
 It's a monolith since it's just a static site. I can't speak for other static
