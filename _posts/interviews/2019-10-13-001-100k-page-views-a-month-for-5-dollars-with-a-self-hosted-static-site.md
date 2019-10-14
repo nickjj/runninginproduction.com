@@ -17,7 +17,7 @@ tags:
   - "ubuntu"
   - "ansible"
 
-title: "100k+ page views a month for $5 with a self hosted static site"
+title: "100k+ Page Views a Month for $5 with a Self Hosted Static Site"
 description:
   Nick Janetakis who is a full stack developer breaks down how he built and
   deploys his personal blog that he's been working on for 5 years.
