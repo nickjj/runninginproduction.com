@@ -15,14 +15,14 @@ layout: null
     <language>en</language>
     <link>{{ site.url }}/podcast/</link>
     <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml"/>
-    <description>Episodes range from hearing the details around folks running web apps in production to general topics around web app deployment.</description>
+    <description>Hear about how folks are running their web apps in production. We'll cover tech choices, why they chose them, lessons learned and more.</description>
     <image>
       <url>{{ site.url }}{% asset_path running-in-production-itunes-banner.png %}</url>
       <title>Running in Production Podcast</title>
       <link>{{ site.url }}/podcast/</link>
     </image>
     <itunes:author>{{ site.author.name }} - {{ site.author.title }}</itunes:author>
-    <itunes:summary>Episodes range from hearing the details around folks running web apps in production to general topics around web app deployment.</itunes:summary>
+    <itunes:summary>Hear about how folks are running their web apps in production. We'll cover tech choices, why they chose them, lessons learned and more.</itunes:summary>
     <itunes:explicit>clean</itunes:explicit>
     <itunes:image href="{{ site.url }}{% asset_path running-in-production-itunes-banner.png %}" />
     <itunes:keywords>docker,flask,phoenix,rubyonrails,digitalocean,cloud,deployment,development,production</itunes:keywords>
