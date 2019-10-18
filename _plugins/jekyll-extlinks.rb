@@ -13,7 +13,7 @@
 # - Links to hosts in rel_exclude will not have the rel attribute set.
 # - Links with existing 'rel' attribute will be unchanged.
 #
-# Using in layouts: {{ content | extlinks }}
+# Usage in layouts: {{ content | extlinks }}
 
 require 'jekyll'
 require 'nokogiri'
