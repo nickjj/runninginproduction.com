@@ -38,18 +38,20 @@ layout: "default"
           </ul>
 
           {% if page.date %}
-            <div class="clearfix avatar--item">
-              {% capture avatar %}{{ page.guest_avatar | default: "unknown.jpg" }}{% endcapture %}
-              {% image avatars/{{avatar}} width:60 height:60 class:"avatar" %}
-              <h5 class="mb-1">{{ site.author.name }}</h5>
-              <h6 class="text-secondary mt-0">
-                {% if page.guest_website %}
-                  <a href="{{ page.guest_website }}">{{ page.guest_website }}</a>
-                {% elsif page.guest_title %}
-                  {{ page.guest_title }}
-                {% endif %}
-              </h6>
-            </div>
+            {% if page.guest %}
+              <div class="clearfix avatar--item">
+                {% capture avatar %}{{ page.guest_avatar | default: "unknown.jpg" }}{% endcapture %}
+                {% image avatars/{{avatar}} width:60 height:60 class:"avatar" %}
+                <h5 class="mb-1">{{ site.author.name }}</h5>
+                <h6 class="text-secondary mt-0">
+                  {% if page.guest_website %}
+                    <a href="{{ page.guest_website }}">{{ page.guest_website }}</a>
+                  {% elsif page.guest_title %}
+                    {{ page.guest_title }}
+                  {% endif %}
+                </h6>
+              </div>
+            {% endif %}
           {% endif %}
 
           {{ content }}
