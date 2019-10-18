@@ -1,5 +1,6 @@
 $(document).on("turbolinks:load", function() {
   var $player = $(".player");
+  var $audioSeek = $(".audio-seek");
 
   if ($player.length) {
     var episode = $player.data("episode");
@@ -9,6 +10,11 @@ $(document).on("turbolinks:load", function() {
 
     $player.bind("timeupdate", function() {
       localStorage.setItem(key, this.currentTime);
+    });
+
+    $audioSeek.click(function(e) {
+      e.preventDefault();
+      $player[0].currentTime = $(this).data("audio-seek");
     });
   }
 });

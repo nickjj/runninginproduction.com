@@ -48,7 +48,7 @@ layout: "default"
             {% endif %}
           {% endif %}
 
-          {{ content }}
+          {{ content | audio_seek }}
 
           {% if page.date %}
             {% if page.category == "podcast" %}
