@@ -27,5 +27,5 @@ their tech stack, lessons learned and everything in between.
 
 ## Links
 
-- [Become a guest on the podcast]({{ site.links.become_guest }})
-- [Get interviewed by email]({{ site.links.get_interviewed }})
+- [Become a guest on the podcast]({{ site.links.forms.become_guest }})
+- [Get interviewed by email]({{ site.links.forms.get_interviewed }})

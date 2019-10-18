@@ -10,11 +10,11 @@
   <li class="list-group-item">
     <p>Hey! There's no {{ include.category }} yet.</p>
     {% if include.category == "podcast" %}
-      <a href="{{ site.links.become_guest }}" class="btn btn-sm btn-primary">
+      <a href="{{ site.links.forms.become_guest }}" class="btn btn-sm btn-primary">
         Become a guest &rarr;
       </a>
     {% else %}
-      <a href="{{ site.links.get_interviewed }}" class="btn btn-sm btn-primary">
+      <a href="{{ site.links.forms.get_interviewed }}" class="btn btn-sm btn-primary">
         Get interviewed &rarr;
       </a>
     {% endif %}
@@ -26,7 +26,7 @@
 <p>
   <i>
     Are you running a site in production? I'd love to hear your story,
-    <a href="{{ site.links.become_guest }}"><strong>become a guest</strong>.</a>
+    <a href="{{ site.links.forms.become_guest }}"><strong>become a guest</strong>.</a>
   </i>
 </p>
 {% elsif page.url contains "/interviews/" %}
@@ -34,7 +34,7 @@
 <p>
   <i>
     Are you running a site in production? I'd love to hear your story,
-    <a href="{{ site.links.get_interviewed }}"> <strong>get interviewed</strong>.</a>
+    <a href="{{ site.links.forms.get_interviewed }}"> <strong>get interviewed</strong>.</a>
   </i>
 </p>
 {% endif %}

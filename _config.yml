@@ -8,9 +8,10 @@ mp3_url_path: "https://runninginproduction.com/assets/podcast/running-in-product
 links:
   repo: "https://github.com/nickjj/runninginproduction.com"
   digitalocean: "https://m.do.co/c/0a14c0d916b3"
-  become_guest: "https://docs.google.com/forms/d/e/1FAIpQLSdaCRorXztETX1rQxcYT67OTkF3BKb-max99RYpRPrEiO-sKw/viewform"
-  get_interviewed: "https://docs.google.com/forms/d/e/1FAIpQLSebe-PQxxw7HmtVbMEalavpzF5ZTmrd0X2EYNcEr2-23zmOng/viewform"
-  recommend_guest: "https://docs.google.com/forms/d/e/1FAIpQLSf5WcD9s3haJ_w9Ryrsw6klH41924KwMw0TihkNNOYAm_SiWQ/viewform"
+  forms:
+    become_guest: "https://docs.google.com/forms/d/e/1FAIpQLSdaCRorXztETX1rQxcYT67OTkF3BKb-max99RYpRPrEiO-sKw/viewform"
+    get_interviewed: "https://docs.google.com/forms/d/e/1FAIpQLSebe-PQxxw7HmtVbMEalavpzF5ZTmrd0X2EYNcEr2-23zmOng/viewform"
+    recommend_guest: "https://docs.google.com/forms/d/e/1FAIpQLSf5WcD9s3haJ_w9Ryrsw6klH41924KwMw0TihkNNOYAm_SiWQ/viewform"
   subscribe:
     itunes: "#coming-soon--waiting-for-review"
     overcast: "#coming-soon--waiting-for-review"
