@@ -17,7 +17,8 @@ layout: "default"
 
           {% if page.category == "podcast" %}
             {% include subscribe.html %}
-            <audio class="mb-4 pb-4" controls="true" src="{{ mp3_url }}">
+            <audio data-episode="{{ page.slug | split: "-" | first }}"
+                   class="mb-4 pb-4 player" controls="true" src="{{ mp3_url }}">
               Your browser does not support the <code>audio</code> element.
             </audio>
           {% endif %}
