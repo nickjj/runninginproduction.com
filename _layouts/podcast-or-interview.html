@@ -16,18 +16,11 @@ layout: "default"
           {% capture mp3_url %}{{ site.mp3_url_path }}{{ page.slug | split: "-" | first }}.mp3{% endcapture %}
 
           {% if page.category == "podcast" %}
-            <audio class="mb-2" controls="true" src="{{ mp3_url }}">
+            {% include subscribe.html %}
+            <audio class="mb-4 pb-4" controls="true" src="{{ mp3_url }}">
               Your browser does not support the <code>audio</code> element.
             </audio>
-            <div class="text-right mb-3">
-              <a class="btn btn-sm btn-light mb-4" href="{{ mp3_url }}"
-                 target="_blank" rel="noopener"
-                 role="button" title="Right click and save link as...">
-                👇 Download Episode
-              </a>
-            </div>
           {% endif %}
-
           <h1 class="h2">{{ post.title | default: page.title }}</h1>
           <ul class="list-inline pl-0">
             {% for tag in page.tags %}
