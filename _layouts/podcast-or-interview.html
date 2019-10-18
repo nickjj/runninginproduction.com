@@ -4,13 +4,13 @@ layout: "default"
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-4 order-sm-1 order-2">
       <ul id="podcasts_or_interviews" class="list-group overflow-auto">
         {% capture category %}{{ page.category | default: page.title | downcase }}{% endcapture %}
         {% include items.html category=category %}
       </ul>
     </div>
-    <div class="col-sm-8 mt-4 mt-sm-0">
+    <div class="col-sm-8 mb-4 mt-sm-0 order-1">
       <div class="card">
         <div id="podcast_or_interview" class="card-body item">
           {% capture mp3_url %}{{ site.mp3_url_path }}{{ page.slug | split: "-" | first }}.mp3{% endcapture %}
