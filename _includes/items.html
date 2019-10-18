@@ -20,3 +20,21 @@
     {% endif %}
   </li>
 {% endfor %}
+
+{% if page.url contains "/podcast/" %}
+<hr>
+<p>
+  <i>
+    Are you running a site in production? I'd love to hear your story,
+    <a href="{{ site.links.become_guest }}"><strong>become a guest</strong>.</a>
+  </i>
+</p>
+{% elsif page.url contains "/interviews/" %}
+<hr>
+<p>
+  <i>
+    Are you running a site in production? I'd love to hear your story,
+    <a href="{{ site.links.get_interviewed }}"> <strong>get interviewed</strong>.</a>
+  </i>
+</p>
+{% endif %}
