@@ -27,7 +27,7 @@ layout: null
         <description>{{ item.description | xml_escape }}</description>
         <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ item.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ item.url }}</guid>
+        <guid isPermaLink="false">{{ site.url }}{{ item.url }}</guid>
         <content:encoded><![CDATA[{{ item.content }}]]></content:encoded>
       </item>
     {% endfor %}
