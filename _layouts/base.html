@@ -51,17 +51,9 @@ layout: "compress"
       </div>
       <div class="col-sm-4 text-right">
         <p>
-          {% if page.url contains "/interviews/" %}
-            <a target="_blank" rel="noopener" href="{{ site.links.get_interviewed }}"
-               class="btn btn-sm btn-outline-primary">
-              Get interviewed &rarr;
-            </a>
-          {% else %}
-            <a target="_blank" rel="noopener" href="{{ site.links.become_guest }}"
-               class="btn btn-sm btn-outline-primary">
-              Become a guest &rarr;
-            </a>
-          {% endif %}
+          <a href="{{ site.links.recommend_guest }}" class="btn btn-sm btn-outline-primary">
+            Recommend a guest &rarr;
+          </a>
         </p>
       </div>
     </div>
