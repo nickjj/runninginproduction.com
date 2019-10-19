@@ -51,7 +51,7 @@ layout: null
         <itunes:duration>{{ item.mp3_duration }}</itunes:duration>
         <content:encoded><![CDATA[{{ item.content }}]]></content:encoded>
         <itunes:image href="{{ site.url }}{% asset_path running-in-production-itunes-banner.png %}" />
-      <itunes:subtitle>with {% if item.guest %}{{ site.author.name }} and {{ item.guest }}{% else %}{{ site.author.name }}{% endif %}</itunes:subtitle>
+        <itunes:subtitle>with {% if item.guest %}{{ site.author.name }} and {{ item.guest }}{% else %}{{ site.author.name }}{% endif %}</itunes:subtitle>
         <itunes:summary>{{ item.description | xml_escape }}</itunes:summary>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:explicit>no</itunes:explicit>
