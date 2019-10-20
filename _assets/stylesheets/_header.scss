@@ -23,6 +23,10 @@ header {
 
 .text-highlight {
   color: #ffdd78;
+
+  &:visited, &:hover, &:active {
+    color: #ffdd78;
+  }
 }
 
 .sub-text {
