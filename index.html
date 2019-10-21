@@ -1,0 +1,52 @@
+---
+layout: "default"
+
+title: "Running in Production Podcast and Interviews"
+description:
+  A site where folks talk about running small and large web apps in production.
+  Topics include tech stacks, success stories and tips.
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center card p-4">
+        <h1 class="card-title mb-0">
+          Learn How Others Are Running Your Favorite Web Frameworks and
+          Tech Stacks in Production
+        </h1>
+        <div class="card-body">
+          <p class="lead mb-0">
+          I don't know about you but I enjoy hearing about how other folks and
+          companies are successfully using the same web framework or tech stack
+          as me to power their site and business. It really helps boost your confidence
+          levels. Sometimes this information is hard to find with enough
+          details to be meaningful so that's why I started this podcast and
+          site.
+          </p>
+        </div>
+      </div>
+    </div>
+  <div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2 class="card-title">
+        Podcast
+      </h2>
+      <ul id="podcasts" class="list-group overflow-auto">
+        {% include items.html category="podcast" %}
+      </ul>
+    </div>
+    <div class="col-sm-6 mt-4 mt-sm-0">
+      <h2 class="card-title">
+        Interviews
+      </h2>
+      <ul id="interviews" class="list-group overflow-auto">
+        {% include items.html category="interviews" %}
+      </ul>
+    </div>
+  <div>
+</div>
