@@ -14,7 +14,7 @@ links:
     recommend_guest: "https://docs.google.com/forms/d/e/1FAIpQLSf5WcD9s3haJ_w9Ryrsw6klH41924KwMw0TihkNNOYAm_SiWQ/viewform"
   subscribe:
     itunes: "https://podcasts.apple.com/us/podcast/running-in-production/id1484097074"
-    overcast: "#coming-soon--waiting-for-review"
+    overcast: "https://overcast.fm/itunes1484097074"
     spotify: "https://open.spotify.com/show/4mTodLql97BQJazgLeAUmE"
     pocket_casts: "https://pca.st/q0lu2rjv"
     google_podcast: "#coming-soon--waiting-for-review"
@@ -80,6 +80,10 @@ assets:
   features:
     liquid: true
 
+
+default:
+  - scope:
+      path: "podcast/feed.xml"
 
 # HTML compression configuration.
 #  Defaults: http://jch.penibelst.de/
