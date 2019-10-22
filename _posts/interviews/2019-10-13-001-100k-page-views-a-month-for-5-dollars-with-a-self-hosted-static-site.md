@@ -173,6 +173,9 @@ One less JavaScript dependency is a win in my book, especially since it's an
 external resource. I'm all for minimalism and trying to keep my pages loading
 quickly.
 
+*Update: I've removed Sumo from my site. The social share icons you see now are
+just plain old links with no external service or JavaScript dependencies.*
+
 By the way, in all cases I'm using the free offerings by these services.
 
 ## Which cloud hosting provider or platform are you using to host everything?
