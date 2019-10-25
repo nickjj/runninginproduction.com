@@ -17,9 +17,10 @@ links:
     overcast: "https://overcast.fm/itunes1484097074"
     spotify: "https://open.spotify.com/show/4mTodLql97BQJazgLeAUmE"
     pocket_casts: "https://pca.st/q0lu2rjv"
-    google_podcast: "#coming-soon--waiting-for-review"
+    google_podcast: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9ydW5uaW5naW5wcm9kdWN0aW9uLmNvbS9wb2RjYXN0L2ZlZWQueG1s"
     google_play: "https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/I5ov63fvjyx6nflobjnj4j2yjcy?t%3DRunning_in_Production%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16"
     stitcher: "https://www.stitcher.com/s?fid=474998&refid=stpr"
+    castbox: "https://castbox.fm/ch/2422809"
 
 
 # Author configuration.
