@@ -46,4 +46,8 @@
     padding-left: 0;
     margin-top: 10px;
   }
+
+  &--subscribe .list-inline-item:not(:last-child) {
+    margin-right: 0.45rem;
+  }
 }
