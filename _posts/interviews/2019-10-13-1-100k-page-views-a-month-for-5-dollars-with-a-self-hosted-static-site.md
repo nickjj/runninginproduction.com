@@ -23,7 +23,7 @@ description:
   deploys his personal blog that he's been working on for 5 years.
 ---
 
-## What's your background and what site are you running in production? 
+## What's your background and what site are you running in production?
 
 Hi, I'm Nick Janetakis and I've been a self-taught freelance developer for the
 last 20ish years.
@@ -42,7 +42,7 @@ I've been running my blog for ~5 years now and I used
 Analytics, it gets over 100k+ unique page views a month and has survived being
 on the HackerNews front page a few times.
 
-[{% image interviews/001/nick-janetakis-website.jpg %}]({{ site.author.links.website }}/blog)
+[{% image interviews/1/nick-janetakis-website.jpg %}]({{ site.author.links.website }}/blog)
 
 ## What motivated you to use Jekyll?
 
@@ -153,7 +153,7 @@ I use Google Analytics mainly to get a 10 second overview of how the site is
 doing. Is it growing every month? What pages are people mostly visiting? It's
 also handy to help make sense of where your traffic is coming from.
 
-{% image interviews/001/nick-janetakis-ga.jpg %}
+{% image interviews/1/nick-janetakis-ga.jpg %}
 
 My page views were a bit higher that month due to a post trending on HN for
 half a day.
@@ -285,7 +285,7 @@ Overall the system purrs like a kitten and system resources barely go above 5%
 CPU usage and 25% memory usage when under HackerNews front page load. Under
 normal traffic levels the CPU load is at 0.15%'ish with 25%'ish memory usage.
 
-{% image interviews/001/nick-janetakis-digitalocean-metrics.jpg %}
+{% image interviews/1/nick-janetakis-digitalocean-metrics.jpg %}
 
 Although I do have DigitalOcean's alert policies configured so that if the
 disk space, CPU load or memory consumption gets to dangerous levels I will
@@ -301,7 +301,7 @@ I think it's a really good idea to be in control of your own blog's content.
 
 That means hosting it on your own domain and preferably hosting your own server
 just so you don't need to worry about the terms of service of other platforms,
-or having your site go down because the platform you're using is experiencing 
+or having your site go down because the platform you're using is experiencing
 unexpected downtime.
 
 A lot of blogging platforms talk a big game with offering discoverability
@@ -341,4 +341,4 @@ GitHub](https://github.com/{{ site.author.links.github }}).
 If you have any questions, tag me on Twitter. I'll do my best to answer
 everything.
 
--- {{ page.guest }}, {{ page.guest_title }} 
+-- {{ page.guest }}, {{ page.guest_title }}

@@ -7,7 +7,7 @@
 <li class="list-group-item">
   <p class="text-muted mb-0">
     <small>
-      {{ category_label | upcase }} {{ item.slug | split: "-" | first }}
+      {{ category_label | upcase }} {{ item.slug | split: "-" | first | prepend: "000" | slice: -3, 3 }}
     </small>
     {% include item-tag.html tag=first_tag %}
   </p>
