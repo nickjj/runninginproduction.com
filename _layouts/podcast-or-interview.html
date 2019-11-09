@@ -33,7 +33,7 @@ layout: "default"
 
           {% if page.date %}
             {% if page.guest %}
-              <div class="clearfix avatar--item">
+              <div class="clearfix avatar--item mb-4">
                 {% capture avatar %}{{ page.guest_avatar | default: "unknown.jpg" }}{% endcapture %}
                 {% image avatars/{{avatar}} width:60 height:60 class:"avatar" %}
                 <h5 class="mb-1">{{ site.author.name }}</h5>
