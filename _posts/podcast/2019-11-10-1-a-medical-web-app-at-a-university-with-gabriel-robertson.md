@@ -62,7 +62,7 @@ compatibility requirements. It's been running in production since 2017.
 - 42:38 -- Gabriel tried to bring down the app with a massive spike of traffic but it stayed up
 - 44:37 -- Best tips and advice? Love / learn Docker and use static typing when you can
 - 48:19 -- Separate your concerns and keep your functions short and simple
-- 49:42 -- You can find Gabriel on [his site]({{ page.guest_website }}), [GitHub](https://github.com/{{ page.guest_twitter }}), [Twitter](https://twitter.com/{{ page.guest_twitter }}) and on IRC at freenode #elixir
+- 49:42 -- You can find Gabriel on [his site]({{ page.guest_website }}), [GitHub](https://github.com/{{ page.guest_twitter }}), [Twitter](https://twitter.com/{{ page.guest_twitter }}) and on IRC at freenode #elixir-lang
 
 ## Links
 
