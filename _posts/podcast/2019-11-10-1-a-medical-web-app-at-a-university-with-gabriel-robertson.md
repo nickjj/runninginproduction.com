@@ -20,7 +20,7 @@ tags:
   - "lets-encrypt"
   - "redhat"
 
-title: "A Medical Web App at a University with Gabriel Robertson"
+title: "Serving Medical University Employees, Health Officials and Students"
 description:
   Gabriel Robertson talks about using Phoenix and Elixir to build and deploy
   an internal web app that's being used at a medical University.

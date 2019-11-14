@@ -12,6 +12,9 @@
     {% include item-tag.html tag=first_tag %}
   </p>
   <a href="{{ item.url }}">
-    <h5 class="h6"><strong>{{ item.title }}</strong></h5>
+    <h5 class="h6 mb-0 mt-2"><strong>{{ item.title }}</strong></h5>
   </a>
+  {% if item.guest %}
+    <p class="mb-0 text-muted small">with {{ item.guest }}</p>
+  {% endif %}
 </li>
