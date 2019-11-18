@@ -144,7 +144,7 @@ host my DNS records. I think they make a good combo. Namesilo has $9 / year
 site so using it for DNS hosting is pretty standard. DO's DNS API comes in
 handy for doing DNS based domain validation for Let's Encrypt.
 
-## What external SAAS tools does your site depend on?
+## Which external SAAS tools does your site depend on?
 
 I've chosen to use Google Analytics, Disqus and Sumo. My site would function
 without them but they add a few things that I like having around.
