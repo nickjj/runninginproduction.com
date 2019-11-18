@@ -4,7 +4,7 @@ layout: "podcast-or-interview"
 mp3_bytes: "48884506"
 mp3_duration: "50:55"
 
-guest: "Gabriel Robertson"
+guest: "Gabriel \"OvermindDL1\" Robertson"
 guest_avatar: "gabriel-robertson.jpg"
 guest_website: "http://overminddl1.com/"
 guest_twitter: "overminddl1"
