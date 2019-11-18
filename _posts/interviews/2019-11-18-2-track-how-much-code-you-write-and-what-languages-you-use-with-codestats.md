@@ -142,6 +142,8 @@ use Phoenix channels for live updates. The RE:DOM code hooks into Phoenix's
 channel events and delegates updates to the various components on the
 front-end. That part has worked out extremely well.
 
+{% image interviews/2/code-stats-home-page-events.jpg %}
+
 On each API call we fire a broadcast to the user's channel (for those viewing
 their profile) and the front page's channel. If there's no one listening to a
 channel, it's (nearly) just a no-op, so we don't need to worry about wasting
