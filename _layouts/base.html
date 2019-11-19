@@ -34,7 +34,7 @@ layout: "compress"
 
 {{ content | extlinks }}
 
-<footer class="text-muted">
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
@@ -43,10 +43,17 @@ layout: "compress"
           <a target="_blank" rel="noopener" href="{{ site.author.links.website }}">{{ site.author.name }}</a>
         </p>
 
-        <p class="small text-muted">
+        <p class="small mb-0">
           Built with Jekyll.
           Hosted on <a target="_blank" rel="noopener" href="{{ site.links.digitalocean }}">DigitalOcean</a>.
-          Open source on <a target="_blank" rel="noopener" href="{{ site.links.repo }}">GitHub</a>.
+          Code is on <a target="_blank" rel="noopener" href="{{ site.links.repo }}">GitHub</a>.
+        </p>
+
+        <p class="small text-muted ">
+          Affiliate links are used on this site. Here's
+          <a href="{{ site.url }}/affiliate-links">
+            how they help.
+          </a>
         </p>
       </div>
       <div class="col-sm-4 text-right">
