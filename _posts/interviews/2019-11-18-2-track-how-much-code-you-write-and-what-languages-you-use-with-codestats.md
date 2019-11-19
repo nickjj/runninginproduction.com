@@ -16,6 +16,7 @@ tags:
   - "lets-encrypt"
   - "hetzner"
   - "gitlab"
+  - "open-source"
 
 title: "Track How Much Code You Write & What Languages You Use with CodeStats"
 description:
@@ -46,6 +47,9 @@ my profile:
 I'm the lead developer and administrator of the service. I've made about 80%
 of the commits but there are also other contributors -- especially around
 adding support for editor plugins.
+
+The website along with the code editor plugins are open source. You can find
+the repos at <https://gitlab.com/code-stats>.
 
 The project has been live since May 2016. During work days we have around **60
 to 120 API write calls per minute**. On a monthly scale this means around 2.1
