@@ -1,5 +1,5 @@
 {{ page.date | date: "%b %d, %Y" }}
 
-{% if include.date != empty %}
-  (Updated on {{ page.updated_date | date: "%b %d, %Y" }})
+{% if page.updated_on %}
+  <i>(Updated on {{ page.updated_on | date: "%b %d, %Y" }})</i>
 {% endif %}
