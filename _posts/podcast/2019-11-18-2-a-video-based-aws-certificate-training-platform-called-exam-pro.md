@@ -15,6 +15,7 @@ tags:
   - "ruby"
   - "postgres"
   - "aws"
+  - "payments"
 
 title: "A Video Based AWS Certificate Training Platform Called Exam Pro"
 description:
