@@ -1,8 +1,8 @@
 ---
 layout: "tags"
-tag: "circleci"
+tag: "mysql"
 
-title: "Using CircleCI in Production"
+title: "Using MySQL in Production"
 description:
-  Podcast episodes and interviews filtered by the CircleCI tag. 
+  Podcast episodes and interviews filtered by the MySQL tag. 
 ---
