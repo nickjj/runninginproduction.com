@@ -203,6 +203,11 @@ I started with and still currently run a $5 / month droplet (server) which
 comes with 1 CPU core, 1 GB of memory, a 25 GB SSD and 1 TB of transfer. It
 also comes with free email based support.
 
+In terms of outgoing bandwidth, I average about 60 GB per month with a decent
+amount of images being served. As part of the $5 / month server you get up to 1
+TB of outgoing bandwidth per month before you need to pay extra. If you go
+beyond 1 TB it will be 2 cents per 1 GB.
+
 The server currently runs Ubuntu 18.04 but I've used Debian in the past. I tend
 to switch between both distros depending on the release cycle and what package
 versions are available.
