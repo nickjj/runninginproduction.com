@@ -5,11 +5,12 @@
 # Usage in your _config.yml:
 #
 # extlinks:
-#   attributes: {rel: nofollow, target: _blank}
+#   attributes: {rel: "noopener", target: "_blank"}
 #   rel_exclude: ["host1.com", "host2.net"]
 #
 # - Relative links will not be processed.
-# - attributes is set to the above by default (you don't need to set it).
+# - Your site.url will not be processed.
+# - attributes is non-optional (set the attributes you want).
 # - rel_exclude is optional.
 # - Links to hosts in rel_exclude will not have the rel attribute set.
 # - Links with existing 'rel' attribute will be unchanged.
