@@ -299,9 +299,9 @@ Deployment happens on Netlify and Firebase simultaneously. Actually, Netlify
 builds finish first so that we can have a look at the deploy preview build and
 hot fix it if anything goes wrong.
 
-Our tests run in parallel inside of Netlify and Travic CI, but the tests
-finish first in Netlify. If everything passes on the Travis side of things we
-build new Docker images. That only happens if all tests pass.
+Our tests run in parallel inside of Netlify and Travic CI, but the tests finish
+first in Netlify. If all tests pass on the Travis side of things we build new
+Docker images.
 
 Having any type of CI system is 100x better than a manual code review on its
 own.
