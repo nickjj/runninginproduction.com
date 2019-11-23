@@ -1,4 +1,4 @@
-# Developed by Dmitry Ogarkov - https://github.com/d-ogarkov/jekyll-extlink
+# Developed by Dmitry Ogarkov - https://github.com/d-ogarkov/jekyll-extlinks
 #
 # Modified by Nick Janetakis to auto-skip the site's URL
 #
@@ -9,11 +9,12 @@
 #   rel_exclude: ["host1.com", "host2.net"]
 #
 # - Relative links will not be processed.
+# - attributes is set to the above by default (you don't need to set it).
 # - rel_exclude is optional.
 # - Links to hosts in rel_exclude will not have the rel attribute set.
 # - Links with existing 'rel' attribute will be unchanged.
 #
-# Usage in layouts: {{ content | extlinks }}
+# Usage in your templates: {{ content | extlinks }}
 
 require 'jekyll'
 require 'nokogiri'
@@ -45,10 +46,12 @@ module Jekyll
           rel_exclude = Array(config['rel_exclude'])
         end
       end
+
       # Stop if no attributes were specified
       return content unless attributes
 
       doc = Nokogiri::HTML.fragment(content)
+
       # Stop if we could't parse with HTML
       return content unless doc
 
