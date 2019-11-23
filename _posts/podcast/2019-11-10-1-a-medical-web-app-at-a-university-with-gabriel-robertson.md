@@ -57,7 +57,7 @@ compatibility requirements. It's been running in production since 2017.
 - 31:53 -- It's a pleasure to navigate, maintain and update the code base
 - 34:04 -- Configuration management is done with a VMware vSphere related tool
 - 34:56 -- Walking through a code deploy with Docker, Distillery and custom shell scripts
-- 39:54 -- 2 seconds of down time per deploy without a complex load balancer or orchestrator 
+- 39:54 -- 2 seconds of down time per deploy without a complex load balancer or orchestrator
 - 41:03 -- Handling disaster recovery by backing up the code and data every day
 - 42:38 -- Gabriel tried to bring down the app with a massive spike of traffic but it stayed up
 - 44:37 -- Best tips and advice? Love / learn Docker and use static typing when you can

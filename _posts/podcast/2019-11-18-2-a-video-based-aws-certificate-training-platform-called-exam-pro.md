@@ -47,7 +47,7 @@ AWS using Cloud9 IDE. Exam Pro has been running in production since late 2018.
 - 14:53 -- Not using Sidekiq for background tasks, instead AWS SQS and the Ruby AWS SDK
 - 16:47 -- Docker is being used to run tests but not for dev and prod
 - 18:38 -- Cloud9 IDE is being used in development as an AWS based dev environment
-- 20:03 -- AWS Aurora is being used to manage a PostgreSQL database 
+- 20:03 -- AWS Aurora is being used to manage a PostgreSQL database
 - 21:01 -- Your data is your most important asset, don't leave it to chance
 - 22:10 -- A recap on what AWS SQS is and how it compares to Sidekiq, Resque or DelayedJob
 - 23:26 -- The main app responds back in 50-60 milliseconds without caching
