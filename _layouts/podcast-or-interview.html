@@ -70,11 +70,13 @@ layout: "default"
                href="{{ site.links.repo }}/edit/master/_posts/{{ page.category }}/{{ page.date | split: " " | first }}-{{ page.slug }}.md">
                ✏️ Edit on GitHub
             </a>
-            <a class="btn btn-sm btn-light"
-               role="button"
-               href="{{ site.links.repo }}/commits/master/_posts/{{ page.category }}/{{ page.date | split: " " | first }}-{{ page.slug }}.md">
-               📜 View Updates
-            </a>
+            {% if page.updated_on %}
+              <a class="btn btn-sm btn-light"
+                 role="button"
+                 href="{{ site.links.repo }}/commits/master/_posts/{{ page.category }}/{{ page.date | split: " " | first }}-{{ page.slug }}.md">
+                 📜 View Updates
+              </a>
+            {% endif %}
           {% endif %}
         </div>
       </div>
