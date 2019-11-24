@@ -1,5 +1,6 @@
 ---
 layout: "podcast-or-interview"
+updated_on: "2019-11-24"
 
 guest: "Nick Janetakis"
 guest_avatar: "nick-janetakis.jpg"
@@ -64,7 +65,7 @@ engine that Jekyll uses.
 
 However, if you do want to get into the nitty gritty and write some custom
 behavior you can use Jekyll's plugin system which does require writing Ruby
-code.  There's also a healthy ecosystem of plugins written by other folks and
+code. There's also a healthy ecosystem of plugins written by other folks and
 you can drop them into your site as package dependencies just as you would with
 any programming language that has a package manager.
 
@@ -105,6 +106,10 @@ There's no fancy UI requirements like rendering Google Maps or a game.
 Since there's no back-end to serve something, this isn't something I even had
 to think about. I'm sure you could probably (over) engineer a blog site with a
 non-static API driven approach where you split things up but that's not for me.
+
+By the way, I'm not using a specific Jekyll theme. The site is based off of
+Bootstrap 3.x and I customized it from there. I just tried to come up with
+something minimal and readable.
 
 I'm very happy with my decision to keep things how they are. But, on that note
 I am thinking about adding
