@@ -2,7 +2,7 @@
 layout: "podcast-or-interview"
 
 mp3_bytes: "50249978"
-mp3_duration: "52:21"
+mp3_duration: "52:20"
 
 guest: "Mark Wilbur"
 guest_avatar: "mark-wilbur.jpg"
