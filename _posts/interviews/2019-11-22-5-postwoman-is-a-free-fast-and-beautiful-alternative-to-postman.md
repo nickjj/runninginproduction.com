@@ -237,7 +237,7 @@ to support proxy mode. This is the only overhead we have on the server.
 {% image interviews/5/postwoman-netlify-firebase.jpg %}
 
 For hosting we use Netlify but we also use Firebase too. We have to swap
-between them at least once a year for maintenance. <<TODO: why do you need to swap these services exactly?>>.
+between them at least once a year due to limitations on their free tier.
 
 [Let's Encrypt](https://letsencrypt.org/) provides our SSL certificates. All
 connections are served over HTTPS and HTTP requests are automatically
