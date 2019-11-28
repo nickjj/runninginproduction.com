@@ -18,7 +18,7 @@ tags:
   - "lets-encrypt"
   - "digitalocean"
   - "ubuntu"
-  - "gitlab"
+  - "ci"
   - "payments"
 
 title: "Learn Elixir and Phoenix by Building Things Over at Alchemist Camp"

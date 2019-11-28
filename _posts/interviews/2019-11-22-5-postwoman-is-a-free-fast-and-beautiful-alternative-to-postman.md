@@ -15,6 +15,7 @@ tags:
   - "nginx"
   - "lets-encrypt"
   - "centos"
+  - "ci"
   - "open-source"
 
 title: "Postwoman Is a Free, Fast and Beautiful Alternative to Postman"

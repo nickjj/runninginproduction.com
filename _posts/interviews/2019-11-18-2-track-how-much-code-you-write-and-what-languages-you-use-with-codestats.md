@@ -16,7 +16,7 @@ tags:
   - "nginx"
   - "lets-encrypt"
   - "hetzner"
-  - "gitlab"
+  - "ci"
   - "open-source"
 
 title: "Track How Much Code You Write & What Languages You Use with CodeStats"

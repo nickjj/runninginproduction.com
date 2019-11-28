@@ -16,7 +16,7 @@ tags:
   - "kubernetes"
   - "gcp"
   - "lets-encrypt"
-  - "circleci"
+  - "ci"
   - "open-source"
 
 title: "Daily Is a Browser Extension That Replaces Your New Tab with Dev News"
