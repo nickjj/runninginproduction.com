@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "postgres"
 
-title: "Using PostgreSQL in Production"
+title: "Websites Using PostgreSQL in Production"
 description:
-  Podcast episodes and interviews filtered by the PostgreSQL tag.
+  Podcast episodes and interviews where developers go over why they chose to
+  use PostgreSQL as their primary database.
 ---

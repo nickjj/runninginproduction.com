@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "node"
 
-title: "Using Node in Production"
+title: "Websites Using Node in Production"
 description:
-  Podcast episodes and interviews filtered by the Node tag.
+  Podcast episodes and interviews where developers talk about how and why they
+  built their web app using Node.
 ---

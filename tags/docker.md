@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "docker"
 
-title: "Using Docker in Production"
+title: "Websites Using Docker in Production"
 description:
-  Podcast episodes and interviews filtered by the Docker tag.
+  Podcast episodes and interviews where developers talk about how and why they
+  are using Docker to help develop and deploy their web apps.
 ---

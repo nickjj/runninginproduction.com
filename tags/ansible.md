@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "ansible"
 
-title: "Using Ansible in Production"
+title: "Websites Using Ansible in Production"
 description:
-  Podcast episodes and interviews filtered by the Ansible tag.
+  Podcast episodes and interviews where developers talk about configuring and
+  provisioning their servers with Ansible.
 ---

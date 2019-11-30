@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "payments"
 
-title: "Using Various Payment Gateways in Production"
+title: "Websites Using Various Payment Gateways in Production"
 description:
-  Podcast episodes and interviews filtered by the Payments tag.
+  Podcast episodes and interviews where developers talk about using Stripe,
+  PayPal, Braintree, Paddle and others to accept payments.
 ---

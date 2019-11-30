@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "python"
 
-title: "Using Python in Production"
+title: "Websites Using Python in Production"
 description:
-  Podcast episodes and interviews filtered by the Python tag.
+  Podcast episodes and interviews where developers talk about how and why they
+  built their web app using Python.
 ---

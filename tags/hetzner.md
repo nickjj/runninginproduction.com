@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "hetzner"
 
-title: "Using Hetzner in Production"
+title: "Websites Using Hetzner in Production"
 description:
-  Podcast episodes and interviews filtered by the Hetzner tag.
+  Podcast episodes and interviews where developers explain why they chose
+  to use Hetzner to host their web apps.
 ---

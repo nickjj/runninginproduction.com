@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "elixir"
 
-title: "Using Elixir in Production"
+title: "Websites Using Elixir in Production"
 description:
-  Podcast episodes and interviews filtered by the Elixir tag.
+  Podcast episodes and interviews where developers talk about how and why they
+  built their web app using Elixir.
 ---

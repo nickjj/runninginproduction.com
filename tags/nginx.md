@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "nginx"
 
-title: "Using nginx in Production"
+title: "Websites Using nginx in Production"
 description:
-  Podcast episodes and interviews filtered by the nginx tag.
+  Podcast episodes and interviews where developers talk about how they are
+  using nginx to serve assets and reverse proxy their web apps.
 ---

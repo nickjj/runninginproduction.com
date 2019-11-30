@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "firebase"
 
-title: "Using Firebase in Production"
+title: "Websites Using Firebase in Production"
 description:
-  Podcast episodes and interviews filtered by the Firebase tag.
+  Podcast episodes and interviews where developers go over why they chose to
+  use Firebase as part of their web hosting stack.
 ---

@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "rails"
 
-title: "Using Ruby on Rails in Production"
+title: "Websites Using Ruby on Rails in Production"
 description:
-  Podcast episodes and interviews filtered by the Ruby on Rails tag.
+  Podcast episodes and interviews where developers talk about how and why they
+  built their web app in Ruby on Rails.
 ---

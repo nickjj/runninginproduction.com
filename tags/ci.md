@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "ci"
 
-title: "Using any CI service in Production"
+title: "Websites Using a CI Service in Production"
 description:
-  Podcast episodes and interviews filtered by the CI tag.
+  Podcast episodes and interviews where developers talk about using any CI
+  service (GitLab CI, CircleCI, GitHub Actions, etc.).
 ---

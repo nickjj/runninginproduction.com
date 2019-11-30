@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "digitalocean"
 
-title: "Using DigitalOcean in Production"
+title: "Websites Using DigitalOcean in Production"
 description:
-  Podcast episodes and interviews filtered by the DigitalOcean tag.
+  Podcast episodes and interviews where developers explain why they chose
+  to use DigitalOcean to host their web apps.
 ---

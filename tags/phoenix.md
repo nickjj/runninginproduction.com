@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "phoenix"
 
-title: "Using Phoenix in Production"
+title: "Websites Using Phoenix in Production"
 description:
-  Podcast episodes and interviews filtered by the Phoenix tag.
+  Podcast episodes and interviews where developers talk about how and why they
+  built their web app in Phoenix.
 ---

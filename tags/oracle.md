@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "oracle"
 
-title: "Using Oracle in Production"
+title: "Websites Using Oracle in Production"
 description:
-  Podcast episodes and interviews filtered by the Oracle tag.
+  Podcast episodes and interviews where developers go over why they chose to
+  use Oracle as their primary database.
 ---

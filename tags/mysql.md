@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "mysql"
 
-title: "Using MySQL in Production"
+title: "Websites Using MySQL in Production"
 description:
-  Podcast episodes and interviews filtered by the MySQL tag.
+  Podcast episodes and interviews where developers go over why they chose to
+  use MySQL as their primary database.
 ---

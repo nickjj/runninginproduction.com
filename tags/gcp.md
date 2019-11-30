@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "gcp"
 
-title: "Using Google Cloud in Production"
+title: "Website Using Google Cloud in Production"
 description:
-  podcast episodes and interviews filtered by the GCP tag.
+  Podcast episodes and interviews where developers talk about how they are
+  using 1 or more GCP resources to host their site.
 ---

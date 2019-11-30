@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "namesilo"
 
-title: "Using Namesilo as Your Domain Registrar"
+title: "Websites Using NameSilo as a Domain Registrar"
 description:
-  Podcast episodes and interviews filtered by the Namesilo tag.
+  Podcast episodes and interviews where developers talk about why they chose
+  to use NameSilo to register their domain name.
 ---

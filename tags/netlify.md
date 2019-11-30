@@ -2,7 +2,8 @@
 layout: "tags"
 tag: "netlify"
 
-title: "Using Netlify in Production"
+title: "Websites Using Netlify in Production"
 description:
-  Podcast episodes and interviews filtered by the netlify tag.
+  Podcast episodes and interviews where developers go over why they chose to
+  use Netlify as part of their web hosting stack.
 ---
