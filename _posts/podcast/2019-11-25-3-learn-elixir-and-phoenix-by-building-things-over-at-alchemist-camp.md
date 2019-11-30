@@ -27,8 +27,8 @@ description:
   It's all hosted on a $10 a month DigitalOcean server.
 ---
 
-In this episode of Running in Production, Mark Wilbur guides us through how he
-builds and deploys his video and article driven learning platform called
+In this episode of Running in Production, {{ page.guest }} guides us through
+how he builds and deploys his video and article driven learning platform called
 [Alchemist Camp]({{ page.guest_website }}). The site gets about 12,000+
 visitors a month and it's all hosted on a single $10 / month DigitalOcean
 server.

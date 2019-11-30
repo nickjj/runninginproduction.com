@@ -25,8 +25,8 @@ description:
   training platform called Exam Pro. He is all-in with AWS.
 ---
 
-In this episode of Running in Production, Andrew Brown talks about how he and
-his team use Ruby on Rails to build an AWS certification training platform
+In this episode of Running in Production, {{ page.guest }} talks about how he
+and his team use Ruby on Rails to build an AWS certification training platform
 called [Exam Pro]({{ page.guest_website }}). We talked about a huge range of
 AWS services and how they all come together to run and deploy his application.
 
