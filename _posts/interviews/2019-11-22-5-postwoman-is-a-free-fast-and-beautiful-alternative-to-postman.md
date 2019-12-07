@@ -4,6 +4,7 @@ layout: "podcast-or-interview"
 guest: "Liyas Thomas"
 guest_avatar: "liyas-thomas.jpg"
 guest_website: "https://postwoman.io/"
+guest_twitter: "liyasthomas"
 
 category: "interviews"
 tags:
@@ -375,6 +376,6 @@ Here's some tips in no special order:
 
 If you want a heads up on my next projects, or just want to chat about the web
 make sure to follow me on Twitter
-[@liyasthomas](https://twitter.com/liyasthomas). 💙
+[@{{ page.guest_twitter }}](https://twitter.com/{{ page.guest_twitter }}). 💙
 
--- Liyas Thomas
+-- {{ page.guest }}
