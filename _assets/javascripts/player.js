@@ -51,11 +51,14 @@ function initPlayer(playerContainer) {
   let previousVolume = 1.0;
   if (audio.readyState >= 2) {
     updatePlaybackTime(playbackTime, 0, audio.duration);
+    setCurrentTimeFromUrl(audio);
+    isLoaded = true;
   } else {
     audio.addEventListener("loadedmetadata", () => {
       updatePlaybackTime(playbackTime, 0, audio.duration);
+      setCurrentTimeFromUrl(audio);
       isLoaded = true;
-    });
+    }); 
   }
   audio.addEventListener("timeupdate", () => {
     if (!isProgressSliderDrag) {
@@ -193,6 +196,33 @@ function initPlayer(playerContainer) {
   });
 }
 
+function setCurrentTimeFromUrl(audio) {
+  let timestamp = window.location.href.split("#")[1];
+  if (timestamp){
+    timestamp = timestamp.split(":");
+    timestamp = timestamp.map(Number);
+    const onlyIntegers = timestamp.every(Number.isInteger);
+    if (onlyIntegers){
+      if (timestamp.length==2){
+        minutes = timestamp[0];
+        seconds = timestamp[1];
+        const setAudioSeconds = minutes*60 + seconds
+        if (setAudioSeconds < audio.duration){
+          audio.currentTime = setAudioSeconds;
+        }
+      } else if(timestamp.length==3){
+        hours = timestamp[0];
+        minutes = timestamp[1];
+        seconds = timestamp[2];
+        const setAudioSeconds = hours*3600 + minutes*60 + seconds;
+        if (setAudioSeconds < audio.duration){
+          audio.currentTime = setAudioSeconds;
+        }
+      }
+    }
+  }
+}
+
 function getSliderFraction(event, Slider) {
   let x;
   const leftOffset = Slider.getBoundingClientRect().left;
@@ -224,10 +254,15 @@ function copyUrlTime(audio, copyMsg) {
     copyMsg.style.opacity = 0;
     copyMsg.style.display = "hide";
   }, 1000);
-  const url = window.location.href;
-  const time = secondsToMinuteSecond(audio.currentTime);
+  const url = window.location.href.split("#")[0];
+  let time = 0
+  if (audio.duration>=3600){
+    time = secondsToHourMinuteSecond(audio.currentTime);
+  } else{
+    time = secondsToMinuteSecond(audio.currentTime);
+  }
   const tempTextArea = document.createElement("textarea");
-  tempTextArea.value = url + time;
+  tempTextArea.value = url +"#"+time;
   document.body.appendChild(tempTextArea);
   tempTextArea.select();
   tempTextArea.setSelectionRange(0, 1000);
