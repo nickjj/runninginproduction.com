@@ -291,11 +291,17 @@ function updateVolume(audio, fraction) {
 }
 function updateVolumeButton(volumeButton, fraction) {
   if (fraction === 0.0) {
-    volumeButton.firstElementChild.innerHTML = "volume_off";
+    volumeButton.firstElementChild.classList.add("icon-volumeoff")
+    volumeButton.firstElementChild.classList.remove("icon-volumeup")
+    volumeButton.firstElementChild.classList.remove("icon-volumedown")
   } else if (fraction < 0.5) {
-    volumeButton.firstElementChild.innerHTML = "volume_down";
+    volumeButton.firstElementChild.classList.add("icon-volumedown")
+    volumeButton.firstElementChild.classList.remove("icon-volumeup")
+    volumeButton.firstElementChild.classList.remove("icon-volumeoff")
   } else {
-    volumeButton.firstElementChild.innerHTML = "volume_up";
+    volumeButton.firstElementChild.classList.add("icon-volumeup")
+    volumeButton.firstElementChild.classList.remove("icon-volumedown")
+    volumeButton.firstElementChild.classList.remove("icon-volumeoff")
   }
 }
 

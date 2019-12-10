@@ -49,6 +49,44 @@ audio {
   flex-wrap: wrap;
 }
 
+.audio-player-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.icon-playarrow {
+  background-image: asset_url('audioplayer/play_arrow.svg');
+}
+
+.icon-pause {
+  background-image: asset_url('audioplayer/pause.svg');
+}
+
+.icon-filecopy {
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  background-image: asset_url('audioplayer/file_copy.svg');
+}
+
+.icon-fastforward {
+  background-image: asset_url('audioplayer/fast_forward.svg');
+}
+
+.icon-volumeup {
+  background-image: asset_url('audioplayer/volume_up.svg');
+}
+
+.icon-volumedown {
+  background-image: asset_url('audioplayer/volume_down.svg');
+}
+
+.icon-volumeoff {
+  background-image: asset_url('audioplayer/volume_off.svg');
+}
+
 .progress-slider-background {
   background-color: #82a1e8;
   cursor: pointer;
@@ -142,23 +180,6 @@ audio {
 
 .controls .replay-button {
   margin-right: 0px;
-}
-
-.material-icons {
-  font-size: 24px;
-}
-
-.material-icons-copy {
-  font-size: 16px;
-}
-
-.material-icons-playbackspeed {
-  font-size: 24px;
-  margin-right: 1px;
-}
-
-.material-icons-volume {
-  font-size: 22px;
 }
 
 .speed-text {
