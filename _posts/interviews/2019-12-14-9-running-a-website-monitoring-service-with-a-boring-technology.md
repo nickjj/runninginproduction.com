@@ -413,7 +413,7 @@ over, I build it myself.
 - Update your dependencies often. Every day that I work on the codebase, I run
 `bundle outdated` to see if any dependencies need to be updated.
 
-- Prefer static sites over dynamic ones. Static sites are _almost_ unbreakable.
+- Prefer static sites over dynamic ones. Static sites are *almost* unbreakable.
 They are easier to secure, easier to maintain, more performant and have a
 higher uptime.
 
