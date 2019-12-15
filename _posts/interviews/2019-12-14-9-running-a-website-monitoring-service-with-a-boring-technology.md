@@ -94,7 +94,7 @@ unsure whether it is a right fit for you, you probably shouldn't use it.
 Especially if you're a one person company.
 
 To give you a sense of the size of Hexadecimal's codebase, here is the output
-from the `rails stats` command which shows details about just the Rails app:
+from the `rails stats` command which shows details only about the Rails app:
 
 {% image interviews/9/jamhur-mustafayev-hexadecimal-loc.jpg %}
 
@@ -326,7 +326,7 @@ field](https://en.wikipedia.org/wiki/Honeypot_(computing)) using the
 bay, such as:
 
 - Hidden form field with a *bogus name* which is not meant to be filled out
-- Time sensitive submissions (i.e. if it's submit too quick, it's likely a bot)
+- Time sensitive submissions (i.e. if it was submitted too quickly, it's likely a bot)
 - Every time you load the form page it has a timestamp, if the timestamp is
 missing then it is most likely a request submitted by a bot directly to the
 POST endpoint
