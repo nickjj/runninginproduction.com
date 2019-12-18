@@ -3,7 +3,7 @@ layout: "podcast-or-interview"
 
 guest: "Jamhur Mustafayev"
 guest_avatar: "jamhur-mustafayev.jpg"
-guest_title: "Web Master"
+guest_title: "Webmaster"
 guest_website: "https://tryhexadecimal.com/"
 
 category: "interviews"
@@ -60,8 +60,8 @@ I was familiar with Python at the time I started working on Hexadecimal, so I
 went with [Django](https://www.djangoproject.com/).
 
 However, I found myself fighting too much with Django and (especially)
-[Celery](https://github.com/celery/celery), which raised a red flag for me so I
-started eyeing alternatives.
+[Celery](https://github.com/celery/celery) while trying to subjugate them to
+my will so I started eyeing alternatives.
 
 I also had some previous experience with
 [Flask](https://github.com/pallets/flask/) and liked working with it very much,
@@ -403,7 +403,7 @@ the less, the better.
 technology](http://boringtechnology.club). It feels ridiculous to even state
 that, but a lot of people in this industry are practicing HDD or RDD, AKA. Hype
 Driven Development or Resume Driven Development. Don't get carried away by the
-hype. In fact, ignore most (if not all) of it. When in doubt avoid complexity.
+hype. In fact, ignore most (if not all) of it. When in doubt, avoid complexity.
 
 - Don't pull in too many dependencies. There is a fine line between pulling in
 too little and too many. My rule of thumb is if something is very easy and
