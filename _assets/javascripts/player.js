@@ -1,25 +1,9 @@
 $(document).on("turbolinks:load", function() {
-  var $player = $(".js-audio");
-  var $audioSeek = $(".audio-seek");
   var players = document.querySelectorAll(".js-audio-player");
   if (players.length) {
-    players.forEach(initPlayer);
-  }
-
-  if ($player.length) {
-    var episode = $player.data("episode");
-    var key = "currentTimeForEpisode" + episode;
-
-    $player[0].currentTime = localStorage.getItem(key);
-
-    $player.bind("timeupdate", function() {
-      localStorage.setItem(key, this.currentTime);
-    });
-
-    $audioSeek.click(function(e) {
-      e.preventDefault();
-      $player[0].currentTime = $(this).data("audio-seek");
-    });
+    for (let i=0; i<players.length; i++) {
+      initPlayer(players[i],i);
+    }
   }
 });
 
@@ -51,31 +35,43 @@ function initPlayer(playerContainer) {
   let previousVolume = 1.0;
   if (audio.readyState >= 2) {
     updatePlaybackTime(playbackTime, 0, audio.duration);
+    setCurrentTimeFromLocalStorage(audio);
     setCurrentTimeFromUrl(audio);
     isLoaded = true;
   } else {
-    audio.addEventListener("loadedmetadata", () => {
+    audio.addEventListener("loadedmetadata", function () {
       updatePlaybackTime(playbackTime, 0, audio.duration);
+      setCurrentTimeFromLocalStorage(audio);
       setCurrentTimeFromUrl(audio);
       isLoaded = true;
     }); 
   }
-  audio.addEventListener("timeupdate", () => {
+  function setCurrentTimeFromLocalStorage(audio){
+      const episode = audio.querySelector("source").dataset.episode;
+      const key = "currentTimeForEpisode"+episode;
+      audio.currentTime = localStorage.getItem(key);
+
+      audio.addEventListener("timeupdate", function() {
+        localStorage.setItem(key, this.currentTime);
+      });
+  }
+
+  audio.addEventListener("timeupdate", function () {
     if (!isProgressSliderDrag) {
       const fraction = audio.currentTime / audio.duration;
       updateSlider(progressSlider, fraction);
       updatePlaybackTime(playbackTime, audio.currentTime, audio.duration);
     }
   });
-  audio.addEventListener("play", () => {
+  audio.addEventListener("play", function () {
     playButton.style.display = "none";
     pauseButton.style.display = "";
   });
-  audio.addEventListener("pause", () => {
+  audio.addEventListener("pause", function () {
     playButton.style.display = "";
     pauseButton.style.display = "none";
   });
-  audio.addEventListener("ended", () => {
+  audio.addEventListener("ended", function () {
     audio.pause();
     playButton.style.display = "";
     pauseButton.style.display = "none";
@@ -120,7 +116,7 @@ function initPlayer(playerContainer) {
       );
       playbackTime.classList.add("playback-time-highlight");
     } else if (isVolumeSliderDrag === true) {
-      var fraction = getSliderFraction(event, volumeSliderBg);
+      const fraction = getSliderFraction(event, volumeSliderBg);
       updateVolumeButton(volumeButton, fraction);
       updateSlider(volumeSlider, fraction);
       updateVolume(audio, fraction);
@@ -130,7 +126,7 @@ function initPlayer(playerContainer) {
   function dragEnd(event) {
     if (isProgressSliderDrag === true && isLoaded === true) {
       isProgressSliderDrag = false;
-      var fraction = getSliderFraction(event, progressSliderBg);
+      const fraction = getSliderFraction(event, progressSliderBg);
       updateSlider(progressSlider, fraction);
       seekPosition(audio, fraction);
       playbackTime.classList.remove("playback-time-highlight");
@@ -152,56 +148,67 @@ function initPlayer(playerContainer) {
   document.addEventListener("mouseup", dragEnd);
   document.addEventListener("touchend", dragEnd);
 
-  playerContainer.addEventListener("click", function(event) {
-    const target = event.target;
-    const eventPath = event.composedPath();
-    let fraction;
+  playButton.addEventListener("click", function(event) {
     if (isLoaded === true){
-      switch (true) {
-        case eventPath.includes(playButton):
-          togglePlay(audio, playButton, pauseButton);
-          break;
-        case eventPath.includes(pauseButton):
-          togglePlay(audio, playButton, pauseButton);
-          break;
-        case eventPath.includes(replayButton):
-          replay(audio);
-          break;
-        case eventPath.includes(forwardButton):
-          forward(audio);
-          break;
-        case eventPath.includes(playbackSpeedButton):
-          speedPlay(audio, playbackSpeedButton);
-          break;
-        case eventPath.includes(volumeButton):
-          toggleMute(audio, volumeSlider, volumeButton);
-          break;
-        case eventPath.includes(progressSliderBg):
-          fraction = getSliderFraction(event, progressSliderBg);
-          seekPosition(fraction, audio);
-          updateSlider(progressSlider, fraction);
-          break;
-        case eventPath.includes(volumeSliderBg):
-          fraction = getSliderFraction(event, volumeSliderBg);
-          updateSlider(volumeSlider, fraction);
-          updateVolume(audio, fraction);
-          if (fraction != 0.0) {
-            previousVolume = fraction;
-          }
-          break;
-        case eventPath.includes(copyTimeButton):
-          copyUrlTime(audio, copyMsg);
+      togglePlay(audio);
+    }
+  });
+  pauseButton.addEventListener("click", function(event) {
+    if (isLoaded === true){
+      togglePlay(audio);
+    }
+  });
+  playbackSpeedButton.addEventListener("click", function(event) {
+    if (isLoaded === true){
+      speedPlay(audio, playbackSpeedButton);
+    }
+  });
+  volumeButton.addEventListener("click", function(event) {
+    if (isLoaded === true){
+      toggleMute(audio, volumeSlider, volumeButton);
+    }
+  });
+  progressSliderBg.addEventListener("click", function(event) {
+    if (isLoaded === true){
+      const fraction = getSliderFraction(event, progressSliderBg);
+      seekPosition(audio, fraction);
+      updateSlider(progressSlider, fraction);
+    }
+  });
+  volumeSliderBg.addEventListener("click", function(event) {
+    if (isLoaded === true){
+      fraction = getSliderFraction(event, volumeSliderBg);
+      updateSlider(volumeSlider, fraction);
+      updateVolume(audio, fraction);
+      if (fraction != 0.0) {
+        previousVolume = fraction;
       }
     }
   });
-}
+  copyTimeButton.addEventListener("click", function(event) {
+    if (isLoaded === true){
+      copyUrlTime(audio, copyMsg);
+    }
+  });
 
 function setCurrentTimeFromUrl(audio) {
+  function isInteger(num){
+    if (typeof num==='number' && !isNaN(num) &&  num===parseInt(num, 10)){
+      return true;
+    }else{
+      return false;
+    }
+  }
   let timestamp = window.location.href.split("#")[1];
   if (timestamp){
     timestamp = timestamp.split(":");
     timestamp = timestamp.map(Number);
-    const onlyIntegers = timestamp.every(Number.isInteger);
+    let onlyIntegers = true;
+    timestamp.forEach(function(num){
+      if(!isInteger(num)){
+        onlyIntegers=false;
+      }
+    });
     if (onlyIntegers){
       if (timestamp.length==2){
         minutes = timestamp[0];
@@ -261,13 +268,18 @@ function copyUrlTime(audio, copyMsg) {
   } else{
     time = secondsToMinuteSecond(audio.currentTime);
   }
-  const tempTextArea = document.createElement("textarea");
-  tempTextArea.value = url +"#"+time;
-  document.body.appendChild(tempTextArea);
-  tempTextArea.select();
-  tempTextArea.setSelectionRange(0, 1000);
-  document.execCommand("copy");
-  document.body.removeChild(tempTextArea);
+  const timestampedUrl = url +"#"+time;
+  if (window.clipboardData) { // for IE
+    window.clipboardData.setData("Text", timestampedUrl);        
+  } else{
+    const tempTextArea = document.createElement("textarea");
+    tempTextArea.value = timestampedUrl;
+    document.body.appendChild(tempTextArea);
+    tempTextArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempTextArea);
+  }
+
 }
 
 function updatePlaybackTime(playbackTime, currentTime, duration) {
@@ -334,37 +346,32 @@ function speedPlay(audio, playbackSpeedButton) {
   }
 }
 
-function replay(audio) {
-  audio.currentTime = audio.currentTime - 10;
+function zeroPaddingString(number, size){
+  let line = number.toString();
+  while (line.length<size){
+    line = "0"+line;
+  }
+  return line; 
 }
-
-function forward(audio) {
-  audio.currentTime = audio.currentTime + 30;
-}
-
+ 
 function secondsToMinuteSecond(s) {
-  const minutes = Math.floor(s / 60).toString();
-  const seconds = Math.floor(s % 60).toString();
-  return minutes.padStart(2, "0") + ":" + seconds.padStart(2, "0");
+  const minutes = zeroPaddingString(Math.floor(s / 60),2);
+  const seconds = zeroPaddingString(Math.floor(s % 60),2);
+  return minutes + ":" + seconds;
 }
 
 function secondsToHourMinuteSecond(s) {
-  const hours = Math.floor(s / 3600)
-    .toString()
-    .padStart(2, "0");
-  const minutes = Math.floor((s % 3600) / 60)
-    .toString()
-    .padStart(2, "0");
-  const seconds = Math.floor((s % 3600) % 60)
-    .toString()
-    .padStart(2, "0");
+  const hours = zeroPaddingString(Math.floor(s / 3600),2);
+  const minutes = zeroPaddingString(Math.floor((s % 3600) / 60),2);
+  const seconds = zeroPaddingString(Math.floor((s % 3600) % 60),2);
   return hours + ":" + minutes + ":" + seconds;
 }
 
-function togglePlay(audio, playButton, pauseButton) {
+function togglePlay(audio) {
   if (audio.paused) {
     audio.play();
   } else {
     audio.pause();
   }
+}
 }
