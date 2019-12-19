@@ -39,7 +39,9 @@ layout: "default"
                 <h5 class="mb-1">{{ page.guest }}</h5>
                 <h6 class="text-secondary mt-0">
                   {% if page.guest_website %}
-                    <a href="{{ page.guest_website }}">{{ page.guest_website }}</a>
+                    <a href="{{ page.guest_website_href | default: page.guest_website }}">
+                      {{ page.guest_website }}
+                    </a>
                   {% endif %}
                 </h6>
               </div>
