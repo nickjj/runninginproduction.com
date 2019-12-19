@@ -44,7 +44,7 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
 - 6:35 -- Jamie learns best by audio / video but also by building real projects
 - 7:30 -- Learning by example vs learning by theory
 - 8:22 -- Discworld is a series of comic fantasy books
-- 9:52 -- The world is a disc held up by 4 elephants standing on a turtle swimming in space 
+- 9:52 -- The world is a disc held up by 4 elephants standing on a turtle swimming in space
 - 10:43 -- Jame's app lets you search for Discworld books, characters and locations
 - 11:47 -- He built the app to help him figure out which books he already has
 - 12:34 -- The search is handled by a free and [open source RESTful API](https://github.com/GaProgMan/dwCheckApi)
@@ -58,7 +58,7 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
 - 21:18 -- The API has a delete database endpoint but it's protected by a strong password
 - 21:55 -- Entity Framework Core is used as an ORM (Object-relational mapper)
 - 23:04 -- Subtle differences between different databases like PostgreSQL and SQLite
-- 23:48 -- Maybe dropping EF Core for Dapper which is a light weight ORM 
+- 23:48 -- Maybe dropping EF Core for Dapper which is a light weight ORM
 - 24:28 -- Trade offs between using a high powered ORM and writing raw SQL
 - 24:48 -- The code itself uses the LINQ library from Microsoft to query the data
 - 26:36 -- The code base is 18 months old and it doesn't use Docker, but it might soon
@@ -86,7 +86,7 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
            [@{{ page.guest_twitter }}](https://twitter.com/{{ page.guest_twitter }})
            on Twitter where he posts updates about his [.NET Core Podcast](https://dotnetcore.show/).
            He also has an <https://about.me/thejamietaylor> page
-           
+
 ## Links
 
 - <https://docs.microsoft.com/en-us/dotnet/core/>
