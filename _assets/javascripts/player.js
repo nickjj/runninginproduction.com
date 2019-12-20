@@ -148,11 +148,11 @@ function initPlayer(playerContainer) {
     if (isProgressSliderDrag === true && isLoaded === true) {
       const fraction = getSliderFraction(event, progressSliderBg);
       updateSlider(progressSlider, fraction);
-      updatePlaybackTime(playbackTime, fraction * audio.duration, audio.duration);
+      updatePlaybackTime(fraction * audio.duration, audio.duration);
       playbackTime.classList.add("playback-time-highlight");
     } else if (isVolumeSliderDrag === true) {
       const fraction = getSliderFraction(event, volumeSliderBg);
-      updateVolumeButton(volumeButton, fraction);
+      updateVolumeButton(fraction);
       updateSlider(volumeSlider, fraction);
       updateVolume(fraction);
     }
