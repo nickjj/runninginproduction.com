@@ -3,12 +3,23 @@ audio {
   width: 100%;
 }
 
-@media screen and (max-width: 400px) {
-  .hidden-mobile {
+@media screen and (max-width: 370px) {
+  .hidden-mobile1 {
     display: none !important;
   }
 }
 
+@media screen and (max-width: 410px) {
+  .hidden-mobile2 {
+    display: none !important;
+  }
+}
+
+@media (max-width:765px) and (min-width:576px) {
+  .hidden-mobile3 {
+    display: none !important;
+  }
+}​
 .audio-player {
   background-color: $gray-100;
   padding-top: 10px;
