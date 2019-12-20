@@ -314,28 +314,32 @@ function initPlayer(playerContainer) {
   function speedPlay() {
     const span = playbackSpeedButton.querySelector("span");
     switch (audio.playbackRate) {
-      case 1:
-        audio.playbackRate = 1.1;
-        span.innerHTML = "&times;1.10";
-        break;
-      case 1.1:
+      case 1.0:
         audio.playbackRate = 1.25;
-        span.innerHTML = "&times;1.15";
+        span.innerHTML = "&times;1.25";
         break;
       case 1.25:
         audio.playbackRate = 1.5;
         span.innerHTML = "&times;1.50";
         break;
       case 1.5:
+        audio.playbackRate = 1.75;
+        span.innerHTML = "&times;1.75";
+        break;
+      case 1.75:
+        audio.playbackRate = 2.0;
+        span.innerHTML = "&times;2.00";
+        break;
+      case 2.0:
         audio.playbackRate = 0.75;
         span.innerHTML = "&times;0.75";
         break;
       case 0.75:
-        audio.playbackRate = 1;
+        audio.playbackRate = 1.0;
         span.innerHTML = "&times;1.00";
         break;
       default:
-        audio.playbackRate = 1;
+        audio.playbackRate = 1.0;
         span.innerHTML = "&times;1.00";
     }
   }
