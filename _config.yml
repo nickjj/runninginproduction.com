@@ -52,6 +52,7 @@ exclude:
   - ".jekyll-cache"
   - ".jekyll-metadata"
   - "log"
+  - "_nginx"
   - "_private"
   - ".tweet-cache"
   - "tmp"
