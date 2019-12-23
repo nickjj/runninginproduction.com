@@ -114,7 +114,7 @@ function initPlayer(playerContainer) {
     audioSeeks.forEach(function(audioSeek) {
       audioSeek.addEventListener("click", function(event) {
         event.preventDefault();
-        audio.currentTime = $(this).data("audio-seek");
+        audio.currentTime = audioSeek.dataset.audioSeek;
       });
     });
     isLoaded = true;
