@@ -1,10 +1,8 @@
-$(document).on("turbolinks:load", function() {
+document.addEventListener("turbolinks:load", function() {
   const players = document.querySelectorAll(".js-audio-player");
-  if (players.length) {
-    for (let i = 0; i < players.length; i += 1) {
-      initPlayer(players[i]);
-    }
-  }
+  players.forEach(function(player) {
+    initPlayer(player);
+  });
 });
 
 function initPlayer(playerContainer) {
@@ -20,6 +18,7 @@ function initPlayer(playerContainer) {
   const progressSlider = playerContainer.querySelector(".js-progress-slider");
   const volumeSliderBg = playerContainer.querySelector(".js-volume-slider-background");
   const volumeSlider = playerContainer.querySelector(".js-volume-slider");
+  const audioSeeks = document.querySelectorAll(".audio-seek");
   let isLoaded = false;
   let isProgressSliderDrag = false;
   let isVolumeSliderDrag = false;
@@ -52,6 +51,7 @@ function initPlayer(playerContainer) {
     playButton.style.display = "";
     pauseButton.style.display = "none";
   });
+
   progressSliderBg.addEventListener("mousedown", dragStart);
   progressSliderBg.addEventListener("touchstart", dragStart);
   volumeSliderBg.addEventListener("mousedown", dragStart);
@@ -110,6 +110,12 @@ function initPlayer(playerContainer) {
     setCurrentTimeFromUrl(audio);
     window.addEventListener("hashchange", function() {
       setCurrentTimeFromUrl(audio);
+    });
+    audioSeeks.forEach(function(audioSeek) {
+      audioSeek.addEventListener("click", function(event) {
+        event.preventDefault();
+        audio.currentTime = $(this).data("audio-seek");
+      });
     });
     isLoaded = true;
   }
