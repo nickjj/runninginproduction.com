@@ -46,9 +46,9 @@ multiple cloud providers and regions.
 
 *P.S., Nova is also really useful for small sites too and they have a free tier
 with no strings attached, so you may want to [give it a
-try](https://in.nova-adc.com/runninginproduction). After this episode the first
-thing I thought was "wtf, why am I not using this?". I'm going to start playing
-with it over the holidays for my own sites.*
+try](https://nova-adc.com/pricing?utm_source=Running%20in%20Production&utm_medium=banner&utm_campaign=Running%20in%20Production).
+After this episode the first thing I thought was "wtf, why am I not using
+this?". I'm going to start playing with it over the holidays for my own sites.*
 
 ## Show Notes
 
