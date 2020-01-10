@@ -70,6 +70,33 @@ audio {
   background-repeat: no-repeat;
 }
 
+.audio-player-spinner {
+  width: 30px;
+  height: 24px;
+  padding: 4px 3px;
+  margin-right: 3px;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 3px;
+}
+
+.icon-spinner{
+  width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  border: 4px solid $gray-800;
+  border-radius: 50%;
+  background: $white;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(1turn); }
+}
+
 .icon-playarrow {
   background-image: asset_url('audioplayer/play_arrow.svg');
 }
