@@ -33,7 +33,7 @@ function initPlayer(playerContainer) {
   function enablePlayback() {
     if (!setCurrentTimeFromUrl(audio)){
       if(!setCurrentTimeFromLocalStorage(audio)){
-        updatePlaybackTime(playbackTime, 0, audio.duration);
+        updatePlaybackTime(0, audio.duration);
       }
     }
     window.addEventListener("hashchange", function() {
