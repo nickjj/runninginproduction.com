@@ -1,5 +1,6 @@
 document.addEventListener("turbolinks:load", function() {
   const player = document.querySelector(".js-audio-player");
+  if(player) {
   initPlayer(player);
 });
 
