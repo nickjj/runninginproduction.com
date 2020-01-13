@@ -3,14 +3,8 @@ audio {
   width: 100%;
 }
 
-@media screen and (max-width: 370px) {
-  .hidden-mobile-370px {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .hidden-mobile-410px {
+@media screen and (max-width: 426px) {
+  .hidden-mobile-426px {
     display: none !important;
   }
 }
