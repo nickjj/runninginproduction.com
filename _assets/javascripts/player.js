@@ -33,11 +33,13 @@ function initPlayer(playerContainer) {
   }
 
   function enablePlayback() {
-    if (!setCurrentTimeFromUrl(audio)) {
-      if (!setCurrentTimeFromLocalStorage(audio)) {
+    if (!setCurrentTimeFromUrl()) {
+      if (!setCurrentTimeFromLocalStorage()) {
         updatePlaybackTime(0, audio.duration);
       }
     }
+    setVolumeFromLocalStorage();
+    setPlaybackSpeeFromLocalStorage();
     window.addEventListener("hashchange", function() {
       setCurrentTimeFromUrl(audio);
     });
@@ -199,6 +201,38 @@ function initPlayer(playerContainer) {
     }
   }
 
+  function setVolumeFromLocalStorage() {
+    const volumeInLocalStorage = localStorage.getItem("audioPlayerVolume");
+    if (volumeInLocalStorage){
+      const setvolume =  parseFloat(volumeInLocalStorage);
+      updateSlider(volumeSlider, setvolume);
+      updateVolume(setvolume);
+      updateVolumeButton(setvolume);
+      return true;
+    }
+    return false;
+  }
+
+  function setPlaybackSpeeFromLocalStorage() {
+    const playbackSpeedInLocalStorage = localStorage.getItem("audioPlayerPlaybackSpeed");
+    if (playbackSpeedInLocalStorage){
+      const setPlaybackSpeed =  parseFloat(playbackSpeedInLocalStorage).toFixed(2);
+      const span = playbackSpeedButton.querySelector("span");
+      audio.playbackRate = setPlaybackSpeed;
+      span.innerHTML = "&times;"+setPlaybackSpeed;
+      return true;
+    }
+    return false;
+  }
+
+  function saveVolumeToLocalStorage() {
+    localStorage.setItem("audioPlayerVolume", audio.volume);
+  }
+
+  function savePlaybackSpeedToLocalStorage() {
+    localStorage.setItem("audioPlayerPlaybackSpeed", audio.playbackRate);
+  }
+
   function setCurrentTimeFromLocalStorage() {
     const episode = audio.querySelector("source").dataset.episode;
     const key = "currentTimeForEpisode" + episode;
@@ -322,6 +356,7 @@ function initPlayer(playerContainer) {
 
   function updateVolume(fraction) {
     audio.volume = fraction;
+    saveVolumeToLocalStorage(fraction)
     if (fraction === 0.0) {
       audio.muted = true;
     } else {
@@ -375,6 +410,7 @@ function initPlayer(playerContainer) {
         audio.playbackRate = 1.0;
         span.innerHTML = "&times;1.00";
     }
+    savePlaybackSpeedToLocalStorage();
   }
 
   function zeroPaddingString(number, size) {
