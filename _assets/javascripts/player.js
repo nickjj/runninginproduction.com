@@ -322,7 +322,7 @@ function initPlayer(playerContainer) {
     }, 1000);
     const url = window.location.href.split("#")[0];
     let time = 0;
-    if (audio.duration >= 3600) {
+    if (audio.currentTime >= 3600) {
       time = secondsToHourMinuteSecond(audio.currentTime);
     } else {
       time = secondsToMinuteSecond(audio.currentTime);
@@ -340,16 +340,19 @@ function initPlayer(playerContainer) {
       document.body.removeChild(tempTextArea);
     }
   }
-
+ 
   function updatePlaybackTime(currentTime, duration) {
     let currentTimeString;
     let durationString;
     if (duration > 3600) {
-      currentTimeString = secondsToHourMinuteSecond(currentTime);
       durationString = secondsToHourMinuteSecond(duration);
     } else {
-      currentTimeString = secondsToMinuteSecond(currentTime);
       durationString = secondsToMinuteSecond(duration);
+    }
+    if (currentTime > 3600){
+      currentTimeString = secondsToHourMinuteSecond(currentTime);
+    } else {
+      currentTimeString = secondsToMinuteSecond(currentTime);
     }
     playbackTime.innerHTML = currentTimeString + " / " + durationString;
   }
@@ -422,13 +425,13 @@ function initPlayer(playerContainer) {
   }
 
   function secondsToMinuteSecond(s) {
-    const minutes = zeroPaddingString(Math.floor(s / 60), 2);
+    const minutes = Math.floor(s / 60);
     const seconds = zeroPaddingString(Math.floor(s % 60), 2);
     return minutes + ":" + seconds;
   }
 
   function secondsToHourMinuteSecond(s) {
-    const hours = zeroPaddingString(Math.floor(s / 3600), 2);
+    const hours = Math.floor(s / 3600);
     const minutes = zeroPaddingString(Math.floor((s % 3600) / 60), 2);
     const seconds = zeroPaddingString(Math.floor((s % 3600) % 60), 2);
     return hours + ":" + minutes + ":" + seconds;
