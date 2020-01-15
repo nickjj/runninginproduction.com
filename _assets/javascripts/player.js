@@ -30,6 +30,9 @@ function initPlayer(playerContainer) {
     audio.addEventListener("loadedmetadata", function() {
       enablePlayback();
     });
+    audio.addEventListener("loadeddata", function() {
+      setCurrentTimeFromUrl();
+    });
   }
 
   function enablePlayback() {
@@ -41,7 +44,7 @@ function initPlayer(playerContainer) {
     setVolumeFromLocalStorage();
     setPlaybackSpeeFromLocalStorage();
     window.addEventListener("hashchange", function() {
-      setCurrentTimeFromUrl(audio);
+      setCurrentTimeFromUrl();
     });
     function setCurrentTimeFromBookmark(event) {
       event.preventDefault();
