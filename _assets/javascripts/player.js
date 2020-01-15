@@ -112,28 +112,46 @@ function initPlayer(playerContainer) {
       updatePlaybackTime(audio.currentTime, audio.duration);
     }
   });
+
   audio.addEventListener("play", function() {
     showPauseButton();
   });
+
   audio.addEventListener("pause", function() {
     showPlayButton();
   });
+
   audio.addEventListener("ended", function() {
     audio.pause();
     showPlayButton();
     audio.currentTime = 0;
   });
+
+  function timeout(){
+    if(audio.seeking){
+      showloadingSpinner();
+    }
+  }
+
   audio.addEventListener("seeking", function() {
-    showloadingSpinner();
+    setTimeout(timeout,500);
   });
 
-  audio.addEventListener("seeked", function() {
+  function hideLoadingShowPlayPause(){
     hideLoadingSpinner();
     if (audio.paused) {
       showPlayButton();
     } else {
       showPauseButton();
     }
+  }
+
+  audio.addEventListener("seeked", function() {
+    hideLoadingShowPlayPause();
+  });
+
+  audio.addEventListener("canplay", function() {
+    hideLoadingShowPlayPause();
   });
 
   volumeSliderBg.addEventListener("mousedown", dragStart);
