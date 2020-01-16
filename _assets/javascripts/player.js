@@ -31,7 +31,11 @@ function initPlayer(playerContainer) {
       enablePlayback();
     });
     audio.addEventListener("loadeddata", function() {
-      setCurrentTimeFromUrl();
+      if (!setCurrentTimeFromUrl()) {
+        if (!setCurrentTimeFromLocalStorage()) {
+          updatePlaybackTime(0, audio.duration);
+        }
+      }
     });
   }
 
