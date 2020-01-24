@@ -13,26 +13,28 @@
       <div class="js-spinner audio-player-spinner">
         <div class="icon-spinner"></div>
       </div>
-      <button class="js-play" style="display:none">
+      <button aria-label="Play" class="js-play" style="display:none">
         <i class="audio-player-icon icon-playarrow"></i>
       </button>
-      <button class="js-pause" style="display:none">
+      <button aria-label="Pause" class="js-pause" style="display:none">
         <i class="audio-player-icon icon-pause"></i>
       </button>
       <span class="js-playback-time playback-time">
         0:00 / 0:00
       </span>
-      <button class="js-copy-time hidden-mobile-426px hidden-mobile-765px-576px" title="Click to copy current time">
+      <button aria-label="Copy current time in url" class="js-copy-time hidden-mobile-426px hidden-mobile-765px-576px"
+        title="Click to copy current time">
         <i class="audio-player-icon icon-filecopy"></i>
       </button>
     </div>
     <div class="right-controls">
-      <button class="js-playback-speed hidden-mobile-426px hidden-mobile-765px-576px">
+      <button aria-label="Change playback speed"
+        class="js-playback-speed hidden-mobile-426px hidden-mobile-765px-576px">
         <i class="audio-player-icon icon-fastforward"></i>
         <span class="speed-text"> &times;1.00</span>
       </button>
       <div class="volume-group">
-        <button class="js-volume">
+        <button aria-label="Mute/Unmuted" class="js-volume">
           <i class="audio-player-icon icon-volumeup"></i>
         </button>
         <div class="js-volume-slider-background volume-slider-background">
