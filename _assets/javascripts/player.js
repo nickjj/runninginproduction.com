@@ -365,7 +365,7 @@ function initPlayer(playerContainer) {
       document.body.removeChild(tempTextArea);
     }
   }
- 
+
   function updatePlaybackTime(currentTime, duration) {
     let currentTimeString;
     let durationString;

@@ -18,7 +18,7 @@ layout: "default"
           {% if page.category == "podcast" %}
             {% include subscribe.html %}
             {% capture data-episode %}{{ page.slug | split: "-" | first }}{% endcapture %}
-            {% include audio-player.html mp3_url=mp3_url data-episode=data-episode%}
+            {% include audio-player.html mp3_url=mp3_url data-episode=data-episode %}
           {% endif %}
           <h1 class="h2">{{ post.title | default: page.title }}</h1>
           <ul class="list-inline pl-0">
