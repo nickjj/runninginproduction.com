@@ -20,9 +20,9 @@ function initPlayer(playerContainer) {
   const volumeSliderBg = playerContainer.querySelector(".js-volume-slider-background");
   const volumeSlider = playerContainer.querySelector(".js-volume-slider");
   const audioSeeks = document.querySelectorAll(".audio-seek");
-  let isProgressSliderDrag = false;
-  let isVolumeSliderDrag = false;
-  let previousVolume = 1.0;
+  var isProgressSliderDrag = false;
+  var isVolumeSliderDrag = false;
+  var previousVolume = 1.0;
 
   if (audio.readyState >= 2) {
     enablePlayback();
@@ -54,7 +54,7 @@ function initPlayer(playerContainer) {
       event.preventDefault();
       audio.currentTime = this.dataset.audioSeek;
     }
-    for (let i = 0; i < audioSeeks.length; i += 1) {
+    for (var i = 0; i < audioSeeks.length; i += 1) {
       audioSeeks[i].addEventListener("click", setCurrentTimeFromBookmark);
     }
     loadingSpinner.style.display = "none";
@@ -273,18 +273,18 @@ function initPlayer(playerContainer) {
   }
 
   function setCurrentTimeFromUrl() {
-    let set = false;
+    var set = false;
     function isInteger(num) {
       if (typeof num === "number" && num === parseInt(num, 10)) {
         return true;
       }
       return false;
     }
-    let timestamp = window.location.href.split("#")[1];
+    var timestamp = window.location.href.split("#")[1];
     if (timestamp) {
       timestamp = timestamp.split(":");
       timestamp = timestamp.map(Number);
-      let onlyIntegers = true;
+      var onlyIntegers = true;
       timestamp.forEach(function(num) {
         if (!isInteger(num)) {
           onlyIntegers = false;
@@ -315,7 +315,7 @@ function initPlayer(playerContainer) {
   }
 
   function getSliderFraction(event, Slider) {
-    let x;
+    var x;
     const leftOffset = Slider.getBoundingClientRect().left;
     if (event.type === "touchmove") {
       x = event.touches[0].clientX - leftOffset;
@@ -324,7 +324,7 @@ function initPlayer(playerContainer) {
     } else {
       x = event.clientX - leftOffset;
     }
-    let fraction = x / Slider.clientWidth;
+    var fraction = x / Slider.clientWidth;
     fraction = Math.min(fraction, 1);
     fraction = Math.max(fraction, 0);
     return fraction;
@@ -346,7 +346,7 @@ function initPlayer(playerContainer) {
       copyMsg.style.display = "hide";
     }, 1000);
     const url = window.location.href.split("#")[0];
-    let time = 0;
+    var time = 0;
     if (audio.currentTime >= 3600) {
       time = secondsToHourMinuteSecond(audio.currentTime);
     } else {
@@ -367,8 +367,8 @@ function initPlayer(playerContainer) {
   }
 
   function updatePlaybackTime(currentTime, duration) {
-    let currentTimeString;
-    let durationString;
+    var currentTimeString;
+    var durationString;
     if (duration > 3600) {
       durationString = secondsToHourMinuteSecond(duration);
     } else {
@@ -442,7 +442,7 @@ function initPlayer(playerContainer) {
   }
 
   function zeroPaddingString(number, size) {
-    let line = number.toString();
+    var line = number.toString();
     while (line.length < size) {
       line = "0" + line;
     }
