@@ -13,7 +13,7 @@ category: "podcast"
 tags:
   - "phoenix"
   - "elixir"
-  - "vuejs"
+  - "vue"
   - "postgres"
   - "docker"
   - "kubernetes"
