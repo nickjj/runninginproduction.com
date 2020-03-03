@@ -119,9 +119,10 @@ and enforce self imposed deadlines.
 
 ## Shameless Plugs
 
-- Nick: Want to learn Flask? Join thousands of others in my
-  [Build a SAAS App with Flask](https://buildasaasappwithflask.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  course
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  course
+- Nick J:
+  - Want to learn Flask? Join thousands of others in my
+    [Build a SAAS App with Flask](https://buildasaasappwithflask.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
+    course
+  - Want to learn Docker? Join thousands of others in my
+    [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
+    course
