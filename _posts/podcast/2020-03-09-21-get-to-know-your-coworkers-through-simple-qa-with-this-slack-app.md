@@ -19,7 +19,7 @@ tags:
 title: "Get to Know Your Coworkers through Simple QA with This Slack App"
 description:
   Adam Conrad goes over building and deploying a Slack App with Phoenix and
-  Elixir. It's all hosted on Gigalixer for about $50 / month.
+  Elixir. It's all hosted on Gigalixir for about $50 / month.
 ---
 
 In this episode of Running in Production, {{ page.guest }} goes over building
