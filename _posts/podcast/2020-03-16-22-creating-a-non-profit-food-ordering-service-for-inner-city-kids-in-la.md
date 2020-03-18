@@ -6,6 +6,7 @@ mp3_duration: "31:52"
 
 guest: "Francisco Barcena"
 guest_avatar: "francisco-barcena"
+guest_website: "https://comprafoods.org/"
 
 category: "podcast"
 tags:
@@ -25,7 +26,7 @@ description:
 In this episode of Running in Production, {{ page.guest }} goes over building an internal
 food order processing system for the city of Los Angeles, CA with Flask and
 Python. It's hosted on a single DigitalOcean server and has been up and running
-since early 2017.
+since 2016.
 
 Francisco talks about developing a freelance project for a client as a solo
 developer, scraping the USDA's site, working with Flask-SocketIO to create a
