@@ -8,7 +8,7 @@ layout: "default"
       <h2 class="card-title">
         Podcast <span class="text-muted">#{{ page.tag }}</span>
       </h2>
-      <ul id="podcasts" class="list-group">
+      <ul id="podcasts" class="list-group overflow-auto">
         {% if site.categories.podcast and site.tags[page.tag] %}
           {% include items.html category="podcast" filter_by_tag=page.tag %}
         {% else %}
@@ -23,7 +23,7 @@ layout: "default"
       <h2 class="card-title">
         Interviews <span class="text-muted">#{{ page.tag }}
       </h2>
-      <ul id="interviews" class="list-group">
+      <ul id="interviews" class="list-group overflow-auto">
         {% if site.categories.interviews and site.tags[page.tag] %}
           {% include items.html category="interviews" filter_by_tag=page.tag %}
         {% else %}
