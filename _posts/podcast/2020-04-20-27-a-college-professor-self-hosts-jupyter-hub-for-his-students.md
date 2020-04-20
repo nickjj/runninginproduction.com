@@ -11,7 +11,6 @@ guest_twitter: "pkazarinoff"
 
 category: "podcast"
 tags:
-  - "flask"
   - "python"
   - "sqlite"
   - "nginx"
