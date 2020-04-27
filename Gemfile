@@ -3,7 +3,7 @@ ruby RUBY_VERSION
 
 gem "jekyll", "~> 3.8"
 gem "uglifier", "~> 3.0"
-gem "nokogiri", "~> 1.9"
+gem "nokogiri", "~> 1.10"
 
 group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 0.11"
