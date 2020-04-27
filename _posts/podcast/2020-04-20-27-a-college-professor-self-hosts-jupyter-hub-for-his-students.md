@@ -75,7 +75,7 @@ make mistakes along the way.
 - 35:47 -- The Jupyter Hub is accessible on the public internet but no downtime alerts are used
 - 37:13 -- Best tips? Deployment is tough but it's ok to make mistakes as you go
 - 38:13 -- Peter learned from many mistakes such as pushing SSH keys to GitHub and more
-- 40:18 -- After all is said and done, despite it being tough, it works well for his Students
+- 40:18 -- After all is said and done, despite it being tough, it works well for his students
 - 41:16 -- You can find Peter on [GitHub](https://github.com/ProfessorKazarinoff), [Twitter](https://twitter.com/{{ site.guest_twitter }}) and [his blog](https://pythonforundergradengineers.com/), he also has [an open source book](https://problemsolvingwithpython.com/)
 
 ## Links
