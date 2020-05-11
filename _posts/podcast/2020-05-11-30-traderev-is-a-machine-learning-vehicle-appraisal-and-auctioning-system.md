@@ -38,7 +38,7 @@ site, treating your infrastructure as code and more.
 
 ## Show Notes
 
-- 3:58 -- About 10 engineers make up the team responsible for the site
+- 3:58 -- Amit lead a team of ~10 R&amp;D engineers responsible for Data Science / ML
 - 4:33 -- Roughly 1,000 cars a day are being traded with 8-10k auctions / bids per day
 - 5:15 -- Motivation for using Flask and Python
 - 6:55 -- Scikit-Learn and TensorFlow for machine / deep learning 
