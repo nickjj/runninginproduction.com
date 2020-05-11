@@ -26,9 +26,10 @@ description:
   with Flask and Python. It's hosted on AWS Fargate.
 ---
 
-In this episode of Running in Production, {{ page.guest }} goes over building
-an auctioning system that uses machine / deep learning and is powered by Flask
-and Python. It's all hosted on AWS and has been up and running since mid 2011.
+In this episode of Running in Production, [{{ page.guest
+}}](https://www.linkedin.com/in/jaamit/) goes over building an auctioning
+system that uses machine / deep learning and is powered by Flask and Python.
+It's all hosted on AWS and has been up and running since mid 2011.
 
 Amit goes over a few machine learning libraries, refactoring a 100k+ line
 monolith into microservices without any automated tests, the importance of
