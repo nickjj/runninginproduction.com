@@ -90,10 +90,11 @@ much more. The site is [open source](https://github.com/philgyford/pepysdiary).
 - <https://www.postgresql.org/>
 - <https://redis.io/>
 - <https://en.wikipedia.org/wiki/Full-text_search>
+- <https://docs.djangoproject.com/en/3.0/ref/contrib/postgres/search/>
 - <https://sentry.io/welcome/>
 - <https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html>
 - <https://devcenter.heroku.com/articles/django-assets>
-- <https://docs.djangoproject.com/en/3.0/ref/files/storage/>
+- <https://django-storages.readthedocs.io/en/latest/>
 
 ## Shameless Plugs
 
