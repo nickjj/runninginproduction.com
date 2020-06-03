@@ -55,3 +55,11 @@
     margin-right: 0.3rem;
   }
 }
+
+.audio-seek {
+  border-bottom: 1px solid $primary;
+
+  &:hover, &:visited, &:active {
+    text-decoration: none;
+  }
+}

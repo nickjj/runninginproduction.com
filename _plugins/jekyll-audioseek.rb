@@ -1,17 +1,18 @@
 # Developed by Nick Janetakis - https://nickjanetakis.com
 #
 # Usage in layouts: {{ content | audio_seek }}
+# Usage in layouts: {{ content | human_time_to_seconds }}
 
 require 'jekyll'
 require 'nokogiri'
 
+def hh_mm_ss_to_seconds(human_time)
+  # This accepts hh:mm:ss, mm:ss or ss.
+  human_time.split(':').map { |a| a.to_i }.inject(0) { |a, b| a * 60 + b}
+end
+
 module Jekyll
   module AudioSeek
-    def hh_mm_ss_to_seconds(human_time)
-      # This accepts hh:mm:ss, mm:ss or ss.
-      human_time.split(':').map { |a| a.to_i }.inject(0) { |a, b| a * 60 + b}
-    end
-
     def audio_seek(content)
       doc = Nokogiri::HTML.fragment(content)
       # Stop if we could't parse with HTML.
@@ -38,6 +39,13 @@ module Jekyll
       doc.to_s
     end
   end
+
+  module HumanTimeToSeconds
+    def human_time_to_seconds(human_time)
+      hh_mm_ss_to_seconds(human_time)
+    end
+  end
 end
 
 Liquid::Template.register_filter(Jekyll::AudioSeek)
+Liquid::Template.register_filter(Jekyll::HumanTimeToSeconds)

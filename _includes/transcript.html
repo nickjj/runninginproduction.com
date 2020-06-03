@@ -1,0 +1,50 @@
+{% assign episode_number = page.slug | split: "-" | first %}
+{% assign total_entries = site.data.transcripts[episode_number] | size %}
+{% assign unreviewed_entries = site.data.transcripts[episode_number] | where_exp: "t", "t.reviewed == false" | size %}
+
+{% if site.data.transcripts[episode_number] %}
+  <h2>Transcript</h2>
+
+  {% if total_entries != unreviewed_entries or unreviewed_entries > 0 %}
+    {% capture pr_link %}{{ site.links.repo }}/blob/master/_data/transcripts/{{ episode_number }}.yml{% endcapture %}
+
+    <p>The transcript for this episode was originally machine generated and
+      while it was about 90% accurate, it does have hilariously poor
+      grammar and typos at times.</p>
+
+    <p>What you see below are the human reviewed portions of the
+      transcript. There are still <a href="{{ pr_link }}">{{ unreviewed_entries }}
+      entries</a> that are not human reviewed. Any improvements are welcome via <a href="{{ pr_link }}">pull request</a>.</p>
+
+    <p><i>If you finish transcribing and review this episode I'll gift you or a friend any one of my
+      courses but before you start, please <a href="{{ pr_link }}">open a
+        PR</a> to claim an episode to avoid folks working on the same one.</i></p>
+
+    <hr>
+  {% endif %}
+
+  <div class="transcript">
+    {% if total_entries == unreviewed_entries and unreviewed_entries > 0 %}
+      <p class="mb-0 mt-5">
+        There are no transcript entries that are human reviewed yet.
+      </p>
+    {% else %}
+      {% for transcript in site.data.transcripts[episode_number] %}
+        {% if transcript.reviewed %}
+          <p class="mb-0 mt-5">
+            {% if transcript.speaker == page.guest %}
+              {% image avatars/{{avatar}} width:30 height:30 class:"avatar-small" %}
+            {% else %}
+              {% image avatars/nick-janetakis.jpg width:30 height:30 class:"avatar-small" %}
+            {% endif %}
+            <strong>{{ transcript.speaker }}</strong>:
+            <a href="#" class="audio-seek" data-audio-seek="{{ transcript.timestamp | human_time_to_seconds }}">
+              {{ transcript.timestamp }}
+            </a>
+          </p>
+          {{ transcript.transcript | markdownify }}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+{% endif %}
