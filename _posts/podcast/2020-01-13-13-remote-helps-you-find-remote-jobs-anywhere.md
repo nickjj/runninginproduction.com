@@ -129,9 +129,3 @@ that are important to your application.
 - <https://docs.docker.com/develop/develop-images/multistage-build/>
 - <https://www.mailgun.com/>
 - <https://customer.io/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

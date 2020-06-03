@@ -152,9 +152,3 @@ about a Serverless framework called Serverless!
 - <https://kubernetes.io/>
 - <https://docs.docker.com/engine/swarm/>
 - <https://www.nginx.com/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

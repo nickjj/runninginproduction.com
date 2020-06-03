@@ -137,9 +137,3 @@ achieving 99.99% uptime and so much more.
 - <https://github.com/joealcorn/laboratory>
 - <https://github.com/KristianOellegaard/django-health-check>
 - <https://www.pagerduty.com/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

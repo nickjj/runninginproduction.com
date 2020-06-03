@@ -129,9 +129,3 @@ cloud servers and using Ansible to configure all of the servers.
 - <https://stripe.com/>
 - <https://stripe.com/docs/strong-customer-authentication>
 - <https://www.monitis.com/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

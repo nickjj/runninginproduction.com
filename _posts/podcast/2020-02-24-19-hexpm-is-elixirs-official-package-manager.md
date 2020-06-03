@@ -115,9 +115,3 @@ Stripe's SCA and more.
 - <https://www.terraform.io/>
 - <https://www.tarsnap.com/>
 - <https://cloud.google.com/stackdriver>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

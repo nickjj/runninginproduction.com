@@ -151,9 +151,3 @@ source projects well tested.
 - <https://www.cypress.io/>
 - <https://airbnb.io/enzyme/>
 - <https://uptimerobot.com/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

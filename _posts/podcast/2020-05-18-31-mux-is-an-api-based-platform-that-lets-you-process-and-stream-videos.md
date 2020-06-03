@@ -139,9 +139,3 @@ databases, metered billing and tons more.
 - <https://www.stackpath.com/>
 - <https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol>
 - <https://obsproject.com/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

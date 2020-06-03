@@ -186,9 +186,3 @@ this?". I'm going to start playing with it over the holidays for my own sites.*
 - <https://i.pinimg.com/originals/bb/98/e0/bb98e03ac44d2fa7b07cfd364eab6e2e.jpg>
 - <https://en.wikipedia.org/wiki/Heartbleed>
 - <https://12factor.net/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

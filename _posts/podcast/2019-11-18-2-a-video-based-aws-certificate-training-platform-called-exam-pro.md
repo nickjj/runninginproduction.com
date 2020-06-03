@@ -138,9 +138,3 @@ AWS using Cloud9 IDE. Exam Pro has been running in production since late 2018.
 - <https://capistranorb.com/>
 - <https://aws.amazon.com/api-gateway/>
 - <https://en.wikipedia.org/wiki/Macro_(computer_science)>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

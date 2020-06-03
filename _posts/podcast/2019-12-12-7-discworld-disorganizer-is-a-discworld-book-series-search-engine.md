@@ -130,9 +130,3 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
 - <https://www.jetbrains.com/rider/>
 - <https://www.jetbrains.com/resharper/>
 - <https://en.wikipedia.org/wiki/Domain-driven_design>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

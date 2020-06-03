@@ -144,9 +144,3 @@ databases with Rails, InfluxDB, GitHub Actions and tons more.
 - <https://github.com/graphql/dataloader>
 - <https://hexdocs.pm/ecto/Ecto.Multi.html>
 - <https://sourcehut.org/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

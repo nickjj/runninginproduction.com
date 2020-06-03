@@ -140,9 +140,3 @@ whole lot more.
 - <https://en.wikipedia.org/wiki/Denial-of-service_attack>
 - <https://gust.com/launch>
 - <https://hexdocs.pm/plug/Plug.Upload.html>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

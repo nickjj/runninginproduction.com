@@ -95,9 +95,3 @@ much more. The site is [open source](https://github.com/philgyford/pepysdiary).
 - <https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html>
 - <https://devcenter.heroku.com/articles/django-assets>
 - <https://django-storages.readthedocs.io/en/latest/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

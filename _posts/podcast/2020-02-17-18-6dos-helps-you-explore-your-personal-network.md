@@ -143,9 +143,3 @@ design and scaling that apply to any web framework.
 - <https://timber.io/>
 - <https://github.com/wercker/stern>
 - <https://www.weave.works/oss/scope/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

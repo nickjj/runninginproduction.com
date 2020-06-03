@@ -149,9 +149,3 @@ reviews which I found to be great. We covered a lot of ground in this episode!
 - <https://github.com/features/code-review/>
 - <https://aws.amazon.com/s3/>
 - <https://vimeo.com/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

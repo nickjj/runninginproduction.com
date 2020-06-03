@@ -50,6 +50,10 @@ layout: "default"
 
           {% if page.date %}
             {% if page.category == "podcast" %}
+              {% unless page.has_sponsor %}
+                {% include support-the-show.html source=page.url %}
+              {% endunless %}
+
               <h2>Questions</h2>
               <ul>
                 <li>

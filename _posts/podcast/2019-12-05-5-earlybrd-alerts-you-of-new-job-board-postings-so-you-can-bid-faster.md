@@ -136,9 +136,3 @@ solo developer working on the project.
 - <https://aws.amazon.com/s3/>
 - <https://media.makeameme.org/created/i-dont-always-mt4th0.jpg>
 - <https://github.com/sqlalchemy/sqlalchemy>
-
-## Shameless Plugs
-
-- Nick: Want to learn Flask? Join thousands of others in my
-  [Build a SAAS App with Flask](https://buildasaasappwithflask.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  course

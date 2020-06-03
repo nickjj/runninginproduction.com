@@ -136,9 +136,3 @@ collects payments for subscriptions.
 - <https://www.digitalocean.com/products/block-storage/>
 - <https://www.digitalocean.com/products/spaces/>
 - <https://uptimerobot.com/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

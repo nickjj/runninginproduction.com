@@ -118,9 +118,3 @@ lot more.
 - <https://codeclimate.com/>
 - <https://github.com/vcr/vcr>
 - <https://youtu.be/NV3sBlRgzTI?t=35> (First Principles explained by Elon Musk)
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

@@ -49,7 +49,7 @@ layout: null
         <guid isPermaLink="false">{{ site.url }}{{ item.url }}</guid>
         <enclosure length="{{ item.mp3_bytes }}" type="audio/mpeg" url="{{ site.mp3_url_path }}{{ item.slug | split: "-" | first }}.mp3" />
         <itunes:duration>{{ item.mp3_duration }}</itunes:duration>
-        <content:encoded><![CDATA[{{ item.content }}]]></content:encoded>
+        <content:encoded><![CDATA[{{ item.content }}{% unless item.has_sponsor %}{% include support-the-show.html source=item.url %}{% endunless %}]]></content:encoded>
         <itunes:image href="{{ site.url }}{% asset_path running-in-production-itunes-banner.png %}" />
         <itunes:subtitle>with {% if item.guest %}{{ site.author.name }} and {{ item.guest }}{% else %}{{ site.author.name }}{% endif %}</itunes:subtitle>
         <itunes:summary>{{ item.description | xml_escape }}</itunes:summary>

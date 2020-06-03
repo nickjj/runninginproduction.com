@@ -110,9 +110,3 @@ compatibility requirements. It's been running in production since 2017.
 - <https://en.wikipedia.org/wiki/C%2B%2B>
 - <https://ocaml.org/>
 - <https://freenode.net/>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course

@@ -148,9 +148,3 @@ GoRails. *Spoiler alert: Rails does scale*.
 - <https://github.com/backup/backup>
 - <https://edgeguides.rubyonrails.org/security.html#environmental-security>
 - <https://github.com/features/actions>
-
-## Shameless Plugs
-
-- Nick: Want to learn Docker? Join thousands of others in my
-  [Dive into Docker](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-  video course
