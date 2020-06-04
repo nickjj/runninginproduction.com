@@ -14,14 +14,20 @@ tags:
   - "phoenix"
   - "elixir"
   - "golang"
-  - "postgres"
-  - "docker"
-  - "kubernetes"
   - "aws"
+  - "build-kite"
+  - "docker"
+  - "fastly"
   - "gcp"
-  - "ci"
-  - "cdn"
-  - "payments"
+  - "kafka"
+  - "kubernetes"
+  - "opsgenie"
+  - "postgres"
+  - "prometheus"
+  - "sendgrid"
+  - "sentry"
+  - "stackpath"
+  - "stripe"
 
 title: "Mux Is an API Based Platform That Lets You Process and Stream Videos"
 description:
@@ -107,35 +113,22 @@ databases, metered billing and tons more.
 
 ## Links
 
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
 - <https://en.wikipedia.org/wiki/HTTP_Live_Streaming>
 - <https://howvideo.works/>
 - <https://www.ycombinator.com/about/>
 - <https://bugzilla.mozilla.org/show_bug.cgi?id=356558>
-- <https://kafka.apache.org/intro>
 - <https://golang.org/>
-- <https://github.com/akira/exq>
-- <https://github.com/elixir-mint/mint>
-- <https://redis.io/>
-- <https://prometheus.io/>
-- <https://kubernetes.io/>
-- <https://www.docker.com/>
-- <https://buildkite.com/>
-- <https://www.postgresql.org/>
 - <https://clickhouse.tech/>
 - <https://en.wikipedia.org/wiki/Column-oriented_DBMS>
 - <https://mux.com/blog/from-russia-with-love-how-clickhouse-saved-our-data/>
-- <https://aws.amazon.com/elasticloadbalancing/>
-- <https://cloud.google.com/>
-- <https://stripe.com/>
-- <https://sendgrid.com/>
-- <https://sentry.io/>
-- <https://www.atlassian.com/software/opsgenie>
 - <https://en.wikipedia.org/wiki/WebVTT>
 - <https://flink.apache.org/usecases.html>
-- <https://github.com/grempe/ex_rated>
 - <https://www.fastly.com/>
-- <https://www.stackpath.com/>
 - <https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol>
 - <https://obsproject.com/>
+
+## Libraries Used
+
+- <https://github.com/akira/exq>
+- <https://github.com/elixir-mint/mint>
+- <https://github.com/grempe/ex_rated>

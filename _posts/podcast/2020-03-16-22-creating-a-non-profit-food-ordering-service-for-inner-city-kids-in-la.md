@@ -12,10 +12,12 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "postgres"
-  - "nginx"
   - "digitalocean"
   - "lets-encrypt"
+  - "nginx"
+  - "postgres"
+  - "ubuntu"
+  - "websockets"
 
 title: "Creating a Non-profit Food Ordering Service for Inner City Kids In LA"
 description:
@@ -65,23 +67,18 @@ server without using Docker, CI or configuration management tools.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
 - <https://scrapy.org/>
 - <https://www.usda.gov/>
-- <https://en.wikipedia.org/wiki/Ajax_(programming)>
 - <https://en.wikipedia.org/wiki/Linear_regression>
-- <https://github.com/miguelgrinberg/Flask-SocketIO>
-- <https://www.chartjs.org/>
-- <https://github.com/thadeusb/flask-cache>
 - <https://www.sqlalchemy.org/>
 - <https://www.postgresql.org/>
-- <https://gunicorn.org/>
 - <https://nginx.org/en/>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://en.wikipedia.org/wiki/Ubuntu>
-- <https://github.com/pypa/virtualenv>
-- <https://github.com/pypa/pip>
 - <https://github.com/certbot/certbot>
-- <https://letsencrypt.org/>
+
+## Libraries Used
+
+- <https://www.chartjs.org/>
+- <https://github.com/miguelgrinberg/Flask-SocketIO>
+- <https://github.com/thadeusb/flask-cache>
+- <https://gunicorn.org/>
 - <https://github.com/mattupstate/flask-mail>

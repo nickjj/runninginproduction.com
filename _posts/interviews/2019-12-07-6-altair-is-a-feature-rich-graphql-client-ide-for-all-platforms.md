@@ -9,12 +9,14 @@ guest_twitter: "imolorhe"
 
 category: "interviews"
 tags:
-  - "angular"
+  - "angularjs"
   - "electron"
+  - "cloudflare"
   - "firebase"
-  - "cdn"
-  - "ci"
+  - "graphql"
   - "open-source"
+  - "surge"
+  - "travis-ci"
 
 title: "Altair Is a Feature-Rich GraphQL Client IDE for All Platforms"
 description:

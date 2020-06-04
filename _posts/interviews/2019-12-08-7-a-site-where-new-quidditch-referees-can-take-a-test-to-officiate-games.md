@@ -11,13 +11,13 @@ category: "interviews"
 tags:
   - "dotnet-core"
   - "c-sharp"
+  - "cloudflare"
   - "docker"
+  - "lets-encrypt"
   - "mysql"
   - "nginx"
-  - "lets-encrypt"
-  - "ubuntu"
-  - "cdn"
   - "open-source"
+  - "ubuntu"
 
 title: "A Site Where New Quidditch Referees Can Take a Test to Officiate Games"
 description:

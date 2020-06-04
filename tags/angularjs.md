@@ -1,9 +1,9 @@
 ---
 layout: "tags"
-tag: "angular"
+tag: "angularjs"
 
-title: "Websites Using Angular in Production"
+title: "Websites Using AngularJS in Production"
 description:
   Podcast episodes and interviews where developers talk about how and why they
-  built their web app in Angular.
+  built their web app in AngularJS.
 ---

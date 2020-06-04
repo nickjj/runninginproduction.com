@@ -13,11 +13,16 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "postgres"
+  - "cloudflare"
+  - "debian"
   - "docker"
   - "kubernetes"
-  - "cdn"
   - "open-source"
+  - "postgres"
+  - "s3"
+  - "sentry"
+  - "statuscake"
+  - "traefik"
 
 title: "A Weather Analysis Service for Regular People and Meteorologists"
 description:
@@ -87,32 +92,22 @@ and enforce self imposed deadlines.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
 - <https://www.epa.gov/ceam/meteorological-data>
 - <https://www.ncdc.noaa.gov/>
-- <https://gunicorn.org/>
 - <https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad?gi=af837c58e3b>
 - <https://en.wikipedia.org/wiki/List_of_common_coordinate_transformations>
-- <https://golang.org/>
-- <https://kubernetes.io/>
 - <https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/>
-- <https://www.postgresql.org/>
-- <https://pypi.org/project/pq/>
-- <https://aws.amazon.com/s3/>
 - <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range>
-- <https://www.postgresql.org/docs/9.2/indexes-types.html>
 - <https://darksky.net/forecast>
-- <https://github.com/python/cpython>
-- <https://docs.traefik.io/>
-- <https://www.cloudflare.com/>
 - <https://en.wikipedia.org/wiki/Colocation_centre>
-- <https://github.com/minio/minio>
 - <https://en.wikipedia.org/wiki/Standard_RAID_levels>
-- <https://en.wikipedia.org/wiki/Ryzen>
 - <https://pve.proxmox.com/wiki/FAQ>
 - <https://rancher.com/docs/rke/latest/en/>
-- <https://sentry.io/welcome/>
 - <https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#merging-kubeconfig-files>
 - <https://en.wikipedia.org/wiki/Convective_available_potential_energy>
-- <https://www.statuscake.com/>
+
+## Libraries Used
+
+- <https://gunicorn.org/>
+- <https://pypi.org/project/pq/>
+- <https://github.com/python/cpython>

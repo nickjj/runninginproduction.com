@@ -11,13 +11,13 @@ tags:
   - "koa"
   - "node"
   - "vue"
+  - "open-source"
   - "mysql"
-  - "docker"
+  - "lets-encrypt"
   - "kubernetes"
   - "gcp"
-  - "lets-encrypt"
-  - "ci"
-  - "open-source"
+  - "docker"
+  - "circle-ci"
 
 title: "Daily Is a Browser Extension That Replaces Your New Tab with Dev News"
 description:

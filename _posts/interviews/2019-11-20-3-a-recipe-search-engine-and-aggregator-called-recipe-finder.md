@@ -10,8 +10,11 @@ category: "interviews"
 tags:
   - "flask"
   - "python"
-  - "sqlite"
+  - "bootstrap"
   - "heroku"
+  - "jquery"
+  - "sendgrid"
+  - "sqlite"
 
 title: "A Recipe Search Engine and Aggregator Called Recipe Finder"
 description:

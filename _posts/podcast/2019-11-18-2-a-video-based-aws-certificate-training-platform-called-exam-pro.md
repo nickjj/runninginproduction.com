@@ -13,11 +13,24 @@ category: "podcast"
 tags:
   - "rails"
   - "ruby"
-  - "postgres"
+  - "acm"
+  - "aurora"
   - "aws"
-  - "ci"
-  - "cdn"
-  - "payments"
+  - "cloudformation"
+  - "cloudfront"
+  - "cloudwatch"
+  - "codedeploy"
+  - "datadog"
+  - "docker"
+  - "ecs"
+  - "lambda"
+  - "postgres"
+  - "route53"
+  - "serverless"
+  - "ses"
+  - "sqs"
+  - "stripe"
+  - "websockets"
 
 title: "A Video Based AWS Certificate Training Platform Called Exam Pro"
 description:
@@ -82,59 +95,15 @@ AWS using Cloud9 IDE. Exam Pro has been running in production since late 2018.
 
 ## Links
 
-- <https://rubyonrails.org/>
-- <https://www.ruby-lang.org/en/>
-- <https://www.exampro.co/>
-- <https://en.wikipedia.org/wiki/Ruby_on_Rails>
-- <https://en.wikipedia.org/wiki/Systemd>
-- <https://github.com/puma/puma>
-- <https://en.wikipedia.org/wiki/Serverless_computing>
-- <https://en.wikipedia.org/wiki/Isomorphic_JavaScript>
 - <https://en.wikipedia.org/wiki/Domain-specific_language>
-- <https://guides.rubyonrails.org/engines.html>
+- <https://en.wikipedia.org/wiki/Center_for_Internet_Security>
+- <https://en.wikipedia.org/wiki/Application_performance_management>
+- <https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard>
+
+## Libraries Used
+
+- <https://github.com/puma/puma>
 - <https://github.com/ExamProCo/dilithium.js>
 - <https://github.com/rails/webpacker>
-- <https://edgeguides.rubyonrails.org/action_cable_overview.html>
-- <https://github.com/mperham/sidekiq>
-- <https://aws.amazon.com/sqs/>
-- <https://aws.amazon.com/kinesis/>
-- <https://aws.amazon.com/fargate/>
-- <https://aws.amazon.com/lambda/>
-- <https://aws.amazon.com/step-functions/>
 - <https://aws.amazon.com/sdk-for-ruby/>
 - <https://github.com/phstc/shoryuken>
-- <https://www.docker.com/>
-- <https://en.wikipedia.org/wiki/Center_for_Internet_Security>
-- <https://aws.amazon.com/inspector/>
-- <https://aws.amazon.com/cloud9/>
-- <https://www.postgresql.org/>
-- <https://aws.amazon.com/cloudformation/>
-- <https://aws.amazon.com/rds/aurora/>
-- <https://aws.amazon.com/systems-manager/>
-- <https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html>
-- <https://aws.amazon.com/cloudfront/>
-- <https://aws.amazon.com/waf/>
-- <https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html>
-- <https://aws.amazon.com/ecs/>
-- <https://aws.amazon.com/route53/>
-- <https://en.wikipedia.org/wiki/Failover>
-- <https://www.datadoghq.com/>
-- <https://en.wikipedia.org/wiki/Application_performance_management>
-- <https://aws.amazon.com/cloudwatch/>
-- <https://aws.amazon.com/ses/>
-- <https://aws.amazon.com/pinpoint/>
-- <https://www.terraform.io/>
-- <https://dev.to/>
-- <https://stripe.com/>
-- <https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard>
-- <https://aws.amazon.com/amazon-linux-2/>
-- <https://aws.amazon.com/ec2/instance-types/t2/>
-- <https://martinfowler.com/bliki/BlueGreenDeployment.html>
-- <https://aws.amazon.com/elasticbeanstalk/>
-- <https://aws.amazon.com/codebuild/>
-- <https://codeclimate.com/>
-- <https://aws.amazon.com/codepipeline/>
-- <https://aws.amazon.com/codedeploy/>
-- <https://capistranorb.com/>
-- <https://aws.amazon.com/api-gateway/>
-- <https://en.wikipedia.org/wiki/Macro_(computer_science)>

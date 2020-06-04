@@ -14,11 +14,13 @@ tags:
   - "phoenix"
   - "elixir"
   - "docker"
+  - "lets-encrypt"
+  - "nginx"
   - "oracle"
   - "postgres"
-  - "nginx"
-  - "lets-encrypt"
   - "redhat"
+  - "systemd"
+  - "vsphere"
 
 title: "Serving Medical University Employees, Health Officials and Students"
 description:
@@ -66,47 +68,23 @@ compatibility requirements. It's been running in production since 2017.
 
 ## Links
 
-- <https://www.erlang.org/>
-- <https://elixir-lang.org>
-- <https://hexdocs.pm/phoenix/overview.html>
 - <http://yaws.hyber.org/>
-- <https://github.com/ninenines/cowboy>
 - <http://nitrogenproject.com/>
-- <https://github.com/josefs/Gradualizer>
-- <https://github.com/OvermindDL1/gradualixir>
-- <https://github.com/jeremyjh/dialyxir>
-- <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
-- <https://www.oracle.com/database/>
-- <https://www.postgresql.org/>
 - <https://lynx.browser.org/>
-- <https://github.com/phoenixframework/phoenix_live_view>
-- <https://github.com/grych/drab>
-- <https://github.com/philss/floki>
-- <https://elixirforum.com/>
-- <https://github.com/whitfin/cachex>
-- <https://github.com/OvermindDL1/permission_ex>
-- <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
-- <https://www.docker.com/>
-- <https://docs.docker.com/compose/>
-- <https://www.nginx.com/>
-- <https://github.com/webpack/webpack>
 - <https://elixirforum.com/t/potentially-removing-brunch-from-the-phoenix-new-template-generator/2454>
-- <https://en.wikipedia.org/wiki/Microsoft_Exchange_Server>
 - <https://soundcloud.com/elixirtalk/episode-157-feat-chris-mccord-liveviewphoenix-part-deux>
-- <https://en.wikipedia.org/wiki/Systemd>
-- <https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>
-- <https://www.debian.org/>
-- <https://hexdocs.pm/phoenix/contexts.html>
-- <https://hexdocs.pm/mix/master/Mix.Tasks.Format.html>
-- <https://www.vmware.com/products/vsphere-hypervisor.html>
-- <https://github.com/bitwalker/distillery>
 - <https://elixirforum.com/t/pidfile-create-and-manage-a-pid-file-from-the-beam-process/7620>
 - <https://concourse-ci.org/>
 - <https://drone.io/>
-- <https://github.com/ansible/ansible>
 - <https://github.com/wg/wrk>
 - <https://github.com/JoeDog/siege>
-- <https://www.rust-lang.org/>
-- <https://en.wikipedia.org/wiki/C%2B%2B>
-- <https://ocaml.org/>
-- <https://freenode.net/>
+
+## Libraries Used
+
+- <https://github.com/josefs/Gradualizer>
+- <https://github.com/OvermindDL1/gradualixir>
+- <https://github.com/jeremyjh/dialyxir>
+- <https://github.com/grych/drab>
+- <https://github.com/philss/floki>
+- <https://github.com/whitfin/cachex>
+- <https://github.com/bitwalker/distillery>

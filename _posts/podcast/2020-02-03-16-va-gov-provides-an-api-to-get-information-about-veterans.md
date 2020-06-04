@@ -15,11 +15,18 @@ tags:
   - "ruby"
   - "node"
   - "react"
+  - "ansible"
+  - "aws"
+  - "cloudwatch"
+  - "elasticsearch"
+  - "jenkins"
+  - "open-source"
   - "postgres"
   - "redis"
-  - "aws"
-  - "ci"
-  - "open-source"
+  - "s3"
+  - "sentry"
+  - "sns"
+  - "terraform"
 
 title: "VA.gov Provides an API to Get Information about Veterans"
 description:
@@ -82,39 +89,19 @@ lot more.
 
 ## Links
 
-- <https://rubyonrails.org/>
-- <https://www.ruby-lang.org/en/>
 - <https://oddball.io/>
-- <https://en.wikipedia.org/wiki/User_experience>
-- <https://nodejs.org/en/>
 - <https://twitter.com/dhh>
 - <https://en.wikipedia.org/wiki/Agile_software_development>
-- <https://reactjs.org/>
 - <https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)>
 - <https://en.wikipedia.org/wiki/Edward_Snowden>
-- <https://swagger.io/>
 - <https://stimulusjs.org/>
 - <https://design.va.gov/>
 - <https://tailwindcss.com/>
-- <https://www.docker.com/>
 - <https://aws.amazon.com/govcloud-us/>
-- <https://en.wikipedia.org/wiki/Proxy_server>
-- <https://en.wikipedia.org/wiki/Reverse_proxy>
-- <https://www.postgresql.org/>
-- <https://redis.io/>
-- <https://www.terraform.io/>
-- <https://github.com/ansible/ansible>
-- <https://aws.amazon.com/s3/>
-- <https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html>
-- <https://aws.amazon.com/cloudwatch/>
-- <https://aws.amazon.com/sns/>
-- <https://aws.amazon.com/elasticsearch-service/>
-- <https://grafana.com/>
-- <https://sentry.io/welcome/>
-- <https://aws.amazon.com/amazon-linux-2/>
-- <https://jenkins.io/>
-- <https://aws.amazon.com/elasticloadbalancing/>
-- <https://github.com/rubocop-hq/rubocop>
 - <https://codeclimate.com/>
-- <https://github.com/vcr/vcr>
 - <https://youtu.be/NV3sBlRgzTI?t=35> (First Principles explained by Elon Musk)
+
+## Libraries Used
+
+- <https://github.com/rubocop-hq/rubocop>
+- <https://github.com/vcr/vcr>

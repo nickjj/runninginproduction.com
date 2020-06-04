@@ -13,11 +13,15 @@ category: "podcast"
 tags:
   - "rails"
   - "ruby"
+  - "digitalocean"
+  - "hatchbox"
+  - "honeybadger"
+  - "lets-encrypt"
+  - "nginx"
   - "postgres"
   - "redis"
-  - "nginx"
-  - "lets-encrypt"
-  - "digitalocean"
+  - "simple-analytics"
+  - "uptime-robot"
 
 title: "CovidNearMe Tracks Cases and Has Info for Citizens / Health Workers"
 description:
@@ -108,35 +112,26 @@ day.
 
 ## Links
 
-- <https://rubyonrails.org/>
-- <https://www.ruby-lang.org/en/>
 - <https://coronavirus.jhu.edu/map.html>
 - <https://github.com/CSSEGISandData/COVID-19>
 - <https://en.wikipedia.org/wiki/United_States_Department_of_Defense>
 - <https://jumpstartrails.com/>
 - <https://tailwindcss.com/>
-- <https://github.com/sparklemotion/mechanize>
 - <https://www.worldometers.info/coronavirus/>
+- <https://simpleanalytics.com/>
+- <https://gsuite.google.com>
+- <https://tuple.app/>
+- <https://guides.rubyonrails.org/v4.0/command_line.html>
+
+## Libraries Used
+
+- <https://github.com/sparklemotion/mechanize>
 - <https://github.com/zombocom/wicked>
 - <https://github.com/monterail/zip-codes>
 - <https://github.com/loureirorg/city-state>
 - <https://github.com/awesome-print/awesome_print>
-- <https://www.honeybadger.io/>
-- <https://www.hatchbox.io/>
-- <https://simpleanalytics.com/>
-- <https://gsuite.google.com>
-- <https://tuple.app/>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://guides.rubyonrails.org/v4.0/command_line.html>
 - <https://github.com/binarylogic/authlogic>
 - <https://github.com/puma/puma>
 - <https://github.com/rails/webpacker>
-- <https://www.postgresql.org/>
-- <https://redis.io/>
 - <https://github.com/mperham/sidekiq>
-- <https://en.wikipedia.org/wiki/Personal_data>
-- <https://cloud.google.com/>
-- <https://www.nginx.com/>
-- <https://letsencrypt.org/>
 - <https://github.com/phusion/passenger>
-- <https://uptimerobot.com/>

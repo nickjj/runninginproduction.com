@@ -14,13 +14,18 @@ tags:
   - "phoenix"
   - "elixir"
   - "react"
-  - "docker"
-  - "postgres"
+  - "acm"
   - "aws"
+  - "cloudfront"
+  - "docker"
+  - "ecs"
+  - "gitlab-ci"
+  - "lambda"
+  - "postgres"
+  - "route53"
+  - "s3"
   - "serverless"
-  - "ci"
-  - "cdn"
-  - "payments"
+  - "stripe"
 
 title: "ScrollKeeper Is a Collaboration Tool for Researchers"
 description:
@@ -101,42 +106,15 @@ whole lot more.
 
 ## Links
 
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
-- <https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-projects.html>
-- <https://aws.amazon.com/lambda/>
-- <https://hexdocs.pm/phoenix/contexts.html>
-- <https://hexdocs.pm/phoenix/channels.html>
-- <https://github.com/phoenixframework/phoenix_live_view>
-- <https://reactjs.org/>
-- <https://github.com/mozilla/pdf.js>
-- <https://aws.amazon.com/ecs/>
 - <https://spotinst.com/>
-- <https://aws.amazon.com/ec2/spot/>
-- <https://docs.gitlab.com/ee/ci/pipelines.html>
-- <https://aws.amazon.com/ecr/>
 - <https://github.com/localstack/localstack>
-- <https://aws.amazon.com/cognito/>
-- <https://www.postgresql.org/>
-- <https://aws.amazon.com/s3/>
-- <https://github.com/ex-aws/ex_aws>
-- <https://hexdocs.pm/elixir/GenServer.html>
-- <https://aws.amazon.com/api-gateway/>
-- <https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html>
-- <https://aws.amazon.com/cloudfront/>
-- <https://aws.amazon.com/certificate-manager/>
-- <https://aws.amazon.com/route53/>
-- <https://stripe.com/>
-- <https://stripe.com/payments/checkout>
-- <https://stripe.com/docs/strong-customer-authentication>
-- <https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html>
-- <https://aws.amazon.com/app-mesh/>
 - <https://www.envoyproxy.io/>
 - <https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar>
 - <https://github.com/samphilipd/rihanna>
-- <https://github.com/koudelka/honeydew>
-- <https://github.com/akira/exq>
-- <https://github.com/sorentwo/oban>
-- <https://en.wikipedia.org/wiki/Denial-of-service_attack>
 - <https://gust.com/launch>
-- <https://hexdocs.pm/plug/Plug.Upload.html>
+
+## Libraries Used
+
+- <https://github.com/mozilla/pdf.js>
+- <https://github.com/ex-aws/ex_aws>
+- <https://github.com/samsondav/rihanna>

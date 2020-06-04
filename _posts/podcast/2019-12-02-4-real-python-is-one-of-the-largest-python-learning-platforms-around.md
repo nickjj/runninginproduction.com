@@ -13,14 +13,19 @@ category: "podcast"
 tags:
   - "django"
   - "python"
+  - "circle-ci"
+  - "cloudflare"
   - "docker"
-  - "postgres"
-  - "redis"
+  - "freshworks"
   - "heroku"
   - "lets-encrypt"
-  - "cdn"
-  - "ci"
-  - "payments"
+  - "paddle"
+  - "papertrail"
+  - "postgres"
+  - "redis"
+  - "s3"
+  - "sendgrid"
+  - "vimeo"
 
 title: "Real Python Is One of the Largest Python Learning Platforms Around"
 description:
@@ -111,41 +116,17 @@ reviews which I found to be great. We covered a lot of ground in this episode!
 
 ## Links
 
-- <https://www.djangoproject.com/>
-- <https://www.python.org/>
 - <https://www.kickstarter.com/projects/721054906/real-python-advanced-web-development-featuring-dja>
 - [https://www.amazon.com/Python-Tricks-Buffet-Awesome-Features-ebook/dp/B0785Q7GSY](https://amzn.to/2DoyMNw)
-- <https://en.wikipedia.org/wiki/Content_management_system>
-- <https://docs.djangoproject.com/en/2.2/ref/applications/>
 - <https://en.wikipedia.org/wiki/Waterfall_model>
 - <https://en.wikipedia.org/wiki/Lawrence_Journal-World>
-- <https://docs.djangoproject.com/en/2.2/ref/contrib/admin/>
-- <https://www.heroku.com/>
-- <https://devcenter.heroku.com/articles/dataclips>
-- <https://channels.readthedocs.io/en/latest/>
-- <https://www.docker.com/>
-- <https://docs.docker.com/compose/>
 - <https://realpython.com/python-virtual-environments-a-primer/>
-- <https://www.postgresql.org/>
-- <https://redis.io/>
-- <https://circleci.com/>
+- <https://en.wikipedia.org/wiki/WebP>
+- <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>
+
+## Libraries Used
+
 - <https://github.com/celery/celery>
 - <https://github.com/coleifer/huey>
-- <https://www.papertrail.com/>
-- <https://www.freshworks.com/website-monitoring/>
-- <https://paddle.com/>
-- <https://stripe.com/partners/quaderno>
-- <https://sendgrid.com/>
-- <https://www.cloudflare.com/>
-- <https://en.wikipedia.org/wiki/WebP>
-- <https://en.wikipedia.org/wiki/HTTP/2>
 - <https://gunicorn.org/>
-- <https://devcenter.heroku.com/articles/dyno-types>
 - <https://github.com/evansd/whitenoise>
-- <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>
-- <https://en.wikipedia.org/wiki/Full-text_search>
-- <https://elements.heroku.com/addons>
-- <https://devcenter.heroku.com/articles/pipelines>
-- <https://github.com/features/code-review/>
-- <https://aws.amazon.com/s3/>
-- <https://vimeo.com/>

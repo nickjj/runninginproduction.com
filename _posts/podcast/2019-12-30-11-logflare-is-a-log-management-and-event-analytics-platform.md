@@ -13,12 +13,12 @@ category: "podcast"
 tags:
   - "phoenix"
   - "elixir"
+  - "bigquery"
+  - "cloudflare"
   - "docker"
-  - "postgres"
   - "gcp"
-  - "ci"
-  - "cdn"
   - "open-source"
+  - "postgres"
 
 title: "Logflare Is a Log Management and Event Analytics Platform"
 description:
@@ -80,27 +80,11 @@ limiter too. The app is open source on
 
 ## Links
 
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
-- <https://www.cloudflare.com/apps/>
-- <https://hexdocs.pm/logger/Logger.html>
-- <https://www.erlang.org/>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://github.com/phoenixframework/phoenix_live_view>
-- <https://docker.com>
 - <https://cloud.google.com/>
-- <https://cloud.google.com/container-registry/>
-- <https://cloud.google.com/compute/docs/instance-groups/>
-- <https://cloud.google.com/compute/docs/autoscaler/>
 - <https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups>
-- <https://cloud.google.com/load-balancing/>
-- <https://cloud.google.com/container-optimized-os/docs/>
-- <https://www.postgresql.org/>
-- <https://cloud.google.com/bigquery/>
-- <https://hexdocs.pm/ecto/Ecto.html>
-- <https://github.com/ninenines/cowboy>
 - <https://martinfowler.com/bliki/CanaryRelease.html>
 - <https://www.cloudflare.com/apps/developer/offers/google>
-- <https://hexdocs.pm/elixir/GenServer.html>
-- <https://hexdocs.pm/phoenix_pubsub/Phoenix.Tracker.html>
-- <https://redis.io/>
+
+## Libraries Used
+
+- <https://github.com/ninenines/cowboy>

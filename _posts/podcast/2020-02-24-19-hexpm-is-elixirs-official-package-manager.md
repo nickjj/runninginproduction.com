@@ -13,15 +13,20 @@ category: "podcast"
 tags:
   - "phoenix"
   - "elixir"
-  - "postgres"
-  - "docker"
-  - "kubernetes"
-  - "gcp"
   - "aws"
-  - "ci"
-  - "cdn"
-  - "payments"
+  - "docker"
+  - "fastly"
+  - "gcp"
+  - "github-actions"
+  - "kubernetes"
   - "open-source"
+  - "postgres"
+  - "rollbar"
+  - "s3"
+  - "ses"
+  - "stripe"
+  - "terraform"
+  - "varnish"
 
 title: "Hex.pm Is Elixir's Official Package Manager"
 description:
@@ -78,7 +83,7 @@ Stripe's SCA and more.
 - 30:59 -- Rollback is used for error reporting and Stripe is being used for billing
 - 31:05 -- For logging and metrics, that's all handled on Google Cloud and it's decent 
 - 33:05 -- Elixir Telemetry isn't really being used now, but they might use it later
-- 33:57 -- Stripe SCA support is being worked on  but it wasn't fun to re-write everything for it
+- 33:57 -- Stripe SCA support is being worked on but it wasn't fun to re-write everything for it
 - 38:10 -- What it's like to push code from development to production
 - 40:25 -- Dealing with database migrations isn't easy
 - 43:16 -- Putting your site into a read-only or maintenance mode during a migration
@@ -92,26 +97,7 @@ Stripe's SCA and more.
 
 ## Links
 
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
-- <https://hexdocs.pm/ecto/Ecto.html>
-- <https://hexdocs.pm/plug/readme.html>
-- <https://hexdocs.pm/phoenix/contexts.html>
-- <https://aws.amazon.com/s3/>
 - <https://diff.hex.pm/>
-- <https://github.com/phoenixframework/phoenix_live_view>
-- <https://www.postgresql.org/>
-- <https://docker.com/>
-- <https://kubernetes.io/>
-- <https://cloud.google.com/>
 - <https://en.wikipedia.org/wiki/Erlang_distribution>
-- <https://cloud.google.com/kubernetes-engine>
-- <https://www.fastly.com/>
-- <https://varnish-cache.org/intro/index.html#intro>
-- <https://aws.amazon.com/ses/>
-- <https://rollbar.com/>
-- <https://stripe.com/>
-- <https://stripe.com/docs/billing/migration/strong-customer-authentication>
-- <https://www.terraform.io/>
 - <https://www.tarsnap.com/>
 - <https://cloud.google.com/stackdriver>

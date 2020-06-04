@@ -12,13 +12,17 @@ category: "podcast"
 tags:
   - "koa"
   - "node"
-  - "mysql"
-  - "prisma"
-  - "apollo"
   - "react"
-  - "digitalocean"
+  - "apollo"
+  - "prisma"
   - "caprover"
+  - "digitalocean"
+  - "mysql"
+  - "nextjs"
   - "open-source"
+  - "postmark"
+  - "sentry"
+  - "zapier"
 
 title: "Openship Is a Shopify App for Drop Shipping and Order Fulfillment"
 description:
@@ -102,52 +106,22 @@ source projects well tested.
 - 49:08 -- Junaid got this far with 1 year's worth of experience which is very impressive
 - 52:00 -- Check out [openship.org]({{ page.guest_website }}) and its [open source repo](https://github.com/openshiporg/openship) on GitHub
 
-# Links
+## Links
 
 - <https://www.shopify.com/>
 - <https://en.wikipedia.org/wiki/Drop_shipping>
-- <https://koajs.com/>
-- <https://nodejs.org/en/>
-- <https://zapier.com/>
-- <https://www.google.com/sheets/about/>
-- <https://help.shopify.com/en/api/reference>
-- <https://reactjs.org/>
 - <https://www.shipbob.com/>
 - <https://www.shipmonk.com/>
 - <https://en.wikipedia.org/wiki/HMAC>
-- <https://graphql.org/>
 - <https://github.com/zeit/micro>
-- <https://github.com/Shopify/quilt>
-- <https://nextjs.org/>
-- <https://www.apollographql.com/docs/apollo-server/>
-- <https://www.prisma.io/>
 - <https://github.com/lerna/lerna>
-- <https://www.docker.com/>
-- <https://docs.docker.com/compose/>
-- <https://socket.io/>
 - <https://en.wikipedia.org/wiki/Third-party_logistics> (3PL)
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://caprover.com/>
-- <https://www.mysql.com/>
-- <https://en.wikipedia.org/wiki/Platform_as_a_service>
-- <https://en.wikipedia.org/wiki/Database_schema>
 - <https://github.com/prisma-labs/graphql-yoga>
-- <https://en.wikipedia.org/wiki/JSON_Web_Token>
-- <https://en.wikipedia.org/wiki/Representational_state_transfer>
-- <https://www.scala-lang.org/>
-- <https://en.wikipedia.org/wiki/Multitenancy>
-- <https://en.wikipedia.org/wiki/OAuth>
-- <https://sentry.io/welcome/>
-- <https://postmarkapp.com/>
 - <https://ifttt.com/>
-- <https://letsencrypt.org/>
-- <https://en.wikipedia.org/wiki/Serverless_computing>
 - <https://zeit.co/home>
-- <https://www.heroku.com/>
-- <https://en.wikipedia.org/wiki/CI/CD>
-- <https://github.com/features/actions>
-- <https://circleci.com/>
-- <https://en.wikipedia.org/wiki/Test-driven_development>
 - <https://www.cypress.io/>
 - <https://airbnb.io/enzyme/>
-- <https://uptimerobot.com/>
+
+## Libraries Used
+
+- <https://github.com/Shopify/quilt>

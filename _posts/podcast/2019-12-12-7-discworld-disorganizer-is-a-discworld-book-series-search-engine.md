@@ -12,11 +12,13 @@ guest_twitter: "dotnetcoreshow"
 category: "podcast"
 tags:
   - "dotnet-core"
-  - "c-sharp"
-  - "sqlite"
+  - "angularjs"
+  - "appveyor"
   - "azure"
-  - "ci"
+  - "c-sharp"
+  - "iis"
   - "open-source"
+  - "sqlite"
 
 title: "Discworld Disorganizer Is a Discworld Book Series Search Engine"
 description:
@@ -89,44 +91,13 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
 
 ## Links
 
-- <https://docs.microsoft.com/en-us/dotnet/core/>
-- <https://angularjs.org/>
 - <https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0>
 - <https://docs.microsoft.com/en-us/ef/core/>
-- <https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>
-- <https://en.wikipedia.org/wiki/F_Sharp_(programming_language)>
-- <https://en.wikipedia.org/wiki/Visual_Basic_.NET>
-- <https://en.wikipedia.org/wiki/Bytecode>
-- <https://en.wikipedia.org/wiki/Functional_programming>
 - <https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming>
 - <https://en.wikipedia.org/wiki/Discworld>
-- <https://en.wikipedia.org/wiki/Representational_state_transfer>
-- <https://swagger.io/>
 - <https://en.wikipedia.org/wiki/Open_API>
-- <https://curl.haxx.se/>
-- <https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>
 - <https://en.wikipedia.org/wiki/HATEOAS>
-- <https://azure.microsoft.com/en-us/>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://en.wikipedia.org/wiki/Internet_Information_Services>
-- <https://en.wikipedia.org/wiki/Active_Server_Pages>
-- <https://www.sqlite.org/index.html>
-- <https://en.wikipedia.org/wiki/Object-relational_mapping>
-- <https://github.com/StackExchange/Dapper>
 - <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/>
-- <https://docker.com>
-- <https://docs.docker.com/compose/>
-- <https://azure.microsoft.com/en-us/free/free-account-faq/>
 - <https://en.wikipedia.org/wiki/Field-programmable_gate_array>
-- <https://en.wikipedia.org/wiki/Ingress_filtering>
-- <https://en.wikipedia.org/wiki/Infrastructure_as_a_service>
-- <https://en.wikipedia.org/wiki/Platform_as_a_service>
 - <https://en.wikipedia.org/wiki/PKCS_12>
 - <https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow>
-- <https://www.appveyor.com/>
-- <https://azure.microsoft.com/en-us/services/devops/pipelines/>
-- <https://dotnet.microsoft.com/download>
-- <https://code.visualstudio.com/>
-- <https://www.jetbrains.com/rider/>
-- <https://www.jetbrains.com/resharper/>
-- <https://en.wikipedia.org/wiki/Domain-driven_design>

@@ -16,7 +16,8 @@ tags:
   - "vue"
   - "firebase"
   - "python-anywhere"
-  - "payments"
+  - "stripe"
+  - "twilio"
 
 title: "A Cryptocurrency Powered E-commerce Store Called Strmline"
 description:
@@ -76,18 +77,16 @@ and more.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
 - <https://en.wikipedia.org/wiki/Cryptocurrency>
 - <https://www.youtube.com/channel/UC-QDfvrRIDB6F0bIO4I4HkQ> (Pretty Printed)
-- <https://firebase.google.com/>
-- <https://vuejs.org/>
-- <https://flask-jwt-extended.readthedocs.io/en/stable/>
-- <https://github.com/axios/axios>
-- <https://github.com/ethereum/web3.py>
 - <https://ethereum.org/>
-- <https://github.com/mattupstate/flask-mail>
-- <https://www.pythonanywhere.com/>
 - <https://www.twilio.com/>
 - <https://github.com/SeleniumHQ/selenium>
 - <https://en.wikipedia.org/wiki/WebP>
+
+## Libraries Used
+
+- <https://flask-jwt-extended.readthedocs.io/en/stable/>
+- <https://github.com/axios/axios>
+- <https://github.com/ethereum/web3.py>
+- <https://github.com/mattupstate/flask-mail>

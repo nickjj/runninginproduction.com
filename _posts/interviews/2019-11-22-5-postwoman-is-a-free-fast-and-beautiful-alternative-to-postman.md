@@ -9,15 +9,16 @@ guest_twitter: "liyasthomas"
 category: "interviews"
 tags:
   - "nuxt"
-  - "docker"
-  - "netlify"
-  - "firebase"
-  - "digitalocean"
-  - "nginx"
-  - "lets-encrypt"
   - "centos"
-  - "ci"
+  - "digitalocean"
+  - "docker"
+  - "firebase"
+  - "lets-encrypt"
+  - "netlify"
+  - "nginx"
   - "open-source"
+  - "statuspage"
+  - "travis-ci"
 
 title: "Postwoman Is a Free, Fast and Beautiful Alternative to Postman"
 description:
@@ -257,7 +258,7 @@ We have an email subscription list. This helps to validate real users but it's
 also for us to build an internal community of quality devs for future
 reference.
 
-We use [MailChimp](https://mailchimp.com/) to handle our email subscriptions.
+We use [Mailchimp](https://mailchimp.com/) to handle our email subscriptions.
 We also use Netlify and Firebase as other SAAS dependencies but we covered that
 earlier.
 
@@ -332,7 +333,7 @@ the Docker Hub.
 Every backup is identified with the latest commit hash.
 
 Backups are automated and in the case of a failure the last known good backup
-will take priority. These are available because we save the the last successful
+will take priority. These are available because we save the last successful
 production and preview builds in AWS. This helps us rollback if anything goes
 wrong and that approach is useful since it's an open source project.
 

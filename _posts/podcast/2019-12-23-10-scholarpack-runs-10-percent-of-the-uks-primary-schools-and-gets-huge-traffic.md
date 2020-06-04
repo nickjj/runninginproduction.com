@@ -13,13 +13,21 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "docker"
-  - "postgres"
   - "aws"
-  - "fargate"
   - "centos"
-  - "ci"
-  - "cdn"
+  - "cloudfront"
+  - "cloudwatch"
+  - "datadog"
+  - "docker"
+  - "ecs"
+  - "fargate"
+  - "jenkins"
+  - "postgres"
+  - "rds"
+  - "redis"
+  - "slack"
+  - "terraform"
+  - "zope"
 
 title: "ScholarPack Runs 10% of the UK's Primary Schools and Gets Huge Traffic"
 description:
@@ -120,62 +128,26 @@ aggressively using feature flags and so much more.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
-- <https://www.zope.org/>
 - <https://en.wikipedia.org/wiki/Single_responsibility_principle>
-- <https://en.wikipedia.org/wiki/Object-relational_mapping>
-- <https://www.sqlalchemy.org/>
-- <https://github.com/psf/black>
-- <https://github.com/PyCQA/flake8>
 - <https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks>
-- <https://docs.docker.com/compose/>
-- <https://jenkins.io/>
-- <https://en.wikipedia.org/wiki/CI/CD>
 - <https://www.getpostman.com/>
 - <https://aws.amazon.com/fargate/>
 - <https://docker.com>
 - <https://flask-sqlalchemy.palletsprojects.com/en/2.x/binds/>
-- <https://github.com/pgbouncer/pgbouncer>
 - <https://en.wikipedia.org/wiki/Universally_unique_identifier>
-- <https://en.wikipedia.org/wiki/OAuth>
-- <https://www.postgresql.org/>
-- <https://en.wikipedia.org/wiki/Point-in-time_recovery>
-- <https://aws.amazon.com/>
-- <https://cloud.google.com/>
-- <https://kubernetes.io/>
-- <https://www.palletsprojects.com/p/jinja/>
-- <https://en.wikipedia.org/wiki/Ajax_(programming)>
-- <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html>
-- <https://redis.io/>
-- <https://aws.amazon.com/cloudfront/>
-- <https://en.wikipedia.org/wiki/Secure_cookie>
-- <https://en.wikipedia.org/wiki/JSON_Web_Token>
-- <https://github.com/celery/celery>
-- <https://www.rabbitmq.com/>
-- <https://www.vmware.com/>
 - <https://en.wikipedia.org/wiki/Benefit_corporation>
-- <https://wiki.centos.org/>
 - <https://aws.amazon.com/rds/>
-- <https://aws.amazon.com/eks/>
-- <https://aws.amazon.com/ecs/>
-- <https://cloud.google.com/kubernetes-engine/>
 - <https://github.com/helm/helm>
-- <https://www.terraform.io/>
-- <https://www.datadoghq.com/>
 - <https://www.elastic.co/what-is/elk-stack>
-- <https://aws.amazon.com/cloudwatch/>
-- <https://www.atlassian.com/software/jira>
-- <https://aws.amazon.com/ecr/>
-- <https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html>
-- <https://www.scrum.org/resources/what-is-a-scrum-master>
-- <https://en.wikipedia.org/wiki/Feature_toggle>
-- <https://flask-restplus.readthedocs.io/en/stable/>
-- <https://github.com/zalando/connexion>
 - <https://en.wikipedia.org/wiki/Open_API>
-- <https://swagger.io/>
-- <https://github.com/pypa/pipenv>
-- <https://en.wikipedia.org/wiki/RAID>
 - <https://www.thoughtworks.com/insights/blog/microservices-nutshell>
 - <https://martinfowler.com/articles/break-monolith-into-microservices.html>
 - <https://martinfowler.com/bliki/StranglerFigApplication.html>
+
+## Libraries Used
+
+- <https://www.zope.org/>
+- <https://www.sqlalchemy.org/>
+- <https://github.com/psf/black>
+- <https://github.com/pgbouncer/pgbouncer>
+- <https://github.com/zalando/connexion>

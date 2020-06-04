@@ -15,17 +15,22 @@ tags:
   - "golang"
   - "laravel"
   - "php"
+  - "aws"
+  - "circle-ci"
+  - "cloudflare"
+  - "datadog"
+  - "digitalocean"
   - "docker"
   - "influxdb"
-  - "postgres"
   - "kubernetes"
-  - "serverless"
-  - "aws"
-  - "digitalocean"
+  - "lambda"
   - "lets-encrypt"
+  - "postgres"
+  - "sendgrid"
+  - "sentry"
+  - "serverless"
+  - "stripe"
   - "ubuntu"
-  - "ci"
-  - "cdn"
 
 title: "Load Balance, Secure and Observe Your Web Applications with Nova ADC"
 description:
@@ -146,43 +151,15 @@ this?". I'm going to start playing with it over the holidays for my own sites.*
              is the load balancer service that we talked about today, and you can also find
              them [@{{ page.guest_twitter }}](https://twitter.com/{{ page.guest_twitter }}) on Twitter
 
-# Links
+## Links
 
-- <https://golang.org/>
-- <https://kubernetes.io/>
-- <https://www.php.net/>
-- <https://laravel.com/>
 - <https://laracasts.com/>
-- <https://en.wikipedia.org/wiki/Serverless_computing>
-- <https://aws.amazon.com/lambda/>
-- <https://www.docker.com/>
-- <https://www.vagrantup.com/>
 - <https://en.wikipedia.org/wiki/Time_series_database>
-- <https://www.influxdata.com/>
 - <https://en.wikipedia.org/wiki/Application_delivery_controller>
-- <https://aws.amazon.com/>
-- <https://cloud.google.com/>
-- <https://en.wikipedia.org/wiki/Denial-of-service_attack>
-- <https://en.wikipedia.org/wiki/SQL_injection>
-- <https://en.wikipedia.org/wiki/Cross-site_scripting>
 - <https://en.wikipedia.org/wiki/Geo-fence>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://aws.amazon.com/elasticloadbalancing/>
-- <https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html>
 - <https://en.wikipedia.org/wiki/Web_application_firewall>
-- <https://azure.microsoft.com/en-us/>
-- <https://en.wikipedia.org/wiki/Ubuntu>
 - <https://martinfowler.com/bliki/BlueGreenDeployment.html>
-- <https://circleci.com/>
-- <https://sentry.io/welcome/>
-- <https://www.datadoghq.com/>
-- <https://github.com/statsd/statsd>
 - <https://en.wikipedia.org/wiki/Timeline_of_Instagram>
-- <https://www.postgresql.org/>
-- <https://en.wikipedia.org/wiki/Application_firewall>
-- <https://stripe.com/>
-- <https://sendgrid.com/>
-- <https://letsencrypt.org/>
 - <https://i.pinimg.com/originals/bb/98/e0/bb98e03ac44d2fa7b07cfd364eab6e2e.jpg>
 - <https://en.wikipedia.org/wiki/Heartbleed>
 - <https://12factor.net/>

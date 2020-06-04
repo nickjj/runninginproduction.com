@@ -13,8 +13,10 @@ category: "podcast"
 tags:
   - "phoenix"
   - "elixir"
+  - "gigalixir"
   - "postgres"
-  - "payments"
+  - "slack"
+  - "stripe"
 
 title: "Get to Know Your Coworkers through Simple QA with This Slack App"
 description:
@@ -77,25 +79,17 @@ of features that you get from using Gigalixir to host your Elixir projects.
 
 ## Links
 
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
-- <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
-- <https://slack.com/>
-- <https://hexdocs.pm/elixir/Task.html>
 - <https://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections>
 - <https://api.slack.com/messaging/webhooks>
-- <https://github.com/BlakeWilliams/Elixir-Slack>
 - <https://adamconrad.dev/blog/verifying-request-signatures-in-elixir-phoenix/>
-- <https://elixirforum.com/>
 - <https://elixir-lang.slack.com/>
-- <https://en.wikipedia.org/wiki/Domain-driven_design>
-- <https://stripe.com/>
 - <https://github.com/code-corps/stripity_stripe>
 - <https://github.com/h4cc/awesome-elixir>
 - <https://www.postgresql.org/>
-- <https://docker.com/>
-- <https://gigalixir.com/>
-- <https://letsencrypt.org/>
-- <https://slack.com/apps>
 - <https://twitter.com/josevalim>
+
+## Libraries Used
+
+- <https://github.com/BlakeWilliams/Elixir-Slack>
+- <https://github.com/code-corps/stripity_stripe>
 - <https://github.com/rrrene/credo>

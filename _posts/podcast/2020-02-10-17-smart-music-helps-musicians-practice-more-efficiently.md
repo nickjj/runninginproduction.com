@@ -12,18 +12,27 @@ category: "podcast"
 tags:
   - "rails"
   - "ruby"
+  - "graphql"
   - "phoenix"
   - "elixir"
+  - "aurora"
+  - "aws"
+  - "braintree"
   - "dotnet-core"
-  - "react"
+  - "eks"
+  - "github-actions"
+  - "influxdb"
+  - "jenkins"
+  - "kubernetes"
+  - "new-relic"
   - "nginx"
   - "postgres"
-  - "influxdb"
+  - "react"
   - "redis"
-  - "aws"
-  - "kubernetes"
-  - "ci"
-  - "payments"
+  - "s3"
+  - "sentry"
+  - "ses"
+  - "victorops"
 
 title: "Smart Music Helps Musicians Practice More Efficiently"
 description:
@@ -96,51 +105,19 @@ databases with Rails, InfluxDB, GitHub Actions and tons more.
 
 ## Links
 
-- <https://rubyonrails.org/>
-- <https://www.ruby-lang.org/en/>
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
-- <https://docs.microsoft.com/en-us/dotnet/core/>
 - <https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice>
 - <https://www.w3.org/2017/12/musicxml31/>
-- <https://reactjs.org/>
 - <https://emberjs.com/>
-- <https://graphql.org/>
-- <https://en.wikipedia.org/wiki/Test-driven_development>
-- <https://docker.com/>
-- <https://kubernetes.io/>
-- <https://www.postgresql.org/>
-- <https://redis.io/>
-- <https://www.influxdata.com/>
-- <https://aws.amazon.com/elasticache/>
-- <https://nginx.org/>
-- <https://aws.amazon.com/elasticbeanstalk/>
-- <https://aws.amazon.com/elasticloadbalancing/>
-- <https://aws.amazon.com/rds/aurora/>
 - <https://guides.rubyonrails.org/active_record_multiple_databases.html>
-- <https://hexdocs.pm/phoenix/contexts.html>
-- <https://en.wikipedia.org/wiki/Domain-driven_design>
-- <https://github.com/ex-aws/ex_aws>
-- <https://aws.amazon.com/s3/>
-- <https://aws.amazon.com/eks/>
-- <https://aws.amazon.com/ecr/>
-- <https://aws.amazon.com/ecs/>
-- <https://aws.amazon.com/app-mesh/>
-- <https://aws.amazon.com/cloudfront/>
-- <https://aws.amazon.com/codedeploy/>
-- <https://github.com/features/actions>
-- <https://jenkins.io/>
 - <https://github.com/dependabot>
-- <https://newrelic.com/>
 - <https://www.elastic.co/what-is/elk-stack>
-- <https://sentry.io/welcome/>
-- <https://www.braintreepayments.com/>
-- <https://aws.amazon.com/ses/>
-- <https://github.com/absinthe-graphql/absinthe>
-- <https://victorops.com/>
 - <http://nginx.org/en/docs/http/ngx_http_access_module.html>
 - <https://martinfowler.com/bliki/BlueGreenDeployment.html>
 - <https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping>
-- <https://github.com/graphql/dataloader>
-- <https://hexdocs.pm/ecto/Ecto.Multi.html>
 - <https://sourcehut.org/>
+
+## Libraries Used
+
+- <https://github.com/ex-aws/ex_aws>
+- <https://github.com/absinthe-graphql/absinthe>
+- <https://github.com/graphql/dataloader>

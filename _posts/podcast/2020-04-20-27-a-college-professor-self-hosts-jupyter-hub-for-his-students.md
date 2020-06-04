@@ -12,13 +12,13 @@ guest_twitter: "pkazarinoff"
 category: "podcast"
 tags:
   - "python"
-  - "sqlite"
-  - "nginx"
-  - "lets-encrypt"
-  - "digitalocean"
-  - "ubuntu"
   - "ansible"
+  - "digitalocean"
+  - "lets-encrypt"
+  - "nginx"
   - "open-source"
+  - "sqlite"
+  - "ubuntu"
 
 title: "A College Professor Self Hosts Jupyter Hub for His Students"
 description:
@@ -81,18 +81,12 @@ make mistakes along the way.
 ## Links
 
 - <https://github.com/jupyterhub/jupyterhub>
-- <https://www.python.org/>
 - <https://jupyter.org/>
-- <https://en.wikipedia.org/wiki/OAuth#OAuth_2.0>
 - <https://numfocus.org/>
-- <https://www.sqlite.org/index.html>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://nginx.org/en/>
-- <https://github.com/tornadoweb/tornado>
-- <https://letsencrypt.org/>
-- <https://github.com/certbot/certbot>
-- <https://en.wikipedia.org/wiki/Ubuntu>
 - <https://www.putty.org/>
-- <https://github.com/ansible/ansible>
 - <https://professorkazarinoff.github.io/jupyterhub-ENGR114-2019Q4/>
 - <https://github.com/ProfessorKazarinoff/jupyterhub-ENGR114-2020Q1>
+
+## Libraries Used
+
+- <https://github.com/tornadoweb/tornado>

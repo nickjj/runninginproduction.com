@@ -15,15 +15,17 @@ tags:
   - "c-sharp"
   - "react"
   - "jekyll"
-  - "elasticsearch"
-  - "redis"
-  - "nginx"
-  - "windows"
-  - "ubuntu"
   - "ansible"
+  - "elasticsearch"
+  - "iis"
+  - "monitis"
+  - "nginx"
   - "ovh"
-  - "ci"
-  - "payments"
+  - "redis"
+  - "stripe"
+  - "team-city"
+  - "ubuntu"
+  - "windows"
 
 title: "Easily Find, Reproduce and Track Your JavaScript Errors with TrackJS"
 description:
@@ -106,26 +108,14 @@ cloud servers and using Ansible to configure all of the servers.
 
 ## Links
 
-- <https://dotnet.microsoft.com/>
 - <https://docs.microsoft.com/en-us/dotnet/core/>
-- <https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>
-- <https://nginx.org/en/>
-- <https://redis.io/>
-- <https://dotnet.microsoft.com/apps/aspnet/mvc>
-- <https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>
-- <https://www.elastic.co/>
 - <https://dotnet.microsoft.com/apps/aspnet>
-- <https://reactjs.org/>
-- <https://github.com/defunkt/jquery-pjax>
 - <https://github.com/turbolinks/turbolinks>
-- <https://github.com/jekyll/jekyll>
-- <https://en.wikipedia.org/wiki/Internet_Information_Services>
 - <https://en.wikipedia.org/wiki/Round-robin_DNS>
-- <https://www.ovh.com/world/>
-- <https://github.com/ansible/ansible>
-- <https://en.wikipedia.org/wiki/Ubuntu>
 - <https://en.wikipedia.org/wiki/Windows_Server_2016>
 - <https://www.jetbrains.com/teamcity/>
-- <https://stripe.com/>
-- <https://stripe.com/docs/strong-customer-authentication>
 - <https://www.monitis.com/>
+
+## Libraries Used
+
+- <https://github.com/defunkt/jquery-pjax>

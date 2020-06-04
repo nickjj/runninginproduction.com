@@ -13,12 +13,21 @@ tags:
   - "django"
   - "python"
   - "react"
-  - "postgres"
-  - "redis"
   - "aws"
-  - "ci"
-  - "payments"
-  - "cdn"
+  - "cloudflare"
+  - "codedeploy"
+  - "datadog"
+  - "graphql"
+  - "mailgun"
+  - "postgres"
+  - "rds"
+  - "redis"
+  - "sentry"
+  - "sns"
+  - "sqs"
+  - "stripe"
+  - "terraform"
+  - "twilio"
 
 title: "Zego Lets You Easily Buy Insurance by the Hour"
 description:
@@ -102,38 +111,20 @@ achieving 99.99% uptime and so much more.
 
 ## Links
 
-- <https://www.djangoproject.com/>
-- <https://www.python.org/>
 - <https://reactnative.dev/>
-- <https://docs.djangoproject.com/en/3.0/ref/contrib/admin/>
-- <https://stripe.com/>
 - <https://en.wikipedia.org/wiki/Underwriting>
-- <https://graphql.org/>
-- <https://docs.graphene-python.org/projects/django/en/latest/>
 - <https://relay.dev/>
 - <https://www.apollographql.com/>
-- <https://aws.amazon.com/rds/>
-- <https://aws.amazon.com/redshift/>
 - <https://en.wikipedia.org/wiki/Column-oriented_DBMS>
 - <https://www.stitchdata.com/>
 - <https://fivetran.com/>
 - <https://blog.getdbt.com/what--exactly--is-dbt-/>
-- <https://redis.io/>
-- <https://github.com/celery/celery>
-- <https://kubernetes.io/>
-- <https://aws.amazon.com/lambda/>
-- <https://aws.amazon.com/eks/>
-- <https://aws.amazon.com/sqs/>
-- <https://aws.amazon.com/sns/>
-- <https://aws.amazon.com/codedeploy/>
-- <https://www.terraform.io/>
 - <https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html>
-- <https://www.cloudflare.com/>
 - <https://www.imgix.com/solutions/resizing-and-cropping>
-- <https://www.mailgun.com/>
-- <https://www.twilio.com/>
-- <https://sentry.io/>
-- <https://www.datadoghq.com/>
+
+## Libraries Used
+
+- <https://docs.graphene-python.org/projects/django/en/latest/>
+- <https://github.com/celery/celery>
 - <https://github.com/joealcorn/laboratory>
 - <https://github.com/KristianOellegaard/django-health-check>
-- <https://www.pagerduty.com/>

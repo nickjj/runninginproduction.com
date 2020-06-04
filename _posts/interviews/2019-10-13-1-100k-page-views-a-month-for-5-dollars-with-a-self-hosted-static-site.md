@@ -11,12 +11,13 @@ category: "interviews"
 tags:
   - "static-site"
   - "jekyll"
-  - "nginx"
+  - "ansible"
+  - "digitalocean"
   - "lets-encrypt"
   - "namesilo"
-  - "digitalocean"
+  - "nginx"
   - "ubuntu"
-  - "ansible"
+  - "uptime-robot"
 
 title: "100k+ Page Views a Month for $5 with a Self Hosted Static Site"
 description:

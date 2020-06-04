@@ -14,13 +14,22 @@ tags:
   - "phoenix"
   - "elixir"
   - "vue"
-  - "postgres"
+  - "cloudflare"
   - "docker"
-  - "kubernetes"
+  - "elasticsearch"
   - "gcp"
-  - "ci"
-  - "cdn"
-  - "payments"
+  - "gitlab-ci"
+  - "grafana"
+  - "kubernetes"
+  - "neo4j"
+  - "postgres"
+  - "prometheus"
+  - "rabbitmq"
+  - "sentry"
+  - "stripe"
+  - "timber"
+  - "uptime-robot"
+  - "webpack"
 
 title: "6DOS Helps You Explore Your Personal Network"
 description:
@@ -107,39 +116,18 @@ design and scaling that apply to any web framework.
 
 ## Links
 
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
 - <https://en.wikipedia.org/wiki/Six_degrees_of_separation>
-- <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
-- <https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-projects.html>
-- <https://en.wikipedia.org/wiki/Domain-driven_design>
-- <https://stripe.com/>
-- <https://cloud.google.com/>
-- <https://www.postgresql.org/>
-- <https://neo4j.com/>
-- <https://www.elastic.co/>
 - <https://neo4j.com/developer/cypher-basics-i/>
-- <https://github.com/florinpatrascu/bolt_sips>
 - <https://en.wikipedia.org/wiki/Directed_acyclic_graph>
-- <https://vuejs.org/>
-- <https://www.rabbitmq.com/>
-- <https://hexdocs.pm/phoenix/contexts.html>
-- <https://kubernetes.io/>
-- <https://webpack.js.org/>
-- <https://docker.com/>
-- <https://github.com/bitwalker/distillery>
 - <https://kubernetes.io/docs/concepts/workloads/pods/pod/>
-- <https://gitlab.com/>
 - <https://github.com/keel-hq/keel>
-- <https://helm.sh/>
 - <https://github.com/jetstack/cert-manager>
-- <https://www.cloudflare.com/>
 - <https://github.com/bitwalker/alpine-elixir>
-- <https://prometheus.io/>
-- <https://grafana.com/>
-- <https://sentry.io/>
-- <https://github.com/codedge-llc/pigeon>
-- <https://uptimerobot.com/>
-- <https://timber.io/>
 - <https://github.com/wercker/stern>
 - <https://www.weave.works/oss/scope/>
+
+## Libraries Used
+
+- <https://github.com/florinpatrascu/bolt_sips>
+- <https://github.com/bitwalker/distillery>
+- <https://github.com/codedge-llc/pigeon>

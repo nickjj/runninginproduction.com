@@ -13,11 +13,14 @@ category: "podcast"
 tags:
   - "django"
   - "python"
+  - "aws"
+  - "bootstrap"
+  - "heroku"
+  - "open-source"
   - "postgres"
   - "redis"
-  - "heroku"
-  - "aws"
-  - "open-source"
+  - "s3"
+  - "sentry"
 
 title: "Building a Site Around Thousands of Diary Entries from Samuel Pepys"
 description:
@@ -76,22 +79,15 @@ much more. The site is [open source](https://github.com/philgyford/pepysdiary).
 
 ## Links
 
-- <https://www.djangoproject.com/>
-- <https://www.python.org/>
 - <https://www.gutenberg.org/>
 - <https://github.com/ESWAT/john-carmack-plan-archive/tree/master/by_day>
 - <https://en.wikipedia.org/wiki/Movable_Type>
-- <https://getbootstrap.com/>
+- <https://docs.djangoproject.com/en/3.0/ref/contrib/postgres/search/>
+- <https://devcenter.heroku.com/articles/django-assets>
+
+## Libraries Used
+
 - <https://github.com/django/django-contrib-comments>
-- <https://docs.djangoproject.com/en/3.0/ref/templates/language/>
 - <https://d3js.org/>
 - <https://leafletjs.com/>
-- <https://www.heroku.com/>
-- <https://www.postgresql.org/>
-- <https://redis.io/>
-- <https://en.wikipedia.org/wiki/Full-text_search>
-- <https://docs.djangoproject.com/en/3.0/ref/contrib/postgres/search/>
-- <https://sentry.io/welcome/>
-- <https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html>
-- <https://devcenter.heroku.com/articles/django-assets>
 - <https://django-storages.readthedocs.io/en/latest/>

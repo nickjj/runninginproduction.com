@@ -12,8 +12,10 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "mongodb"
+  - "app-engine"
   - "gcp"
+  - "jquery"
+  - "mongodb"
 
 title: "Cover Tuner Uses NLP to Help Improve Your Cover Letters"
 description:
@@ -79,25 +81,19 @@ Python app using Google App Engine and more.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
 - <https://en.wikipedia.org/wiki/Cover_letter>
 - <https://en.wikipedia.org/wiki/Natural_language_processing>
-- <https://www.nltk.org/>
-- <https://spacy.io/>
-- <https://jinja.palletsprojects.com/>
-- <https://jquery.com/>
-- <https://en.wikipedia.org/wiki/Ajax_(programming)>
-- <https://gunicorn.org/>
-- <https://cloud.google.com/appengine>
-- <https://www.mongodb.com/cloud/atlas>
-- <https://cloud.google.com/storage>
 - <https://www.mongodb.com/products/compass>
-- <https://cloud.google.com/scheduler>
-- <https://cloud.google.com/functions>
-- <https://pymongo.readthedocs.io/en/stable/>
 - <https://www.wufoo.com/>
-- <https://github.com/wtforms/wtforms>
-- <https://github.com/pytest-dev/pytest>
 - <https://cloud.google.com/appengine/docs/standard/python/config/appref>
 - <https://www.spyder-ide.org/>
+
+## Libraries Used
+
+- <https://www.nltk.org/>
+- <https://spacy.io/>
+- <https://jquery.com/>
+- <https://gunicorn.org/>
+- <https://pymongo.readthedocs.io/en/stable/>
+- <https://github.com/wtforms/wtforms>
+- <https://github.com/pytest-dev/pytest>

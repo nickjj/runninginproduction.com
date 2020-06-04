@@ -13,13 +13,20 @@ category: "podcast"
 tags:
   - "express"
   - "node"
-  - "angular"
-  - "postgres"
-  - "mongodb"
-  - "redis"
+  - "angularjs"
+  - "bitbucket-pipelines"
+  - "datadog"
   - "digitalocean"
+  - "mongodb"
+  - "pingdom"
+  - "postgres"
+  - "redis"
+  - "s3"
+  - "sendgrid"
+  - "sentry"
+  - "stripe"
   - "ubuntu"
-  - "payments"
+  - "websockets"
 
 title: "Kernl.us Helps WordPress Plugin and Theme Developers Manage Updates"
 description:
@@ -94,33 +101,14 @@ whole lot more.
 
 ## Links
 
-- <https://nodejs.org/en/about/>
-- <https://expressjs.com/>
 - <https://wordpress.com/>
-- <https://www.mongodb.com/>
-- <https://redis.io/>
-- <https://angularjs.org/>
 - <http://boringtechnology.club/>
 - <https://twitter.com/tjholowaychuk>
 - <http://es6-features.org/>
-- <https://www.postgresql.org/>
-- <https://www.typescriptlang.org/>
 - <https://trello.com/en-US>
 - [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://stripe.com/>
-- <http://pusher.com/>
-- <https://sendgrid.com/>
-- <https://sentry.io/>
 - <https://pm2.keymetrics.io/>
-- <https://www.gentoo.org/>
-- <https://en.wikipedia.org/wiki/Ubuntu>
-- <https://aws.amazon.com/s3/>
-- <https://www.digitalocean.com/products/spaces/>
-- <https://gruntjs.com/>
-- <https://bitbucket.org/product/features/pipelines>
-- <https://github.com/ansible/ansible>
-- <https://www.pingdom.com/>
-- <https://www.digitalocean.com/products/monitoring/>
-- <https://www.datadoghq.com/>
-- <https://www.digitalocean.com/products/block-storage/>
+
+## Libraries Used
+
 - <https://www.npmjs.com/package/pg>

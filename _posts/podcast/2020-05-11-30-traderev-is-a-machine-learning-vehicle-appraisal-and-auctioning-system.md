@@ -13,12 +13,20 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "docker"
-  - "mysql"
-  - "dynamodb"
   - "aws"
-  - "ci"
-  - "payments"
+  - "cloudwatch"
+  - "docker"
+  - "dynamodb"
+  - "ecs"
+  - "fargate"
+  - "jenkins"
+  - "lambda"
+  - "mysql"
+  - "pagerduty"
+  - "python"
+  - "rds"
+  - "stripe"
+  - "terraform"
 
 title: "TradeRev Is a Machine Learning Vehicle Appraisal / Auctioning System"
 description:
@@ -71,31 +79,19 @@ site, treating your infrastructure as code and more.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
 - <https://en.wikipedia.org/wiki/Machine_learning>
 - <https://en.wikipedia.org/wiki/Deep_learning>
 - <https://en.wikipedia.org/wiki/Natural_language_processing>
-- <https://scikit-learn.org/stable/>
-- <https://www.tensorflow.org/>
 - <https://en.wikipedia.org/wiki/Convolutional_neural_network> (CNN)
 - <https://en.wikipedia.org/wiki/Smoke_testing_(software)>
+- <https://locust.io/>
+- <https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)>
+
+## Libraries Used
+
+- <https://scikit-learn.org/stable/>
+- <https://www.tensorflow.org/>
 - <https://github.com/noirbizarre/flask-restplus>
 - <https://gunicorn.org/>
 - <https://github.com/boto/boto3>
-- <https://locust.io/>
-- <https://www.docker.com/>
-- <https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)>
-- <https://aws.amazon.com/dynamodb/>
-- <https://aws.amazon.com/rds/>
 - <https://github.com/sqlalchemy/sqlalchemy>
-- <https://aws.amazon.com/lambda/>
-- <https://aws.amazon.com/api-gateway/>
-- <https://aws.amazon.com/fargate/>
-- <https://aws.amazon.com/ecs/>
-- <https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html>
-- <https://aws.amazon.com/cloudwatch/>
-- <https://www.pagerduty.com/>
-- <https://www.jenkins.io/>
-- <https://aws.amazon.com/ecr/>
-- <https://www.terraform.io/>

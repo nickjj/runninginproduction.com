@@ -13,14 +13,21 @@ category: "podcast"
 tags:
   - "rails"
   - "ruby"
-  - "postgres"
-  - "redis"
-  - "nginx"
+  - "turbolinks"
+  - "stimulusjs"
+  - "bootstrap"
+  - "braintree"
+  - "cloudflare"
   - "digitalocean"
   - "lets-encrypt"
+  - "nginx"
+  - "postgres"
+  - "redis"
+  - "s3"
+  - "stripe"
   - "ubuntu"
-  - "cdn"
-  - "payments"
+  - "webpack"
+  - "wistia"
 
 title: "Learn Ruby on Rails through Screencast Tutorials on GoRails"
 description:
@@ -88,63 +95,26 @@ GoRails. *Spoiler alert: Rails does scale*.
 
 ## Links
 
-- <https://rubyonrails.org/>
-- <https://www.ruby-lang.org/en/>
 - <https://www.hatchbox.io/>
 - <https://jumpstartrails.com/>
-- <http://railscasts.com/>
 - <https://twitter.com/dhh>
-- <https://www.intercom.com/>
-- <https://laravel.com/>
-- <https://laravel.com/docs/5.8/billing>
 - <https://www.youtube.com/watch?v=Gzj723LkRJY> (famous 15 minute blog in Rails)
-- <https://basecamp.com/>
-- <https://crystal-lang.org/>
-- <https://amberframework.org/>
 - <https://tailwindcss.com/>
 - <https://twitter.com/adamwathan>
-- <https://getbootstrap.com/>
-- <https://www.figma.com/>
-- <https://github.com/turbolinks/turbolinks>
-- <https://github.com/stimulusjs/stimulus>
-- <https://wistia.com/>
 - <https://github.com/flatpickr/flatpickr>
-- [https://buildasaasappwithflask.com/](https://buildasaasappwithflask.com/?utm_source=nj&utm_medium=rip&utm_campaign={{ page.url }})
-- <https://guides.rubyonrails.org/action_cable_overview.html>
-- <https://redis.io/>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://vuejs.org/>
-- <https://sidekiq.org/>
+- <https://twitter.com/andrewkane>
+- <https://egghead.io/>
+
+## Libraries Used
+
 - <https://github.com/rails/webpacker>
 - <https://github.com/brandonhilkert/sucker_punch>
-- <https://www.ansible.com/>
-- <https://www.postgresql.org/>
-- <https://docker.com>
-- <https://en.wikipedia.org/wiki/Ubuntu>
-- <https://github.com/capistrano/capistrano>
-- <https://www.postgresql.org/docs/9.3/libpq-notify.html>
-- <https://www.postgresql.org/docs/9.4/datatype-json.html>
 - <https://github.com/ankane/strong_migrations>
-- <https://twitter.com/andrewkane>
 - <https://github.com/ankane/production_rails>
 - <https://github.com/ankane/secure_rails>
-- <https://www.cloudflare.com/>
 - <https://github.com/phusion/passenger>
-- <https://www.nginx.com/>
 - <https://github.com/puma/puma>
-- <https://en.wikipedia.org/wiki/Systemd>
-- <https://letsencrypt.org/>
 - <https://github.com/errbit/errbit>
 - <https://github.com/ankane/ahoy>
-- <https://egghead.io/>
-- <http://vimeo.com/>
-- <https://aws.amazon.com/s3/>
-- <https://www.digitalocean.com/products/spaces/>
-- <https://stripe.com/>
-- <https://www.braintreepayments.com/>
-- <https://www.paypal.com/us/home>
-- <https://stripe.com/docs/strong-customer-authentication>
 - <https://github.com/pay-rails/pay>
 - <https://github.com/backup/backup>
-- <https://edgeguides.rubyonrails.org/security.html#environmental-security>
-- <https://github.com/features/actions>

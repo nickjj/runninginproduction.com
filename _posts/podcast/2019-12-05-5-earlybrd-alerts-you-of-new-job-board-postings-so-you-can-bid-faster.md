@@ -13,13 +13,20 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "docker"
-  - "postgres"
-  - "redis"
   - "aws"
-  - "cdn"
+  - "cloudflare"
+  - "docker"
+  - "grafana"
+  - "mailgun"
+  - "postgres"
+  - "prometheus"
+  - "redis"
+  - "s3"
+  - "sentry"
+  - "slack"
+  - "stripe"
   - "ubuntu"
-  - "payments"
+  - "uptime-robot"
 
 title: "EarlyBrd Alerts You of New Job Board Postings So You Can Bid Faster"
 description:
@@ -93,46 +100,19 @@ solo developer working on the project.
 
 ## Links
 
-- <https://palletsprojects.com/p/flask/>
-- <https://www.python.org/>
-- <https://www.upwork.com/>
 - <https://www.python.org/dev/peps/pep-0373/>
-- <https://www.djangoproject.com/>
 - <https://www.jetbrains.com/research/python-developers-survey-2018/>
-- <https://www.php.net/>
-- <https://palletsprojects.com/p/jinja/>
-- <https://www.mailgun.com/>
-- <https://github.com/celery/celery>
-- <https://gunicorn.org/>
-- <https://www.postgresql.org/>
 - <https://tableplus.com/>
-- <https://www.pgadmin.org/>
 - <https://dbeaver.io/>
-- <https://redis.io/>
-- <https://www.docker.com/>
-- <https://docs.docker.com/compose/>
 - <https://aws.amazon.com/>
-- <https://www.cloudflare.com/>
-- <https://www.terraform.io/>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://www.linode.com/>
-- <https://aws.amazon.com/ec2/instance-types/t2/>
-- <https://en.wikipedia.org/wiki/Ubuntu>
-- <https://en.wikipedia.org/wiki/Debian>
-- <https://prometheus.io/>
-- <https://grafana.com/>
 - <https://github.com/prometheus/node_exporter>
-- <https://deadmanssnitch.com/>
-- <https://uptimerobot.com/>
-- <https://sentry.io/>
-- <https://slack.com/>
-- <https://stripe.com/>
 - <https://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server>
 - <https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks>
-- <https://aws.amazon.com/ecr/>
-- <https://aws.amazon.com/codepipeline/>
-- <https://aws.amazon.com/codebuild/>
-- <https://github.com/psf/black>
-- <https://aws.amazon.com/s3/>
 - <https://media.makeameme.org/created/i-dont-always-mt4th0.jpg>
+
+## Libraries Used
+
+- <https://github.com/celery/celery>
+- <https://gunicorn.org/>
+- <https://github.com/psf/black>
 - <https://github.com/sqlalchemy/sqlalchemy>

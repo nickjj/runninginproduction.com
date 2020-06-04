@@ -12,14 +12,19 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "mysql"
-  - "redis"
-  - "nginx"
-  - "digitalocean"
-  - "lets-encrypt"
-  - "ci"
   - "aws"
+  - "digitalocean"
+  - "digitalocean-spaces"
+  - "docker"
+  - "github-actions"
+  - "lambda"
+  - "lets-encrypt"
+  - "mysql"
+  - "nginx"
+  - "redis"
   - "serverless"
+  - "swarm"
+  - "ubuntu"
 
 title: "Taleas Is a Cute, Quirky, Random and Slightly Weird Webcomic"
 description:
@@ -94,26 +99,12 @@ GitHub Actions as a solo developer and a whole lot more.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
 - <https://theoatmeal.com/>
 - <https://xkcd.com/>
-- <https://aws.amazon.com/lambda/>
-- <https://github.com/thadeusb/flask-cache>
-- <https://redis.io/>
-- <https://jinja.palletsprojects.com/>
-- <https://nginx.org/en/>
-- <https://mariadb.org/>
 - <https://www.nginx.com/products/nginx/caching/>
-- <https://gunicorn.org/>
-- <https://docker.com/>
-- <https://docs.docker.com/engine/swarm/>
-- <https://en.wikipedia.org/wiki/Ubuntu>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
-- <https://www.digitalocean.com/products/spaces/>
-- <https://github.com/certbot/certbot>
-- <https://letsencrypt.org/>
-- <https://github.com/features/actions>
 - <https://developers.google.com/gsuite/solutions/mail-merge>
 - <https://rss.com/blog/how-do-rss-feeds-work/>
-- <https://www.digitalocean.com/products/monitoring/>
+
+## Libraries Used
+- <https://github.com/thadeusb/flask-cache>
+- <https://gunicorn.org/>

@@ -13,13 +13,16 @@ category: "podcast"
 tags:
   - "phoenix"
   - "elixir"
-  - "postgres"
-  - "nginx"
-  - "lets-encrypt"
   - "digitalocean"
+  - "gitlab-ci"
+  - "lets-encrypt"
+  - "mailchimp"
+  - "nginx"
+  - "postgres"
+  - "ses"
+  - "stripe"
+  - "systemd"
   - "ubuntu"
-  - "ci"
-  - "payments"
 
 title: "Learn Elixir and Phoenix by Building Things Over at Alchemist Camp"
 description:
@@ -74,7 +77,7 @@ collects payments for subscriptions.
 - 30:20 -- It held up after many people slammed his site using various benchmark tools
 - 31:28 -- One bottleneck was compiling Markdown into HTML on each page load
 - 33:09 -- Amazon SES is being used to send transactional emails out
-- 34:21 -- Marketing emails are done with MailChimp but that's being moved to ConvertKit
+- 34:21 -- Marketing emails are done with Mailchimp but that's being moved to ConvertKit
 - 36:25 -- Using Stripe to handle subscription payments, and PayPal is done manually
 - 37:45 -- Barrier of entry for handling payments is going up with things like SCA
 - 38:53 -- Logging is old school, just hop on the server and check out the log files 
@@ -93,46 +96,21 @@ collects payments for subscriptions.
 
 ## Links
 
-- <https://elixir-lang.org>
-- <https://hexdocs.pm/phoenix/overview.html>
-- <https://rubyonrails.org/>
-- <https://hexdocs.pm/ecto/Ecto.Query.html#preload/3>
-- <https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-projects.html>
 - <https://en.wikipedia.org/wiki/Domain-driven_design>
 - <https://nickjanetakis.com/blog/microservices-are-something-you-grow-into-not-begin-with>
 - <https://github.com/turbolinks/turbolinks>
-- <https://github.com/phoenixframework/phoenix_live_view>
-- <https://en.wikipedia.org/wiki/Repetitive_strain_injury>
-- <https://www.postgresql.org/>
-- <https://www.nginx.com/>
-- <https://letsencrypt.org/>
 - <https://github.com/google/brotli>
-- <https://hexdocs.pm/phoenix/Mix.Tasks.Phoenix.Digest.html>
-- <https://www.docker.com/>
-- <https://github.com/bitwalker/distillery>
 - <https://stackoverflow.com/a/414258> (using setcap)
-- <https://github.com/edeliver/edeliver>
-- <https://about.gitlab.com/product/continuous-integration/>
-- <https://en.wikipedia.org/wiki/Systemd>
-- <https://github.com/OvermindDL1/pid_file>
-- <https://en.wikipedia.org/wiki/Ubuntu>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
 - <https://render.com/>
-- <https://github.com/ansible/ansible>
-- <https://keen.io/>
 - <https://soundcloud.com/elixirtalk/episode-157-feat-chris-mccord-liveviewphoenix-part-deux>
-- <https://www.digitalocean.com/products/monitoring/>
-- <https://elixir-lang.org/getting-started/mix-otp/ets.html>
-- <https://github.com/whitfin/cachex>
 - <https://elixirforum.com/t/7-5-second-average-page-load-speed-for-200-visitors-hitting-a-phoenix-driven-website-on-a-5-month-digital-ocean-droplet/15073>
-- <https://aws.amazon.com/ses/>
-- <https://mailchimp.com/>
 - <https://convertkit.com/>
-- <https://stripe.com/>
-- <https://github.com/heresydev/stripy>
-- <https://stripe.com/docs/strong-customer-authentication>
 - <https://nanobox.io/>
-- <https://certbot.eff.org/>
-- <https://www.digitalocean.com/products/block-storage/>
-- <https://www.digitalocean.com/products/spaces/>
-- <https://uptimerobot.com/>
+
+## Libraries  Used
+
+- <https://github.com/bitwalker/distillery>
+- <https://github.com/edeliver/edeliver>
+- <https://github.com/OvermindDL1/pid_file>
+- <https://github.com/whitfin/cachex>
+- <https://github.com/heresydev/stripy>

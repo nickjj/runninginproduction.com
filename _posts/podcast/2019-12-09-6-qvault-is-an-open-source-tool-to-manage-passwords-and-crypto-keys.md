@@ -13,12 +13,19 @@ category: "podcast"
 tags:
   - "golang"
   - "electron"
-  - "vue"
-  - "postgres"
+  - "acm"
   - "aws"
-  - "serverless"
-  - "ci"
+  - "cloudformation"
+  - "cloudfront"
+  - "cloudwatch"
   - "open-source"
+  - "postgres"
+  - "rds"
+  - "route53"
+  - "s3"
+  - "serverless"
+  - "travis-ci"
+  - "vue"
 
 title: "Qvault Is an Open Source Tool to Manage Passwords and Crypto Keys"
 description:
@@ -114,41 +121,13 @@ about a Serverless framework called Serverless!
 ## Links
 
 - <https://en.wikipedia.org/wiki/Serverless_computing>
-- <https://golang.org/>
-- <https://electronjs.org/>
 - <https://en.wikipedia.org/wiki/Cryptocurrency>
 - <https://en.wikipedia.org/wiki/Bitcoin>
-- <https://en.wikipedia.org/wiki/Arch_Linux>
-- <https://aur.archlinux.org/>
-- <https://aws.amazon.com/>
-- <https://aws.amazon.com/api-gateway/>
-- <https://cloud.google.com/>
 - <https://serverless.com/>
-- <https://aws.amazon.com/lambda/>
-- <https://cloud.google.com/functions/>
 - <https://en.wikipedia.org/wiki/Representational_state_transfer>
-- <https://www.postgresql.org/>
-- <https://aws.amazon.com/rds/>
-- <https://www.digitalocean.com/products/managed-databases/>
-- <https://aws.amazon.com/cloudfront/>
 - <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html>
 - <https://serverless.com/blog/keep-your-lambdas-warm/>
-- <https://vuejs.org/>
-- <https://aws.amazon.com/route53/>
 - <https://en.wikipedia.org/wiki/List_of_DNS_record_types>
-- <https://aws.amazon.com/cloudfront/>
-- <https://aws.amazon.com/cloudformation/>
-- <https://www.terraform.io/>
-- <https://aws.amazon.com/certificate-manager/>
-- <https://aws.amazon.com/cloudwatch/>
-- <https://aws.amazon.com/s3/>
 - <https://linux.die.net/man/1/kill>
-- <https://travis-ci.org/>
-- <https://en.wikipedia.org/wiki/JSON_Web_Token>
-- <https://en.wikipedia.org/wiki/Penetration_test>
-- <https://aws.amazon.com/ec2/instance-types/t2/>
 - <https://www.postgresql.org/docs/current/functions-json.html>
 - <https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc>
-- <https://kubernetes.io/>
-- <https://docs.docker.com/engine/swarm/>
-- <https://www.nginx.com/>

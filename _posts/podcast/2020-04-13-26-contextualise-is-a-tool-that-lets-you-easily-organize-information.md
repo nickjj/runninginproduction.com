@@ -13,12 +13,12 @@ category: "podcast"
 tags:
   - "flask"
   - "python"
-  - "postgres"
-  - "nginx"
   - "lets-encrypt"
   - "linode"
-  - "ubuntu"
+  - "nginx"
   - "open-source"
+  - "postgres"
+  - "ubuntu"
 
 title: "Contextualise Is a Tool That Lets You Easily Organize Information"
 description:
@@ -91,27 +91,21 @@ and a whole lot more.
 
 ## Links
 
-- <https://github.com/pallets/flask>
-- <https://www.python.org/>
 - <https://cerpus.com> (the company Brett works for)
 - <https://en.wikipedia.org/wiki/Database_model#Graph_model>
 - <https://en.wikipedia.org/wiki/Topic_map>
 - <https://flask.palletsprojects.com/en/1.1.x/patterns/fileuploads/>
-- <https://jinja.palletsprojects.com/>
-- <https://github.com/un33k/python-slugify>
-- <https://visjs.org/>
 - <https://timeline.knightlab.com/>
-- <https://gunicorn.org/>
-- <https://nginx.org/en/>
 - <https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04>
-- <https://www.linode.com/>
-- <https://en.wikipedia.org/wiki/Ubuntu>
-- <https://www.postgresql.org/>
-- <https://letsencrypt.org/>
-- <https://www.psycopg.org/>
-- <https://github.com/certbot/certbot>
 - <https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04> 
 - <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04>
 - <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04>
+
+## Libraries Used
+
+- <https://github.com/un33k/python-slugify>
+- <https://visjs.org/>
+- <https://gunicorn.org/>
+- <https://www.psycopg.org/>
 - <https://github.com/jwag956/flask-security>
 - <https://github.com/sqlalchemy/sqlalchemy>

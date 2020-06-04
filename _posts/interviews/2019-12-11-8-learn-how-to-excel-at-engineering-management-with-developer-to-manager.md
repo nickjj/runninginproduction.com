@@ -11,9 +11,11 @@ tags:
   - "static-site"
   - "flask"
   - "python"
+  - "bootstrap"
+  - "emailoctopus"
+  - "gitlab-ci"
   - "netlify"
-  - "ci"
-  - "cdn"
+  - "uptime-robot"
 
 title: "Learn How to Excel at Engineering Management with Developer to Manager"
 description:

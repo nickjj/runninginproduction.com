@@ -14,12 +14,20 @@ tags:
   - "phoenix"
   - "elixir"
   - "react"
-  - "postgres"
-  - "redis"
-  - "elasticsearch"
+  - "appsignal"
   - "aws"
-  - "cdn"
-  - "payments"
+  - "cloudflare"
+  - "docker"
+  - "ecs"
+  - "elasticache"
+  - "elasticsearch"
+  - "gitlab-ci"
+  - "mailgun"
+  - "nextjs"
+  - "postgres"
+  - "rds"
+  - "redis"
+  - "stripe"
 
 title: "Remote.com Helps You Find Remote Jobs Anywhere"
 description:
@@ -92,40 +100,14 @@ that are important to your application.
 
 ## Links
 
-- <https://github.com/phoenixframework/phoenix>
-- <https://elixir-lang.org/>
-- <https://www.erlang.org/>
-- <https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-projects.html>
-- <https://hexdocs.pm/phoenix/contexts.html>
 - <https://en.wikipedia.org/wiki/Single_responsibility_principle>
-- <https://news.ycombinator.com/>
-- <https://reactjs.org/>
-- <https://nextjs.org/>
 - <https://www.getpostman.com/>
-- <https://docker.com>
-- <https://www.postgresql.org/>
-- <https://redis.io/>
-- <https://www.elastic.co/>
-- <https://aws.amazon.com/ecs/>
-- <https://kubernetes.io/>
-- <https://about.gitlab.com/>
-- <https://github.com/phoenixframework/phoenix_live_view>
-- <https://hexdocs.pm/phoenix/channels.html>
 - <https://dockyard.com/blog/2018/12/12/phoenix-liveview-interactive-real-time-apps-no-need-to-write-javascript>
-- <https://aws.amazon.com/rds/>
-- <https://aws.amazon.com/elasticsearch-service/>
-- <https://aws.amazon.com/elasticache/>
 - <https://martinfowler.com/bliki/BlueGreenDeployment.html>
-- <https://github.com/sorentwo/oban>
-- <https://github.com/akira/exq>
-- <https://appsignal.com/>
-- <https://stripe.com/>
-- <https://www.cloudflare.com/>
 - <https://edgeguides.rubyonrails.org/caching_with_rails.html#russian-doll-caching>
-- <https://github.com/code-corps/stripity_stripe>
-- <https://docs.gitlab.com/ee/user/packages/container_registry/>
-- <https://docs.gitlab.com/runner/>
-- <https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html>
-- <https://docs.docker.com/develop/develop-images/multistage-build/>
-- <https://www.mailgun.com/>
 - <https://customer.io/>
+
+## Libraries Used
+
+- <https://github.com/akira/exq>
+- <https://github.com/code-corps/stripity_stripe>
