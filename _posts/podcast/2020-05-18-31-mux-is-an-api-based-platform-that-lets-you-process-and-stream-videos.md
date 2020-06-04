@@ -26,6 +26,7 @@ tags:
   - "prometheus"
   - "sendgrid"
   - "sentry"
+  - "slack"
   - "stackpath"
   - "stripe"
 

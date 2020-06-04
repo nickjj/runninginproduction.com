@@ -29,6 +29,7 @@ tags:
   - "sendgrid"
   - "sentry"
   - "serverless"
+  - "slack"
   - "stripe"
   - "ubuntu"
 

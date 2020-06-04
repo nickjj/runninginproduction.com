@@ -25,6 +25,7 @@ tags:
   - "redis"
   - "s3"
   - "sendgrid"
+  - "slack"
   - "vimeo"
 
 title: "Real Python Is One of the Largest Python Learning Platforms Around"

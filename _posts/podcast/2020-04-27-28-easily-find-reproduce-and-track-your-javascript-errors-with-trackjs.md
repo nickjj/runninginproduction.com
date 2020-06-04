@@ -22,6 +22,7 @@ tags:
   - "nginx"
   - "ovh"
   - "redis"
+  - "slack"
   - "stripe"
   - "team-city"
   - "ubuntu"
