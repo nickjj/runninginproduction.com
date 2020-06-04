@@ -1,5 +1,5 @@
 {% assign sorted_tags = site.tags | sort %}
-<ul>
+<ul class="responsive-columns">
   {% for tag in sorted_tags %}
     {% assign tags = tag[1] | where: "category", include.filter_by_category | sort %}
     {% if tags != empty %}
