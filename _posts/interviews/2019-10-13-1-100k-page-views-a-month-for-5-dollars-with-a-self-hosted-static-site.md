@@ -16,6 +16,7 @@ tags:
   - "lets-encrypt"
   - "namesilo"
   - "nginx"
+  - "systemd"
   - "ubuntu"
   - "uptime-robot"
 
