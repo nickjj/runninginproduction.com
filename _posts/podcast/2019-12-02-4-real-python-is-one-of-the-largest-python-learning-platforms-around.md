@@ -16,7 +16,7 @@ tags:
   - "circle-ci"
   - "cloudflare"
   - "docker"
-  - "freshworks"
+  - "freshping"
   - "heroku"
   - "lets-encrypt"
   - "paddle"
