@@ -1,0 +1,15 @@
+{% capture github_partial_url %}master/_posts/{{ page.category }}/{{ page.date | split: " " | first }}-{{ page.slug }}.md{% endcapture %}
+
+<p class="text-muted small mt-5">{% include date.html %}</p>
+<a class="btn btn-sm btn-light"
+   role="button"
+   href="{{ site.links.repo }}/edit/{{ github_partial_url }}">
+   ✏️ Edit on GitHub
+</a>
+{% if page.updated_on %}
+  <a class="btn btn-sm btn-light"
+     role="button"
+     href="{{ site.links.repo }}/commits/master/{{ github_partial_url }}">
+     📜 View Updates
+  </a>
+{% endif %}
