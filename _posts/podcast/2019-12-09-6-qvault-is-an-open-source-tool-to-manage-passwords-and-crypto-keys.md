@@ -134,6 +134,6 @@ about a Serverless framework called Serverless!
 - <https://www.postgresql.org/docs/current/functions-json.html>
 - <https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}

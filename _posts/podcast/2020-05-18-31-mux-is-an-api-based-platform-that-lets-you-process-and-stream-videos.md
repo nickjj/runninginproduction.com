@@ -130,7 +130,7 @@ databases, metered billing and tons more.
 - <https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol>
 - <https://obsproject.com/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

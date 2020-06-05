@@ -86,7 +86,7 @@ and more.
 - <https://github.com/SeleniumHQ/selenium>
 - <https://en.wikipedia.org/wiki/WebP>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

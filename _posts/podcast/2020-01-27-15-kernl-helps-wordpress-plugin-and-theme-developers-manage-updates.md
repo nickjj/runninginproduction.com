@@ -110,7 +110,7 @@ whole lot more.
 - <https://trello.com/en-US>
 - <https://pm2.keymetrics.io/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

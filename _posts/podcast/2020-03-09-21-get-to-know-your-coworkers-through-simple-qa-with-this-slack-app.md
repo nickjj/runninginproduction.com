@@ -89,7 +89,7 @@ of features that you get from using Gigalixir to host your Elixir projects.
 - <https://www.postgresql.org/>
 - <https://twitter.com/josevalim>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

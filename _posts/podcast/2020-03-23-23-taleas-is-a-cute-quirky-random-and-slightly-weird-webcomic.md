@@ -107,7 +107,7 @@ GitHub Actions as a solo developer and a whole lot more.
 - <https://developers.google.com/gsuite/solutions/mail-merge>
 - <https://rss.com/blog/how-do-rss-feeds-work/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

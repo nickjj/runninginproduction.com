@@ -103,7 +103,7 @@ lot more.
 - <https://codeclimate.com/>
 - <https://youtu.be/NV3sBlRgzTI?t=35> (First Principles explained by Elon Musk)
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

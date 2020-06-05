@@ -125,7 +125,7 @@ day.
 - <https://tuple.app/>
 - <https://guides.rubyonrails.org/v4.0/command_line.html>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

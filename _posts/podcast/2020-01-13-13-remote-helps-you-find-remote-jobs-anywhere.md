@@ -109,7 +109,7 @@ that are important to your application.
 - <https://edgeguides.rubyonrails.org/caching_with_rails.html#russian-doll-caching>
 - <https://customer.io/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

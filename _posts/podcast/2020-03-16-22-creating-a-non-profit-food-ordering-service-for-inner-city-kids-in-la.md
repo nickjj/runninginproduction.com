@@ -76,7 +76,7 @@ server without using Docker, CI or configuration management tools.
 - <https://nginx.org/en/>
 - <https://github.com/certbot/certbot>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

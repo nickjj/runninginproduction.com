@@ -87,7 +87,7 @@ limiter too. The app is open source on
 - <https://martinfowler.com/bliki/CanaryRelease.html>
 - <https://www.cloudflare.com/apps/developer/offers/google>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

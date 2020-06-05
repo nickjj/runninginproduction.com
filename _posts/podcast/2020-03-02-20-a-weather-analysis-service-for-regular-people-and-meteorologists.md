@@ -108,7 +108,7 @@ and enforce self imposed deadlines.
 - <https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#merging-kubeconfig-files>
 - <https://en.wikipedia.org/wiki/Convective_available_potential_energy>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

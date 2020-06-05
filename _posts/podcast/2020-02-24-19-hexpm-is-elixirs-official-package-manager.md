@@ -104,6 +104,6 @@ Stripe's SCA and more.
 - <https://www.tarsnap.com/>
 - <https://cloud.google.com/stackdriver>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}

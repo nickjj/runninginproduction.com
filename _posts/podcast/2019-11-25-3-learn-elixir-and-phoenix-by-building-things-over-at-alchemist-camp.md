@@ -109,7 +109,7 @@ collects payments for subscriptions.
 - <https://convertkit.com/>
 - <https://nanobox.io/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

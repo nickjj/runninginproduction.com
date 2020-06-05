@@ -115,7 +115,7 @@ whole lot more.
 - <https://github.com/samphilipd/rihanna>
 - <https://gust.com/launch>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

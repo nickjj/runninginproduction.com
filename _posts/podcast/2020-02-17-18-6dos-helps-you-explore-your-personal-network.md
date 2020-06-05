@@ -128,7 +128,7 @@ design and scaling that apply to any web framework.
 - <https://github.com/wercker/stern>
 - <https://www.weave.works/oss/scope/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

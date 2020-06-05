@@ -104,6 +104,6 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
 - <https://en.wikipedia.org/wiki/PKCS_12>
 - <https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}

@@ -146,7 +146,7 @@ aggressively using feature flags and so much more.
 - <https://martinfowler.com/articles/break-monolith-into-microservices.html>
 - <https://martinfowler.com/bliki/StranglerFigApplication.html>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

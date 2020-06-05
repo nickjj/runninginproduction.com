@@ -126,7 +126,7 @@ reviews which I found to be great. We covered a lot of ground in this episode!
 - <https://en.wikipedia.org/wiki/WebP>
 - <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

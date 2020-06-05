@@ -87,7 +87,7 @@ much more. The site is [open source](https://github.com/philgyford/pepysdiary).
 - <https://docs.djangoproject.com/en/3.0/ref/contrib/postgres/search/>
 - <https://devcenter.heroku.com/articles/django-assets>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

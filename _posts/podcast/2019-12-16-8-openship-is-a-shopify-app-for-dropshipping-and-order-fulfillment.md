@@ -124,7 +124,7 @@ source projects well tested.
 - <https://www.cypress.io/>
 - <https://airbnb.io/enzyme/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

@@ -89,7 +89,7 @@ site, treating your infrastructure as code and more.
 - <https://locust.io/>
 - <https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

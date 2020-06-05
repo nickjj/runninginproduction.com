@@ -112,7 +112,7 @@ solo developer working on the project.
 - <https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks>
 - <https://media.makeameme.org/created/i-dont-always-mt4th0.jpg>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

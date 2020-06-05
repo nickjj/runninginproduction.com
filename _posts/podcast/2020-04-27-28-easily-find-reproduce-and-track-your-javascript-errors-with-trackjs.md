@@ -119,7 +119,7 @@ cloud servers and using Ansible to configure all of the servers.
 - <https://www.jetbrains.com/teamcity/>
 - <https://www.monitis.com/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

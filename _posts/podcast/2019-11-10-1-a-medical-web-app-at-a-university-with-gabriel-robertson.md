@@ -81,7 +81,7 @@ compatibility requirements. It's been running in production since 2017.
 - <https://github.com/wg/wrk>
 - <https://github.com/JoeDog/siege>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

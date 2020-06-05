@@ -90,7 +90,7 @@ Python app using Google App Engine and more.
 - <https://cloud.google.com/appengine/docs/standard/python/config/appref>
 - <https://www.spyder-ide.org/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

@@ -89,7 +89,7 @@ make mistakes along the way.
 - <https://professorkazarinoff.github.io/jupyterhub-ENGR114-2019Q4/>
 - <https://github.com/ProfessorKazarinoff/jupyterhub-ENGR114-2020Q1>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

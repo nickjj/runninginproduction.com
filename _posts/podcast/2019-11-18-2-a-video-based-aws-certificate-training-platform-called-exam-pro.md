@@ -102,7 +102,7 @@ AWS using Cloud9 IDE. Exam Pro has been running in production since late 2018.
 - <https://en.wikipedia.org/wiki/Application_performance_management>
 - <https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

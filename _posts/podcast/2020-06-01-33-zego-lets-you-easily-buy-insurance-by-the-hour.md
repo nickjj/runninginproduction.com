@@ -124,7 +124,7 @@ achieving 99.99% uptime and so much more.
 - <https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html>
 - <https://www.imgix.com/solutions/resizing-and-cropping>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

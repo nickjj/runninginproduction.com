@@ -118,7 +118,7 @@ databases with Rails, InfluxDB, GitHub Actions and tons more.
 - <https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping>
 - <https://sourcehut.org/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 

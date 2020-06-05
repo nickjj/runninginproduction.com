@@ -167,6 +167,6 @@ this?". I'm going to start playing with it over the holidays for my own sites.*
 - <https://en.wikipedia.org/wiki/Heartbleed>
 - <https://12factor.net/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}

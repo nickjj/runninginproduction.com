@@ -107,7 +107,7 @@ GoRails. *Spoiler alert: Rails does scale*.
 - <https://twitter.com/andrewkane>
 - <https://egghead.io/>
 
-###### ⚙️ Services Used
+###### ⚙️ Tech Stack
 
 {% include services-used.html %}
 
