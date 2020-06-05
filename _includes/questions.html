@@ -1,0 +1,13 @@
+<h2>Questions</h2>
+<ul>
+  <li>
+    Want to discuss this episode on Twitter?
+    Tag <a href="https://twitter.com/{{ site.author.links.twitter }}">@{{ site.author.links.twitter }}</a>
+    or
+    {% if page.guest_twitter %}
+      <a href="https://twitter.com/{{ page.guest_twitter }}">@{{ page.guest_twitter }}</a>
+    {% else %}
+      use <code>#RunningInProduction</code>
+    {% endif %}
+  </li>
+</ul>
