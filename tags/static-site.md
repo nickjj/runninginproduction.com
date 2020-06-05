@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "static-site"
+url: "https://www.staticgen.com/"
 
 title: "Using a Static Site Generator to Build Your Website"
 description:

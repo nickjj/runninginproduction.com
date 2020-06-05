@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "django"
+url: "https://www.djangoproject.com/"
 
 title: "Websites Using Django in Production"
 description:

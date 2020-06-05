@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "fargate"
+url: "https://aws.amazon.com/fargate/"
 
 title: "Websites Using AWS Fargate in Production"
 description:

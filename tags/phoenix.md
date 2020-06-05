@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "phoenix"
+url: "https://www.phoenixframework.org/"
 
 title: "Websites Using Phoenix in Production"
 description:

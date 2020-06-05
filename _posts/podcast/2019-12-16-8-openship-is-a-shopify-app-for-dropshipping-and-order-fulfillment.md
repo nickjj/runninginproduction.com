@@ -108,6 +108,8 @@ source projects well tested.
 
 ## Links
 
+###### 📄 References
+
 - <https://www.shopify.com/>
 - <https://en.wikipedia.org/wiki/Drop_shipping>
 - <https://www.shipbob.com/>
@@ -122,6 +124,10 @@ source projects well tested.
 - <https://www.cypress.io/>
 - <https://airbnb.io/enzyme/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/Shopify/quilt>

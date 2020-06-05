@@ -79,13 +79,19 @@ much more. The site is [open source](https://github.com/philgyford/pepysdiary).
 
 ## Links
 
+###### 📄 References
+
 - <https://www.gutenberg.org/>
 - <https://github.com/ESWAT/john-carmack-plan-archive/tree/master/by_day>
 - <https://en.wikipedia.org/wiki/Movable_Type>
 - <https://docs.djangoproject.com/en/3.0/ref/contrib/postgres/search/>
 - <https://devcenter.heroku.com/articles/django-assets>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/django/django-contrib-comments>
 - <https://d3js.org/>

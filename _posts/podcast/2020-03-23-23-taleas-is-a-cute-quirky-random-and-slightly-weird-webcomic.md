@@ -99,12 +99,19 @@ GitHub Actions as a solo developer and a whole lot more.
 
 ## Links
 
+###### 📄 References
+
 - <https://theoatmeal.com/>
 - <https://xkcd.com/>
 - <https://www.nginx.com/products/nginx/caching/>
 - <https://developers.google.com/gsuite/solutions/mail-merge>
 - <https://rss.com/blog/how-do-rss-feeds-work/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
+
 - <https://github.com/thadeusb/flask-cache>
 - <https://gunicorn.org/>

@@ -111,6 +111,8 @@ achieving 99.99% uptime and so much more.
 
 ## Links
 
+###### 📄 References
+
 - <https://reactnative.dev/>
 - <https://en.wikipedia.org/wiki/Underwriting>
 - <https://relay.dev/>
@@ -122,7 +124,11 @@ achieving 99.99% uptime and so much more.
 - <https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html>
 - <https://www.imgix.com/solutions/resizing-and-cropping>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://docs.graphene-python.org/projects/django/en/latest/>
 - <https://github.com/celery/celery>

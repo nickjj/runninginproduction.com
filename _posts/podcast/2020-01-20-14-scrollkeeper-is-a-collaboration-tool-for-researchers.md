@@ -106,6 +106,8 @@ whole lot more.
 
 ## Links
 
+###### 📄 References
+
 - <https://spotinst.com/>
 - <https://github.com/localstack/localstack>
 - <https://www.envoyproxy.io/>
@@ -113,7 +115,11 @@ whole lot more.
 - <https://github.com/samphilipd/rihanna>
 - <https://gust.com/launch>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/mozilla/pdf.js>
 - <https://github.com/ex-aws/ex_aws>

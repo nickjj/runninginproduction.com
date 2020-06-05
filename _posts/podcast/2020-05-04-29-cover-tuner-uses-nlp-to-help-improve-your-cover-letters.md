@@ -81,6 +81,8 @@ Python app using Google App Engine and more.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Cover_letter>
 - <https://en.wikipedia.org/wiki/Natural_language_processing>
 - <https://www.mongodb.com/products/compass>
@@ -88,7 +90,11 @@ Python app using Google App Engine and more.
 - <https://cloud.google.com/appengine/docs/standard/python/config/appref>
 - <https://www.spyder-ide.org/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://www.nltk.org/>
 - <https://spacy.io/>

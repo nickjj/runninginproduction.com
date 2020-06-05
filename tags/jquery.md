@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "jquery"
+url: "https://jquery.com/"
 
 title: "Websites Using jQuery in Production"
 description:

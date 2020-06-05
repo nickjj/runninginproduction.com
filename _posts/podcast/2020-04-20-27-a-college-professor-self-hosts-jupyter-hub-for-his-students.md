@@ -80,6 +80,8 @@ make mistakes along the way.
 
 ## Links
 
+###### 📄 References
+
 - <https://github.com/jupyterhub/jupyterhub>
 - <https://jupyter.org/>
 - <https://numfocus.org/>
@@ -87,6 +89,10 @@ make mistakes along the way.
 - <https://professorkazarinoff.github.io/jupyterhub-ENGR114-2019Q4/>
 - <https://github.com/ProfessorKazarinoff/jupyterhub-ENGR114-2020Q1>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/tornadoweb/tornado>

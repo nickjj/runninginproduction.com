@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "laravel"
+url: "https://laravel.com/"
 
 title: "Websites Using Laravel in Production"
 description:

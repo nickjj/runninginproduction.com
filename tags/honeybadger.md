@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "honeybadger"
+url: "https://www.honeybadger.io/"
 
 title: "Websites Using Honeybadger for Monitoring in Production"
 description:

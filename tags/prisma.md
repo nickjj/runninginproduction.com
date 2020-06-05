@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "prisma"
+url: "https://www.prisma.io/"
 
 title: "Websites Using Primsa in Production"
 description:

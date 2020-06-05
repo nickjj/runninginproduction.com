@@ -100,6 +100,8 @@ solo developer working on the project.
 
 ## Links
 
+###### 📄 References
+
 - <https://www.python.org/dev/peps/pep-0373/>
 - <https://www.jetbrains.com/research/python-developers-survey-2018/>
 - <https://tableplus.com/>
@@ -110,7 +112,11 @@ solo developer working on the project.
 - <https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks>
 - <https://media.makeameme.org/created/i-dont-always-mt4th0.jpg>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/celery/celery>
 - <https://gunicorn.org/>

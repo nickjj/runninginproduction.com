@@ -77,6 +77,8 @@ and more.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Cryptocurrency>
 - <https://www.youtube.com/channel/UC-QDfvrRIDB6F0bIO4I4HkQ> (Pretty Printed)
 - <https://ethereum.org/>
@@ -84,7 +86,11 @@ and more.
 - <https://github.com/SeleniumHQ/selenium>
 - <https://en.wikipedia.org/wiki/WebP>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://flask-jwt-extended.readthedocs.io/en/stable/>
 - <https://github.com/axios/axios>

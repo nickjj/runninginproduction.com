@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "uptime-robot"
+url: "https://uptimerobot.com/"
 
 title: "Websites Using Uptime Robot for Up-Time Monitoring and Alerts"
 description:

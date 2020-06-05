@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "pingdom"
+url: "https://www.pingdom.com/"
 
 title: "Websites Using Pingdom for Up-Time Monitoring and Alerts"
 description:

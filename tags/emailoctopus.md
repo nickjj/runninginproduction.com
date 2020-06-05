@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "emailoctopus"
+url: "https://emailoctopus.com/"
 
 title: "Websites Using EmailOctopus to Send Email Campaigns"
 description:

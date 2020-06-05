@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "postgres"
+url: "https://www.postgresql.org/"
 
 title: "Websites Using PostgreSQL in Production"
 description:

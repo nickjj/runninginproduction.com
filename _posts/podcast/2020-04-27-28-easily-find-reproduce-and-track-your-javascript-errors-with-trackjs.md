@@ -24,7 +24,7 @@ tags:
   - "redis"
   - "slack"
   - "stripe"
-  - "team-city"
+  - "teamcity"
   - "ubuntu"
   - "windows"
 
@@ -109,6 +109,8 @@ cloud servers and using Ansible to configure all of the servers.
 
 ## Links
 
+###### 📄 References
+
 - <https://docs.microsoft.com/en-us/dotnet/core/>
 - <https://dotnet.microsoft.com/apps/aspnet>
 - <https://github.com/turbolinks/turbolinks>
@@ -117,6 +119,10 @@ cloud servers and using Ansible to configure all of the servers.
 - <https://www.jetbrains.com/teamcity/>
 - <https://www.monitis.com/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/defunkt/jquery-pjax>

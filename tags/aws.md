@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "aws"
+url: "https://aws.amazon.com/"
 
 title: "Websites Using AWS in Production"
 description:

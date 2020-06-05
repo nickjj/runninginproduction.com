@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "kafka"
+url: "https://kafka.apache.org/"
 
 title: "Websites Using Apache Kafka in Production"
 description:

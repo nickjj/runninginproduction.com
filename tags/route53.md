@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "route53"
+url: "https://aws.amazon.com/route53/"
 
 title: "Websites Using AWS Route53 for Registering Domains or DNS Hosting"
 description:

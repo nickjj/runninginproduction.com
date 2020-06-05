@@ -12,6 +12,7 @@ guest_twitter: "thestub"
 category: "podcast"
 tags:
   - "flask"
+  - "zope"
   - "python"
   - "aws"
   - "centos"
@@ -27,7 +28,6 @@ tags:
   - "redis"
   - "slack"
   - "terraform"
-  - "zope"
 
 title: "ScholarPack Runs 10% of the UK's Primary Schools and Gets Huge Traffic"
 description:
@@ -128,6 +128,8 @@ aggressively using feature flags and so much more.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Single_responsibility_principle>
 - <https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks>
 - <https://www.getpostman.com/>
@@ -144,7 +146,11 @@ aggressively using feature flags and so much more.
 - <https://martinfowler.com/articles/break-monolith-into-microservices.html>
 - <https://martinfowler.com/bliki/StranglerFigApplication.html>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://www.zope.org/>
 - <https://www.sqlalchemy.org/>

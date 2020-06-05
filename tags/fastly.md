@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "fastly"
+url: "https://www.fastly.com/"
 
 title: "Websites Using Fastly in Production as a CDN"
 description:

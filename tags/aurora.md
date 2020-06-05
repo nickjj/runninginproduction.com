@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "aurora"
+url: "https://aws.amazon.com/rds/aurora/"
 
 title: "Websites Using AWS Aurora in Production"
 description:

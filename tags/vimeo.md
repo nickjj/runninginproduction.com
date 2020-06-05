@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "vimeo"
+url: "https://vimeo.com/"
 
 title: "Websites Using Vimeo in Production"
 description:

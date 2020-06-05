@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "statuspage"
+url: "https://www.atlassian.com/software/statuspage"
 
 title: "Websites Using Statuspage for Hosting Status Pages"
 description:

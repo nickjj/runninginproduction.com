@@ -89,6 +89,8 @@ lot more.
 
 ## Links
 
+###### 📄 References
+
 - <https://oddball.io/>
 - <https://twitter.com/dhh>
 - <https://en.wikipedia.org/wiki/Agile_software_development>
@@ -101,7 +103,11 @@ lot more.
 - <https://codeclimate.com/>
 - <https://youtu.be/NV3sBlRgzTI?t=35> (First Principles explained by Elon Musk)
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/rubocop-hq/rubocop>
 - <https://github.com/vcr/vcr>

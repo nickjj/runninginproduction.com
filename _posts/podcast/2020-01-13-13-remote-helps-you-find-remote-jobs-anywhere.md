@@ -100,6 +100,8 @@ that are important to your application.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Single_responsibility_principle>
 - <https://www.getpostman.com/>
 - <https://dockyard.com/blog/2018/12/12/phoenix-liveview-interactive-real-time-apps-no-need-to-write-javascript>
@@ -107,7 +109,11 @@ that are important to your application.
 - <https://edgeguides.rubyonrails.org/caching_with_rails.html#russian-doll-caching>
 - <https://customer.io/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/akira/exq>
 - <https://github.com/code-corps/stripity_stripe>

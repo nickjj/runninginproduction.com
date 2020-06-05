@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "vsphere"
+url: "https://www.vmware.com/products/vsphere.html"
 
 title: "Websites That Are Managed by VMware vSphere"
 description:

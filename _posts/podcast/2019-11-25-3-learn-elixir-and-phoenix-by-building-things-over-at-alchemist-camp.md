@@ -96,6 +96,8 @@ collects payments for subscriptions.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Domain-driven_design>
 - <https://nickjanetakis.com/blog/microservices-are-something-you-grow-into-not-begin-with>
 - <https://github.com/turbolinks/turbolinks>
@@ -107,7 +109,11 @@ collects payments for subscriptions.
 - <https://convertkit.com/>
 - <https://nanobox.io/>
 
-## Libraries  Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/bitwalker/distillery>
 - <https://github.com/edeliver/edeliver>

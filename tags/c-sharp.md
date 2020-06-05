@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "c-sharp"
+url: "https://docs.microsoft.com/en-us/dotnet/csharp/"
 
 title: "Websites Using C Sharp in Production"
 description:

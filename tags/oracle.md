@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "oracle"
+url: "https://www.oracle.com/index.html"
 
 title: "Websites Using Oracle in Production"
 description:

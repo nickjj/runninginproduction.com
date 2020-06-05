@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "hetzner"
+url: "https://www.hetzner.com/"
 
 title: "Websites Using Hetzner in Production"
 description:

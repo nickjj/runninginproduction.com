@@ -67,18 +67,24 @@ server without using Docker, CI or configuration management tools.
 
 ## Links
 
+###### 📄 References
+
 - <https://scrapy.org/>
 - <https://www.usda.gov/>
 - <https://en.wikipedia.org/wiki/Linear_regression>
-- <https://www.sqlalchemy.org/>
 - <https://www.postgresql.org/>
 - <https://nginx.org/en/>
 - <https://github.com/certbot/certbot>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://www.chartjs.org/>
 - <https://github.com/miguelgrinberg/Flask-SocketIO>
 - <https://github.com/thadeusb/flask-cache>
 - <https://gunicorn.org/>
+- <https://www.sqlalchemy.org/>
 - <https://github.com/mattupstate/flask-mail>

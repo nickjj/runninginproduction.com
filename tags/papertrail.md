@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "papertrail"
+url: "https://www.papertrail.com/"
 
 title: "Websites Using Papertrail for Log Management in Production"
 description:

@@ -116,6 +116,8 @@ reviews which I found to be great. We covered a lot of ground in this episode!
 
 ## Links
 
+###### 📄 References
+
 - <https://www.kickstarter.com/projects/721054906/real-python-advanced-web-development-featuring-dja>
 - [https://www.amazon.com/Python-Tricks-Buffet-Awesome-Features-ebook/dp/B0785Q7GSY](https://amzn.to/2DoyMNw)
 - <https://en.wikipedia.org/wiki/Waterfall_model>
@@ -124,7 +126,11 @@ reviews which I found to be great. We covered a lot of ground in this episode!
 - <https://en.wikipedia.org/wiki/WebP>
 - <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/celery/celery>
 - <https://github.com/coleifer/huey>

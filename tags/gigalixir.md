@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "gigalixir"
+url: "https://www.gigalixir.com/"
 
 title: "Websites Using Gigalixir in Production"
 description:

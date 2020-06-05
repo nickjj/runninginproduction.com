@@ -97,7 +97,13 @@ Stripe's SCA and more.
 
 ## Links
 
+###### 📄 References
+
 - <https://diff.hex.pm/>
 - <https://en.wikipedia.org/wiki/Erlang_distribution>
 - <https://www.tarsnap.com/>
 - <https://cloud.google.com/stackdriver>
+
+###### ⚙️ Services Used
+
+{% include services-used.html %}

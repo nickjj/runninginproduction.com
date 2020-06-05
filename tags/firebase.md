@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "firebase"
+url: "https://firebase.google.com/"
 
 title: "Websites Using Firebase in Production"
 description:

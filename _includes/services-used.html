@@ -1,0 +1,15 @@
+<ul class="responsive-columns">
+  {% for tag in page.tags %}
+    <li>
+      {% if tag != "" %}
+        {% all_tags %}
+          {% if tag == file.tag %}
+            <a href="{{ file.url }}">
+              {{ tag }} &#8594;
+            </a>
+          {% endif %}
+        {% endall_tags %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

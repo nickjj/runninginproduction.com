@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "websockets"
+url: "https://en.wikipedia.org/wiki/WebSocket"
 
 title: "Websites Using Websockets in Production"
 description:

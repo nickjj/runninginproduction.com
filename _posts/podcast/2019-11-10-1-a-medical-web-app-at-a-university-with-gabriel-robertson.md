@@ -68,6 +68,8 @@ compatibility requirements. It's been running in production since 2017.
 
 ## Links
 
+###### 📄 References
+
 - <http://yaws.hyber.org/>
 - <http://nitrogenproject.com/>
 - <https://lynx.browser.org/>
@@ -79,7 +81,11 @@ compatibility requirements. It's been running in production since 2017.
 - <https://github.com/wg/wrk>
 - <https://github.com/JoeDog/siege>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/josefs/Gradualizer>
 - <https://github.com/OvermindDL1/gradualixir>

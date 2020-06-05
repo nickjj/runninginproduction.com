@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "cloudflare"
+url: "https://www.cloudflare.com/"
 
 title: "Websites Using Cloudflare in Production as a CDN"
 description:

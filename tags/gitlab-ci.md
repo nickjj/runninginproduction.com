@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "gitlab-ci"
+url: "https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/"
 
 title: "Websites Using GitLab CI for CI / CD"
 description:

@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "opsgenie"
+url: "https://www.atlassian.com/software/opsgenie"
 
 title: "Websites Using Opsgenie in Production"
 description:

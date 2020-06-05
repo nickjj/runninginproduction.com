@@ -154,6 +154,8 @@ this?". I'm going to start playing with it over the holidays for my own sites.*
 
 ## Links
 
+###### 📄 References
+
 - <https://laracasts.com/>
 - <https://en.wikipedia.org/wiki/Time_series_database>
 - <https://en.wikipedia.org/wiki/Application_delivery_controller>
@@ -164,3 +166,7 @@ this?". I'm going to start playing with it over the holidays for my own sites.*
 - <https://i.pinimg.com/originals/bb/98/e0/bb98e03ac44d2fa7b07cfd364eab6e2e.jpg>
 - <https://en.wikipedia.org/wiki/Heartbleed>
 - <https://12factor.net/>
+
+###### ⚙️ Services Used
+
+{% include services-used.html %}

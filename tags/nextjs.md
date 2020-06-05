@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "nextjs"
+url: "https://nextjs.org/"
 
 title: "Websites Using Next.js in Production"
 description:

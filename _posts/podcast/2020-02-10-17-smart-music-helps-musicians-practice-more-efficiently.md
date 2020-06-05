@@ -105,6 +105,8 @@ databases with Rails, InfluxDB, GitHub Actions and tons more.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice>
 - <https://www.w3.org/2017/12/musicxml31/>
 - <https://emberjs.com/>
@@ -116,7 +118,11 @@ databases with Rails, InfluxDB, GitHub Actions and tons more.
 - <https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping>
 - <https://sourcehut.org/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/ex-aws/ex_aws>
 - <https://github.com/absinthe-graphql/absinthe>

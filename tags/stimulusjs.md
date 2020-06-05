@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "stimulusjs"
+url: "https://stimulusjs.org/"
 
 title: "Websites Using StimulusJS in Production"
 description:

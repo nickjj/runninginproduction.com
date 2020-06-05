@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "influxdb"
+url: "https://www.influxdata.com/"
 
 title: "Websites Using InfluxDB in Production"
 description:

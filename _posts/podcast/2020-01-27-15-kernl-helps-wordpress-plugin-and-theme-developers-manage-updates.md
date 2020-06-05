@@ -101,14 +101,19 @@ whole lot more.
 
 ## Links
 
+###### 📄 References
+
 - <https://wordpress.com/>
 - <http://boringtechnology.club/>
 - <https://twitter.com/tjholowaychuk>
 - <http://es6-features.org/>
 - <https://trello.com/en-US>
-- [https://digitalocean.com]({{ site.links.digitalocean }})
 - <https://pm2.keymetrics.io/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://www.npmjs.com/package/pg>

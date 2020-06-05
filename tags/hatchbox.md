@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "hatchbox"
+url: "https://www.hatchbox.io/"
 
 title: "Websites Using HatchBox in Production"
 description:

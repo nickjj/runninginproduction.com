@@ -92,6 +92,8 @@ and enforce self imposed deadlines.
 
 ## Links
 
+###### 📄 References
+
 - <https://www.epa.gov/ceam/meteorological-data>
 - <https://www.ncdc.noaa.gov/>
 - <https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad?gi=af837c58e3b>
@@ -106,7 +108,11 @@ and enforce self imposed deadlines.
 - <https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#merging-kubeconfig-files>
 - <https://en.wikipedia.org/wiki/Convective_available_potential_energy>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://gunicorn.org/>
 - <https://pypi.org/project/pq/>

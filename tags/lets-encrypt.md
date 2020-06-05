@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "lets-encrypt"
+url: "https://letsencrypt.org/"
 
 title: "Websites Using Let's Encrypt to Issue SSL Certificates"
 description:

@@ -116,6 +116,8 @@ design and scaling that apply to any web framework.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Six_degrees_of_separation>
 - <https://neo4j.com/developer/cypher-basics-i/>
 - <https://en.wikipedia.org/wiki/Directed_acyclic_graph>
@@ -126,7 +128,11 @@ design and scaling that apply to any web framework.
 - <https://github.com/wercker/stern>
 - <https://www.weave.works/oss/scope/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/florinpatrascu/bolt_sips>
 - <https://github.com/bitwalker/distillery>

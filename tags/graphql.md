@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "graphql"
+url: "https://graphql.org/"
 
 title: "Websites Using GraphQL in Production to Power Their API"
 description:

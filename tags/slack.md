@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "slack"
+url: "https://slack.com/"
 
 title: "Websites Using Slack to Receive Notifications"
 description:

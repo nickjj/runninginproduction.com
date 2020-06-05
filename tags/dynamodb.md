@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "dynamodb"
+url: "https://aws.amazon.com/dynamodb/"
 
 title: "Websites Using DynamoDB in Production"
 description:

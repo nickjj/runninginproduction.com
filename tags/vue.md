@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "vue"
+url: "https://vuejs.org/"
 
 title: "Websites Using Vue in Production"
 description:

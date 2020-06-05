@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "bootstrap"
+url: "https://getbootstrap.com/"
 
 title: "Websites Using Bootstrap in Production"
 description:

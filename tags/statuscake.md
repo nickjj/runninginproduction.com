@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "statuscake"
+url: "https://www.statuscake.com/"
 
 title: "Websites Using StatusCake for Up-Time Monitoring and Alerts"
 description:

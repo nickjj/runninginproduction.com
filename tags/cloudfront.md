@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "cloudfront"
+url: "https://aws.amazon.com/cloudfront/"
 
 title: "Websites Using AWS CloudFront in Production as a CDN"
 description:

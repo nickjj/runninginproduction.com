@@ -95,12 +95,18 @@ AWS using Cloud9 IDE. Exam Pro has been running in production since late 2018.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Domain-specific_language>
 - <https://en.wikipedia.org/wiki/Center_for_Internet_Security>
 - <https://en.wikipedia.org/wiki/Application_performance_management>
 - <https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/puma/puma>
 - <https://github.com/ExamProCo/dilithium.js>

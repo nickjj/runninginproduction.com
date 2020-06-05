@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "ubuntu"
+url: "https://ubuntu.com/"
 
 title: "Websites Using Ubuntu in Production"
 description:

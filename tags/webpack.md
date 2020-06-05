@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "webpack"
+url: "https://webpack.js.org/"
 
 title: "Websites Using Webpack to Bundle Their Front-End Code"
 description:

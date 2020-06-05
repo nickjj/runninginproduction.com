@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "mailgun"
+url: "https://www.mailgun.com/"
 
 title: "Websites Using Mailgun to Send Emails in Production"
 description:

@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "datadog"
+url: "https://www.datadoghq.com/"
 
 title: "Websites Using Datadog for Monitoring in Production"
 description:

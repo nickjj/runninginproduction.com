@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "swarm"
+url: "https://docs.docker.com/engine/swarm/"
 
 title: "Websites Using Docker Swarm in Production"
 description:

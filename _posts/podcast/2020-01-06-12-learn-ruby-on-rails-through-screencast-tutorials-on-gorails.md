@@ -95,6 +95,8 @@ GoRails. *Spoiler alert: Rails does scale*.
 
 ## Links
 
+###### 📄 References
+
 - <https://www.hatchbox.io/>
 - <https://jumpstartrails.com/>
 - <https://twitter.com/dhh>
@@ -105,7 +107,11 @@ GoRails. *Spoiler alert: Rails does scale*.
 - <https://twitter.com/andrewkane>
 - <https://egghead.io/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/rails/webpacker>
 - <https://github.com/brandonhilkert/sucker_punch>

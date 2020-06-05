@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "paddle"
+url: "https://paddle.com/"
 
 title: "Websites Using Paddle as a Payment Gateway"
 description:

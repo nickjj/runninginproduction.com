@@ -79,16 +79,21 @@ of features that you get from using Gigalixir to host your Elixir projects.
 
 ## Links
 
+###### 📄 References
+
 - <https://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections>
 - <https://api.slack.com/messaging/webhooks>
 - <https://adamconrad.dev/blog/verifying-request-signatures-in-elixir-phoenix/>
 - <https://elixir-lang.slack.com/>
-- <https://github.com/code-corps/stripity_stripe>
 - <https://github.com/h4cc/awesome-elixir>
 - <https://www.postgresql.org/>
 - <https://twitter.com/josevalim>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/BlakeWilliams/Elixir-Slack>
 - <https://github.com/code-corps/stripity_stripe>

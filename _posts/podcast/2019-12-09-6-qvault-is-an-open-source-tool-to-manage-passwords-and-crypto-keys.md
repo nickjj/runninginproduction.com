@@ -120,6 +120,8 @@ about a Serverless framework called Serverless!
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Serverless_computing>
 - <https://en.wikipedia.org/wiki/Cryptocurrency>
 - <https://en.wikipedia.org/wiki/Bitcoin>
@@ -131,3 +133,7 @@ about a Serverless framework called Serverless!
 - <https://linux.die.net/man/1/kill>
 - <https://www.postgresql.org/docs/current/functions-json.html>
 - <https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc>
+
+###### ⚙️ Services Used
+
+{% include services-used.html %}

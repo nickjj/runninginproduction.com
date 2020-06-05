@@ -91,6 +91,8 @@ and a whole lot more.
 
 ## Links
 
+###### 📄 References
+
 - <https://cerpus.com> (the company Brett works for)
 - <https://en.wikipedia.org/wiki/Database_model#Graph_model>
 - <https://en.wikipedia.org/wiki/Topic_map>
@@ -101,7 +103,11 @@ and a whole lot more.
 - <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04>
 - <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/un33k/python-slugify>
 - <https://visjs.org/>

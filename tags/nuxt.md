@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "nuxt"
+url: "https://nuxtjs.org/"
 
 title: "Websites Using Nuxt in Production"
 description:

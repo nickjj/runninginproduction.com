@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "redis"
+url: "https://redis.io/"
 
 title: "Websites Using Redis in Production"
 description:

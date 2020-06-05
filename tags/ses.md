@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "ses"
+url: "https://aws.amazon.com/ses/"
 
 title: "Websites Using AWS SES to Send Emails in Production"
 description:

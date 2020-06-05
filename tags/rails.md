@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "rails"
+url: "https://rubyonrails.org/"
 
 title: "Websites Using Ruby on Rails in Production"
 description:

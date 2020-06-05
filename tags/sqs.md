@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "sqs"
+url: "https://aws.amazon.com/sqs/"
 
 title: "Websites Using AWS SQS in Production"
 description:

@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "travis-ci"
+url: "https://travis-ci.org/"
 
 title: "Websites Using Travis CI for CI / CD"
 description:

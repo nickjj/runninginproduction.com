@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "redis-cloud"
+url: "https://redislabs.com/redis-enterprise-cloud/"
 
 title: "Websites Using Redis Enterprise Cloud in Production"
 description:

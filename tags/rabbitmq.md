@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "rabbitmq"
+url: "https://www.rabbitmq.com/"
 
 title: "Websites Using RabbitMQ in Production"
 description:

@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "braintree"
+url: "https://www.braintreepayments.com/"
 
 title: "Websites Using Braintree as a Payment Gateway"
 description:

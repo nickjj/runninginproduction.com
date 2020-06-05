@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "debian"
+url: "https://www.debian.org/"
 
 title: "Websites Using Debian in Production"
 description:

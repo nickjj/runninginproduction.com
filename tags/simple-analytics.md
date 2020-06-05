@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "simple-analytics"
+url: "https://simpleanalytics.com/"
 
 title: "Websites Using Simple Analytics in Production"
 description:

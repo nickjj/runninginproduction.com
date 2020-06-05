@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "digitalocean-spaces"
+url: "https://www.digitalocean.com/products/spaces/"
 
 title: "Websites Using DigitalOcean Spaces in Production as a CDN"
 description:

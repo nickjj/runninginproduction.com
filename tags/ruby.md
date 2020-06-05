@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "ruby"
+url: "https://www.ruby-lang.org/"
 
 title: "Websites Using Ruby in Production"
 description:

@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "dotnet"
+url: "https://dotnet.microsoft.com/"
 
 title: "Websites Using .NET in Production"
 description:

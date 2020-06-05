@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "zope"
+url: "https://www.zope.org/"
 
 title: "Websites Using Zope in Production"
 description:

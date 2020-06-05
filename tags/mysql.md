@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "mysql"
+url: "https://www.mysql.com/"
 
 title: "Websites Using MySQL in Production"
 description:

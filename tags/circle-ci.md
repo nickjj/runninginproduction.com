@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "circle-ci"
+url: "https://circleci.com/"
 
 title: "Websites Using Circle CI for CI / CD"
 description:

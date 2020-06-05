@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "bitbucket-pipelines"
+url: "https://bitbucket.org/product/features/pipelines"
 
 title: "Websites Using Bitbucket Pipelines for CI / CD"
 description:

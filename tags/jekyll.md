@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "jekyll"
+url: "https://jekyllrb.com/"
 
 title: "Using Jekyll as Your Static Site Generator"
 description:

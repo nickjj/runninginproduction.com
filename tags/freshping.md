@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "freshping"
+url: "https://www.freshworks.com/website-monitoring/"
 
 title: "Websites Using Freshping for Up-Time Monitoring and Alerts"
 description:

@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "sns"
+url: "https://aws.amazon.com/sns/"
 
 title: "Websites Using AWS SNS in Production"
 description:

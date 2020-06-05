@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "sendgrid"
+url: "https://sendgrid.com/"
 
 title: "Websites Using SendGrid to Send Emails in Production"
 description:

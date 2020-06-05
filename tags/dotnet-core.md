@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "dotnet-core"
+url: "https://docs.microsoft.com/en-us/dotnet/core/"
 
 title: "Websites Using .NET Core in Production"
 description:

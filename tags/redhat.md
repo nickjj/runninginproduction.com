@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "redhat"
+url: "https://www.redhat.com/"
 
 title: "Websites Using RedHat in Production"
 description:

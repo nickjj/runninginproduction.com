@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "react"
+url: "https://reactjs.org/"
 
 title: "Websites Using React in Production"
 description:

@@ -15,7 +15,7 @@ tags:
   - "elixir"
   - "golang"
   - "aws"
-  - "build-kite"
+  - "buildkite"
   - "docker"
   - "fastly"
   - "gcp"
@@ -114,6 +114,8 @@ databases, metered billing and tons more.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/HTTP_Live_Streaming>
 - <https://howvideo.works/>
 - <https://www.ycombinator.com/about/>
@@ -128,7 +130,11 @@ databases, metered billing and tons more.
 - <https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol>
 - <https://obsproject.com/>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/akira/exq>
 - <https://github.com/elixir-mint/mint>

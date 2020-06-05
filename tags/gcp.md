@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "gcp"
+url: "https://cloud.google.com/"
 
 title: "Website Using Google Cloud in Production"
 description:

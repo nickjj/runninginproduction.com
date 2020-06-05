@@ -79,6 +79,8 @@ site, treating your infrastructure as code and more.
 
 ## Links
 
+###### 📄 References
+
 - <https://en.wikipedia.org/wiki/Machine_learning>
 - <https://en.wikipedia.org/wiki/Deep_learning>
 - <https://en.wikipedia.org/wiki/Natural_language_processing>
@@ -87,7 +89,11 @@ site, treating your infrastructure as code and more.
 - <https://locust.io/>
 - <https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://scikit-learn.org/stable/>
 - <https://www.tensorflow.org/>

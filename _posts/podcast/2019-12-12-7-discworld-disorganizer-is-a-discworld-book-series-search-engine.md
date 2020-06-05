@@ -91,6 +91,8 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
 
 ## Links
 
+###### 📄 References
+
 - <https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0>
 - <https://docs.microsoft.com/en-us/ef/core/>
 - <https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming>
@@ -101,3 +103,7 @@ the .NET eco-system and even Discworld in this episode thanks to Jamie!
 - <https://en.wikipedia.org/wiki/Field-programmable_gate_array>
 - <https://en.wikipedia.org/wiki/PKCS_12>
 - <https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow>
+
+###### ⚙️ Services Used
+
+{% include services-used.html %}

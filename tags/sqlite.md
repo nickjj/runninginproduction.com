@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "sqlite"
+url: "https://www.sqlite.org/index.html"
 
 title: "Websites Using SQLite in Production"
 description:

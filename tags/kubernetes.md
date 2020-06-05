@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "kubernetes"
+url: "https://kubernetes.io/"
 
 title: "Websites Using Kubernetes in Production"
 description:

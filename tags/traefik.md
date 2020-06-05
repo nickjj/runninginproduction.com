@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "traefik"
+url: "https://containo.us/traefik/"
 
 title: "Websites Using Traefik in Production"
 description:

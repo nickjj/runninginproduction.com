@@ -80,11 +80,17 @@ limiter too. The app is open source on
 
 ## Links
 
+###### 📄 References
+
 - <https://cloud.google.com/>
 - <https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups>
 - <https://martinfowler.com/bliki/CanaryRelease.html>
 - <https://www.cloudflare.com/apps/developer/offers/google>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/ninenines/cowboy>

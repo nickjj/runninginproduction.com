@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "bigquery"
+url: "https://cloud.google.com/bigquery"
 
 title: "Websites Using Google BigQuery in Production"
 description:

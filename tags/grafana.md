@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "grafana"
+url: "https://grafana.com/"
 
 title: "Websites Using Grafana in Production to Analyze and Observe Metrics"
 description:

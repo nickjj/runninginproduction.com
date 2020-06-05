@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "terraform"
+url: "https://www.terraform.io/"
 
 title: "Websites Using Terraform in Production"
 description:

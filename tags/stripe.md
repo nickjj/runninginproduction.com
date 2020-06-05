@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "stripe"
+url: "https://stripe.com/"
 
 title: "Websites Using Stripe as a Payment Gateway"
 description:

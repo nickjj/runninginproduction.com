@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "nginx"
+url: "https://nginx.org/en/"
 
 title: "Websites Using nginx in Production"
 description:

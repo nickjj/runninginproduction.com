@@ -112,6 +112,8 @@ day.
 
 ## Links
 
+###### 📄 References
+
 - <https://coronavirus.jhu.edu/map.html>
 - <https://github.com/CSSEGISandData/COVID-19>
 - <https://en.wikipedia.org/wiki/United_States_Department_of_Defense>
@@ -123,7 +125,11 @@ day.
 - <https://tuple.app/>
 - <https://guides.rubyonrails.org/v4.0/command_line.html>
 
-## Libraries Used
+###### ⚙️ Services Used
+
+{% include services-used.html %}
+
+###### 🛠 Libraries Used
 
 - <https://github.com/sparklemotion/mechanize>
 - <https://github.com/zombocom/wicked>
