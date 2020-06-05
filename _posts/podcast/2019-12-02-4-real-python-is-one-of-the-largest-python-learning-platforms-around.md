@@ -18,7 +18,6 @@ tags:
   - "docker"
   - "freshping"
   - "heroku"
-  - "lets-encrypt"
   - "paddle"
   - "papertrail"
   - "postgres"
