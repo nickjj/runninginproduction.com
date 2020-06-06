@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "elasticsearch"
+url: "https://www.elastic.co/"
 
 title: "Websites Using Elasticsearch in Production"
 description:

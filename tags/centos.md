@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "centos"
+url: "https://www.centos.org/"
 
 title: "Websites Using CentOS in Production"
 description:

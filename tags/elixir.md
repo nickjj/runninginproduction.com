@@ -1,6 +1,7 @@
 ---
 layout: "tags"
 tag: "elixir"
+url: "https://elixir-lang.org/"
 
 title: "Websites Using Elixir in Production"
 description:
