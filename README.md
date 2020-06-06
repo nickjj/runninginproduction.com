@@ -1,4 +1,4 @@
-# Running in Production
+# Running in Production ![CI](https://github.com/nickjj/runninginproduction.com/workflows/CI/badge.svg)
 
 A podcast and interview site where folks talk about running small & large web
 apps in production. Topics include tech stacks, success stories, lessons
