@@ -45,7 +45,7 @@ This episode is loaded up with all sorts of goodies related to running
 microservices at scale, handling multi-tenancy databases with PostgreSQL,
 aggressively using feature flags and so much more.
 
-## Show Notes
+## Topics Include
 
 - 0:57 -- The current stack is a legacy Zope system combined with Flask
 - 1:27 -- ScholarPack has been running for 12+ years and Zope was very popular then

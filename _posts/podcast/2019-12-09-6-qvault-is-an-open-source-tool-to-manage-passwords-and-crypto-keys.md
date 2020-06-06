@@ -43,7 +43,7 @@ native or web application this episode has you covered. Lane talks about how a
 bunch of different AWS services all come together to make it work. We also talk
 about a Serverless framework called Serverless!
 
-## Show Notes
+## Topics Include
 
 - 1:03 -- Qvault is an Electron based password manager with a focus on cryptocurrency
 - 2:16 -- The focus has been a secure desktop app but a browser extension is coming soon

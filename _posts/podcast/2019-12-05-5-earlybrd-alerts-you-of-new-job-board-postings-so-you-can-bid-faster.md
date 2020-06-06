@@ -44,7 +44,7 @@ decisions instead of getting hung up in endless research loops. His set up is
 optimized for simplicity and to solve the problems he's run into so far as a
 solo developer working on the project.
 
-## Show Notes
+## Topics Include
 
 - 1:44 -- Running the latest stable build of Flask and Python 3.7.x
 - 2:24 -- Motivation for using Flask and Python

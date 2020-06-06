@@ -41,7 +41,7 @@ bar is constantly being raised for what developers need to learn. For example,
 at one point we talked about the new SCA workflows with Stripe since he
 collects payments for subscriptions.
 
-## Show Notes
+## Topics Include
 
 - 1:53 -- What type of content does Alchemist Camp have?
 - 3:41 -- The whole platform was developed by Mark

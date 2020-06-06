@@ -46,7 +46,7 @@ pulse on similar communities that you're in. For example, Chris took a lot of
 inspiration from Laravel when it came to implementing the billing code for
 GoRails. *Spoiler alert: Rails does scale*.
 
-## Show Notes
+## Topics Include
 
 - 1:42 -- Avoiding burn out by having a 2nd project to work on
 - 3:11 -- Scratching your own business needs is a healthy way to drive a project

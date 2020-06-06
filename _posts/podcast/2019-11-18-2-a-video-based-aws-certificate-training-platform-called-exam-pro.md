@@ -46,7 +46,7 @@ AWS services and how they all come together to run and deploy his application.
 They've gone all-in with AWS. Even their development environment is running on
 AWS using Cloud9 IDE. Exam Pro has been running in production since late 2018.
 
-## Show Notes
+## Topics Include
 
 - 1:21 -- A small team of developers actively work on the Exam Pro platform
 - 2:40 -- Motivation for using Ruby on Rails

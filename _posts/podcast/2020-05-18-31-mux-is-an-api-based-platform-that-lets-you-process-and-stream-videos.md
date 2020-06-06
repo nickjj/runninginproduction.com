@@ -46,7 +46,7 @@ taking advantage of Elixir and Phoenix's features, providing a zero downtime
 public API, continuously deploying their products, working with massive
 databases, metered billing and tons more.
 
-## Show Notes
+## Topics Include
 
 - 1:14 -- How online streaming video works with HLS and where Mux fits into the picture
 - 7:51 -- Mux lets you post a video to their API and they give you an HLS playback URL

@@ -41,7 +41,7 @@ CPU cores, 128+ GB of RAM and 10+ TB of disk space. The app is open source and
 it's his side project, so he also talked about tips on how to manage his time
 and enforce self imposed deadlines.
 
-## Show Notes
+## Topics Include
 
 - 1:59 -- Weather data can come from a number of different sources
 - 3:01 -- 750+ GB of data is cycled every 2 days and it needs to be queryable in ~200ms

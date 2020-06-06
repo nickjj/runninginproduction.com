@@ -36,7 +36,7 @@ use to access various systems and resources.
 The application has a number of interesting security, up-time and browser
 compatibility requirements. It's been running in production since 2017.
 
-## Show Notes
+## Topics Include
 
 - 2:28 -- Motivation for using Elixir and Phoenix
 - 5:39 -- Would you use Phoenix again if you rewrote your app today?

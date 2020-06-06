@@ -36,7 +36,7 @@ chose those services, the value of end to end tests using Selenium, the
 benefits of working with someone else instead of trying to do everything alone
 and more.
 
-## Show Notes
+## Topics Include
 
 - 1:02 -- Switching gears and making a different site after running into a road block
 - 2:36 -- Motivation for using Flask over Django and other frameworks

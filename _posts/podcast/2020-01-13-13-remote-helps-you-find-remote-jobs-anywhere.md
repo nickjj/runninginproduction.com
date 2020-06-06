@@ -45,7 +45,7 @@ applications to Elixir's ecosystem and everything in between. One takeaway is
 to be mindful of over engineering your code base and try to focus on the things
 that are important to your application.
 
-## Show Notes
+## Topics Include
 
 - 3:15 -- Taking over the old remote.com site and rebuilding it from scratch
 - 4:03 -- Motivation for rewriting everything in Elixir and Phoenix

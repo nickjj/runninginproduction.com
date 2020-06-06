@@ -18,7 +18,7 @@ module Jekyll
       # Stop if we could't parse with HTML.
       return content unless doc
 
-      doc.xpath('h2[contains(text(), "Show Notes")]/following-sibling::ul[1]/li').each do |li|
+      doc.xpath('h2[contains(text(), "Topics Include")]/following-sibling::ul[1]/li').each do |li|
         original_inner_html = li.inner_html
         split_delimiter = ' – '
         original_inner_html_split = original_inner_html.split(split_delimiter)

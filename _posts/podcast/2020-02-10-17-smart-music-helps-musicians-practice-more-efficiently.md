@@ -50,7 +50,7 @@ There's around 20 developers working on the project. We talked about managing
 git repos with a few apps, TDD, using GraphQL with Phoenix, contexts, multiple
 databases with Rails, InfluxDB, GitHub Actions and tons more.
 
-## Show Notes
+## Topics Include
 
 - 2:41 -- Roughly half a million users are on the platform (~1.5k requests a minute at times)
 - 3:27 -- What Rails, Phoenix and .NET Core are being used for

@@ -45,7 +45,7 @@ buildings monoliths, switching from Apache to nginx during a 10 hour car ride,
 keeping your deployments as simple as possible (even with zero down time) and a
 whole lot more.
 
-## Show Notes
+## Topics Include
 
 - 1:22 -- From 2,000 requests a day to 2.5 million requests a day in a few years
 - 2:01 -- WordPress is still really popular

@@ -47,7 +47,7 @@ architecture, DDD, event driven design and running a self managed Kubernetes
 cluster. There's a lot of great insights in this episode around general code
 design and scaling that apply to any web framework.
 
-## Show Notes
+## Topics Include
 
 - 2:11 -- 4 developers are actively working on the project
 - 2:50 -- It's been running in production since September 2019

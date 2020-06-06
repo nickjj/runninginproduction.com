@@ -17,7 +17,7 @@ this podcast which is to have developers / engineers on the show who are
 running any web application in production. Guests will go into why they chose
 their tech stack, lessons learned and everything in between.
 
-## Show Notes
+## Topics Include
 
 - 0:41 -- A site to learn details about how folks are running their site in production
 - 1:13 -- Are you a developer / engineer who runs a site in production? Become a guest

@@ -36,7 +36,7 @@ knowledge, an open source Topic map library he wrote in Python, the power and
 simplicity of Flask, the value of keeping an eye on your external dependencies
 and a whole lot more.
 
-## Show Notes
+## Topics Include
 
 - 1:37 -- Contextualise is a side project that scratches Brett's own itch
 - 3:01 -- It uses a Topic map which is a type of graph model to model a lot of things 

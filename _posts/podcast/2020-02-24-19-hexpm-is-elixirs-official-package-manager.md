@@ -44,7 +44,7 @@ the value in breaking out independent services, working with Google's managed
 Kubernetes service, keeping administrative tasks simple, his struggles with
 Stripe's SCA and more.
 
-## Show Notes
+## Topics Include
 
 - 1:02 -- The hex.pm site is a community effort with a few core contributors
 - 1:52 -- 5 reqs / second for the main site and 140 reqs / second for the repo side of things

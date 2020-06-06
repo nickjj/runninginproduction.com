@@ -40,7 +40,7 @@ in the DOD and iterating on a project super quickly. The app's initial release
 was created in less than 2 days and it's currently serving 100,000+ visitors a
 day.
 
-## Show Notes
+## Topics Include
 
 - 1:23 -- The app was initially released after 2 days of part time development
 - 2:36 -- The data is pulled in from the Johns Hopkins CSV data on GitHub

@@ -56,7 +56,7 @@ try](https://nova-adc.com/pricing?utm_source=Running%20in%20Production&utm_mediu
 After this episode the first thing I thought was "wtf, why am I not using
 this?". I'm going to start playing with it over the holidays for my own sites.*
 
-## Show Notes
+## Topics Include
 
 - 1:31 -- 2 teams composed of 9 developers work on the back-end and front-end
 - 1:59 -- Motivation for choosing Golang for the back-end came down to scaling requirements

@@ -43,7 +43,7 @@ as a load balancer, running Docker Swarm, maintaining a web app that has been
 running for 10+ years, creating a flexible and robust deployment pipeline with
 GitHub Actions as a solo developer and a whole lot more.
 
-## Show Notes
+## Topics Include
 
 - 2:07 -- Experiences with using Flask to build the site for the last 10+ years
 - 2:43 -- Traffic ranges from 20,000+ visitors a day to hundreds per month

@@ -45,7 +45,7 @@ data pipeline to ingest thousands of errors a minute in ~80 milliseconds, the
 benefits of pjax, how dedicated hardware ended up being half the price of
 cloud servers and using Ansible to configure all of the servers.
 
-## Show Notes
+## Topics Include
 
 - 2:06 -- Working nights and weekends until it made enough to replace consulting work
 - 3:05 -- Being your own boss changes how you think about writing software

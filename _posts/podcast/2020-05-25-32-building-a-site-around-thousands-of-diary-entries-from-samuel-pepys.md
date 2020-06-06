@@ -38,7 +38,7 @@ under high load, rewriting the platform with Django as a monolith, how Heroku
 helps him get it all up and running without needing to bother with servers and
 much more. The site is [open source](https://github.com/philgyford/pepysdiary).
 
-## Show Notes
+## Topics Include
 
 - 1:21 -- Who is Samuel Pepys and why a weblog is a natural fit for this site
 - 2:26 -- John Carmack had daily write ups in the mid-1990s

@@ -36,7 +36,7 @@ the process of learning DevOps related tasks to deploy a project he didn't
 write, his journey of automating the process with Ansible and how it's ok to
 make mistakes along the way.
 
-## Show Notes
+## Topics Include
 
 - 1:07 -- What exactly is Jupyter and Jupyter Hub?
 - 2:12 -- Students can access a fully working Python environment from their browser

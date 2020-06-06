@@ -45,7 +45,7 @@ Django apps over time, working with a GraphQL API back-end, querying 45+
 million DB rows quickly, making app deploys a pleasant experience for his team,
 achieving 99.99% uptime and so much more.
 
-## Show Notes
+## Topics Include
 
 - 2:02 -- Shipping an MVP insurance company in 8 weeks with little insurance knowledge
 - 3:53 -- React Native was used to build mobile apps after a demand for it was seen

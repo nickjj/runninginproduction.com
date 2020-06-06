@@ -37,7 +37,7 @@ the web dashboard. Phoenix Tracker is being used for a cluster-wide rate
 limiter too. The app is open source on
 [GitHub](https://github.com/Logflare/logflare).
 
-## Show Notes
+## Topics Include
 
 - 2:16 -- Over 7 billion log events are being handled per month
 - 2:43 -- What are CloudFlare apps?

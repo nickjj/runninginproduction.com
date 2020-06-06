@@ -43,7 +43,7 @@ deploy process is very by the books which includes performing 1 person code
 reviews which I found to be great. We covered a lot of ground in this episode!
 *Spoiler alert: he's using the built-in Django admin*.
 
-## Show Notes
+## Topics Include
 
 - 1:47 -- The history of Real Python and how Dan ended up taking over
 - 3:13 -- Replacing a PHP back-end with a custom Django app from scratch

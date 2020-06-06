@@ -39,7 +39,7 @@ and React all come together to build an app that uses Shopify's API. There's
 also quite a lot of details on the value of testing and how CI helps keep open
 source projects well tested.
 
-## Show Notes
+## Topics Include
 
 - 1:02 -- Junaid was running his own online store before making this app
 - 1:38 -- Zapier and Google Sheets worked for a while but it wasn't sustainable

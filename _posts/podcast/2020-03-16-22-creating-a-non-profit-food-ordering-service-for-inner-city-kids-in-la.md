@@ -35,7 +35,7 @@ developer, scraping the USDA's site, working with Flask-SocketIO to create a
 real-time ordering service and getting everything up and running on a single
 server without using Docker, CI or configuration management tools.
 
-## Show Notes
+## Topics Include
 
 - 3:15 -- Replacing spreadsheets with a web app as the single dev on this project
 - 4:12 -- It was better off making a hand rolled solution instead of using an existing platform

@@ -43,7 +43,7 @@ through AWS Lambda. We talked about ways to run various AWS services locally,
 auto-scaling, background workers, developing a custom caching solution and a
 whole lot more.
 
-## Show Notes
+## Topics Include
 
 - 1:19 -- Working on it during nights and weekends as a part time project
 - 2:03 -- Motivation for using Phoenix and Elixir

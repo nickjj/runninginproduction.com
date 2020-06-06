@@ -36,7 +36,7 @@ he already owns. [The API](https://dwcheckapi.azurewebsites.net/) portion of
 the app is a separate app that is public and free to use. I learned a lot about
 the .NET eco-system and even Discworld in this episode thanks to Jamie!
 
-## Show Notes
+## Topics Include
 
 - 0:59 -- .NET Core is open source and runs on Windows, MacOS and Linux
 - 1:39 -- The front-end is using Angular 2 and the back-end is using ASP .NET Core

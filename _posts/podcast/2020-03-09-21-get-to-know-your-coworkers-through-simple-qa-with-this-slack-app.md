@@ -32,7 +32,7 @@ Adam talks about the wonderful Elixir community along with how Elixir helps him
 manage a bunch of concurrent tasks for his service. He also goes over a number
 of features that you get from using Gigalixir to host your Elixir projects.
 
-## Show Notes
+## Topics Include
 
 - 1:31 -- Adam is the sole developer but he has a friend who helps him market the service
 - 2:38 -- The Slack bot asks you a number of questions, such as your music preference

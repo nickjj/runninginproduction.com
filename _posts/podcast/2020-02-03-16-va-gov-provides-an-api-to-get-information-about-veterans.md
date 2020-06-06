@@ -44,7 +44,7 @@ like working on government contracts, how AWS GovCloud is different than the
 regular AWS platform, the code base being open source, code reviews and a whole
 lot more.
 
-## Show Notes
+## Topics Include
 
 - 2:17 -- 20 developers (~50 people total) run just the developer.va.gov site
 - 3:10 -- The platform has been up and running for [18+ months](https://www.youtube.com/watch?v=GZgw7QyUSi0)

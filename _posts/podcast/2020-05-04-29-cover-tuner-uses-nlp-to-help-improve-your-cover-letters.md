@@ -33,7 +33,7 @@ his first month after shipping an MVP, using MongoDB as a primary database,
 keeping his front-end simple with a bit of jQuery, what it's like to deploy a
 Python app using Google App Engine and more.
 
-## Show Notes
+## Topics Include
 
 - 2:54 -- You can upload your cover letter and get back an analysis without an account
 - 3:50 -- Motivation for using Flask and Python
