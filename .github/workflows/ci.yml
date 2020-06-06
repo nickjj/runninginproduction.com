@@ -1,0 +1,13 @@
+name: "CI"
+
+on: "push"
+
+jobs:
+  test:
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: "actions/checkout@v2"
+
+      - name: "Ensure tags are consistently named and have the correct attrs"
+        run: ./_tests/tag-check.sh
