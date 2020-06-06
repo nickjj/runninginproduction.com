@@ -22,6 +22,7 @@ tags:
   - "redis"
   - "simple-analytics"
   - "uptime-robot"
+  - "tailwindcss"
 
 title: "CovidNearMe Tracks Cases and Has Info for Citizens / Health Workers"
 description:
@@ -118,7 +119,6 @@ day.
 - <https://github.com/CSSEGISandData/COVID-19>
 - <https://en.wikipedia.org/wiki/United_States_Department_of_Defense>
 - <https://jumpstartrails.com/>
-- <https://tailwindcss.com/>
 - <https://www.worldometers.info/coronavirus/>
 - <https://simpleanalytics.com/>
 - <https://gsuite.google.com>
