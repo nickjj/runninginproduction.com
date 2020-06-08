@@ -56,6 +56,7 @@ about 3 months before shipping an MVP.
 - 50:08 -- Benefits of switching to a compute optimized C5n.large EC2 instance
 - 1:00:46 -- Handling disasters and unexpected events
 - 1:04:39 -- Best tips? Pick the tool you're the most productive with and ship something
+- 1:07:03 -- They're on Instagram with a new account name of [ZenVur](https://www.instagram.com/zenvur/)
 
 ## Links
 
