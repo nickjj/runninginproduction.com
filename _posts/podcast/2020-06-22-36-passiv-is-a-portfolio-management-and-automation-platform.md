@@ -35,7 +35,7 @@ a portfolio management platform with Django and Python. It's been running in
 production since mid 2017 and is hosted on DigitalOcean.
 
 There's about 3,000+ active users and overall they are responsible for
-managing hundreds of millions of dollars of funds for their users.
+managing hundreds of millions of dollars in funds for their users.
 
 ## Topics Include
 
