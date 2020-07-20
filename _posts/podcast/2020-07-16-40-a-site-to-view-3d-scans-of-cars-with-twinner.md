@@ -36,7 +36,7 @@ bunch of sysadmin work.
 
 ## Topics Include
 
-- 3:34 -- Building 3 different MVPs in 6 months to satisify his client's needs
+- 3:34 -- Building 3 different MVPs in 6 months to satisfy his client's needs
 - 6:33 -- Motivation for using Django, how the 3D model viewer works and GDPR compliance
 - 12:52 -- It's a monolithic app that runs on 2 Heroku Dynos and it uses Celery
 - 16:42 -- The app it about ~1k lines of Python code and uses Material Design Lite
