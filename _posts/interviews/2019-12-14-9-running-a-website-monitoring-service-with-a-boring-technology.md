@@ -12,6 +12,7 @@ tags:
   - "ruby"
   - "static-site"
   - "aws"
+  - "caddy"
   - "cloudflare"
   - "heroku"
   - "netlify"
