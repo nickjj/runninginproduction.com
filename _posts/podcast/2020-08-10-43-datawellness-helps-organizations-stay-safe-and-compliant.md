@@ -6,7 +6,7 @@ mp3_duration: "59:22"
 
 guest: "Dave Merwin"
 guest_avatar: "dave-merwin"
-guest_website: "http://datawellness.com"
+guest_website: "https://datawellness.com"
 guest_twitter: "davemerwin"
 
 category: "podcast"
