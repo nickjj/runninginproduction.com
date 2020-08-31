@@ -44,6 +44,21 @@ layout: "default"
                 </h6>
               </div>
             {% endif %}
+
+            {% if page.guest_2 %}
+              <div class="clearfix avatar--item mb-4">
+                {% capture avatar %}{{ page.guest_2_avatar | default: "unknown.jpg" }}{% endcapture %}
+                {% image avatars/{{avatar}} width:60 height:60 class:"avatar" %}
+                <h5 class="mb-1">{{ page.guest_2 }}</h5>
+                <h6 class="text-secondary mt-0">
+                  {% if page.guest_website %}
+                    <a href="{{ page.guest_website_href | default: page.guest_website }}">
+                      {{ page.guest_website }}
+                    </a>
+                  {% endif %}
+                </h6>
+              </div>
+            {% endif %}
           {% endif %}
 
           {{ content | audio_seek }}

@@ -15,6 +15,11 @@
     <h5 class="h6 mb-0 mt-2"><strong>{{ item.title }}</strong></h5>
   </a>
   {% if item.guest %}
-    <p class="mb-0 text-muted small">with {{ item.guest }}</p>
+    <p class="mb-0 text-muted small">
+      with {{ item.guest }}
+      {% if item.guest_2 %}
+        &amp; {{ item.guest_2 }}
+      {% endif %}
+    </p>
   {% endif %}
 </li>
