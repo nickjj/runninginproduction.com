@@ -7,6 +7,7 @@ mp3_duration: "1:01:50"
 guest: "Antonin Grêlé"
 guest_avatar: "antonin-grele"
 guest_website: "https://www.ethikdo.co"
+guest_twitter: "AntoninGrele"
 
 category: "podcast"
 tags:
@@ -53,7 +54,7 @@ something up quickly and more.
 - 49:10 -- Performing hourly DB backups and using UptimeRobot for downtime notifications
 - 54:19 -- The new SCA compliant Stripe APIs are being used
 - 58:33 -- Best tips? Get your product out ASAP and be mindful of what happens if you leave
-- 1:01:05 -- Looking to buy a gift card? Check out <{{ page.guest_website }}>
+- 1:01:05 -- Check out <{{ page.guest_website }}> and [Antonin is also on Twitter](https://twitter.com/{{ page.guest_twitter }})
 
 ## Links
 
