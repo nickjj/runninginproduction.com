@@ -68,4 +68,3 @@ implemented yet but it's currently in development with Stripe.
 - <https://github.com/yourlabs/django-autocomplete-light>
 - <https://github.com/celery/celery>
 - <https://github.com/joke2k/django-environ>
-
