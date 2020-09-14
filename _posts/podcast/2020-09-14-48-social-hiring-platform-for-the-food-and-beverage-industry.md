@@ -31,8 +31,8 @@ description:
 
 In this episode of Running in Production, {{ page.guest }} goes over using
 Django to build a social hiring platform for the food and beverage industry.
-It's hosted on Heroku and took about 9 months of full time development to
-build as a solo developer.
+It was in development for 9 months before it went live in early 2020. It's
+hosted on Heroku.
 
 Colin talks about building 2 separate apps and keeping the web app as a
 monolithic app with ~42k LOC, but it's broken up with Django apps.
