@@ -107,7 +107,7 @@ achieving 99.99% uptime and so much more.
 - 1:08:53 -- Best tips? Release as often as you can and invest in your release process
 - 1:10:03 -- That's also been the biggest pain point as they scaled up to a larger dev team
 - 1:11:19 -- Database migrations are run on every deploy
-- 1:12-33 -- Check out <https://zego.com>, their [open source work](https://github.com/Zegocover) or [email Stuart](mailto:stuart@zego.com) for questions
+- 1:12:33 -- Check out <https://zego.com>, their [open source work](https://github.com/Zegocover) or [email Stuart](mailto:stuart@zego.com) for questions
 
 ## Links
 
