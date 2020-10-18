@@ -313,7 +313,7 @@ free to reach out!
 [Hacker News front page]: https://news.ycombinator.com/item?id=19485559
 [Makefile]: https://en.wikipedia.org/wiki/Makefile
 [Mental Models I Find Repeatedly Useful]: https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d
-[My wife]: http://alpengraphics.com/
+[My wife]: https://melaniegoel.com/
 [`netlify-cli`]: https://cli.netlify.com/
 [Netlify]: https://www.netlify.com
 [no BS since 1999]: https://www.gandi.net/en-US/no-bullshit
