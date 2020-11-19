@@ -23,7 +23,7 @@ tags:
 title: "Logflare Is a Log Management and Event Analytics Platform"
 description:
   Chase Granberry goes over handling billions of log events per month with
-  Phoenixi and Elixir. It's all running on Google Cloud (GCP).
+  Phoenix and Elixir. It's all running on Google Cloud (GCP).
 ---
 
 In this episode of Running in Production, {{ page.guest }} goes over running a
