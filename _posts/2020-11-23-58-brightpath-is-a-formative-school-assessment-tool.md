@@ -29,7 +29,6 @@ tags:
   - "ses"
   - "sns"
   - "sqs"
-  - "sqs"
   - "ubuntu"
   - "webpack"
 
