@@ -32,9 +32,10 @@ In this episode of Running in Production, {{ page.guest }} talks about building
 the licensing site for his Oban project using Phoenix and Elixir. It's been up
 and running since March 2019 on Heroku.
 
-Parker talks about using Live View for the demo page, how licenses are issued
-with Hex's private repos, a bunch of libraries he uses, hand rolling his Stripe
-implementation, building a custom admin with custom analytics and more.
+Parker talks about using Live View for the demo page, how access control is
+handled with Hex's private packages, a bunch of libraries he uses, hand rolling
+his Stripe implementation, building a custom admin with custom analytics and
+more.
 
 ## Topics Include
 
