@@ -67,9 +67,9 @@ possible while focusing on patterns that work for small teams and so much more.
 - 1:13:38 -- Dealing with inserting secrets into the app through Kubernetes
 - 1:17:48 -- The embodiment of dev and ops working very well together
 - 1:19:01 -- Database backups, making small changes and health checks
-- 1:27:38 -- Best tips (Jerod)? Team up with people who fill in your knowledge gaps
+- 1:27:43 -- Best tips (Jerod)? Team up with people who fill in your knowledge gaps
 - 1:30:16 -- Best tips (Gerhard)? Be honest about what you like and enjoy doing
-- 1:31:59 -- Gerhard has a [personal site](https://gerhard.io/), Jerod is [on Twitter](https://twitter.com/{{ page.guest_twitter }}) &amp; check out <{{ page.guest_website }}>
+- 1:31:57 -- Gerhard has a [personal site](https://gerhard.io/), Jerod is [on Twitter](https://twitter.com/{{ page.guest_twitter }}) &amp; check out <{{ page.guest_website }}>
 
 ## Links
 
