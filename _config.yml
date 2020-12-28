@@ -64,7 +64,7 @@ exclude:
   - "LICENSE"
   - "README.md"
   - "*.sw*"
-  - "Session.Vim"
+  - "Session.vim"
 
 
 # jekyll-assets configuration.
