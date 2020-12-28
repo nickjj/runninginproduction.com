@@ -17,6 +17,7 @@ category: "podcast"
 tags:
   - "phoenix"
   - "elixir"
+  - "circle-ci"
   - "docker"
   - "fastly"
   - "grafana"
