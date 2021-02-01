@@ -40,17 +40,17 @@ using Live View / websockets when it comes to configuring nginx and more.
 - 1:35 -- Motivation for using Phoenix, Elixir and Live View
 - 4:14 -- How the site works, it saves data to a combination of PostgreSQL and the file system
 - 5:48 -- The experience of developing the app with Phoenix Live View
-- 8:40 -- Adding features quickly based on user feedback
+- 8:42 -- Adding features quickly based on user feedback
 - 11:13 -- It's an open source monolithic code base [sitting in 1 git repo](https://github.com/bontaq/textdb) on GitHub
 - 14:43 -- nginx is sitting in front of the cowboy server and terminals SSL
 - 16:57 -- It's hosted on DigitalOcean for $20 / month (2 vCPUs and 4 GB of RAM)
-- 17:56 -- The OS is Ubuntu 20.04 LTS and DigitalOcean's automated backups are on
+- 18:56 -- The OS is Ubuntu 20.04 LTS and DigitalOcean's automated backups are on
 - 20:17 -- The server was set up and configured manually without using Elixir releases too
 - 22:36 -- The deployment process from development to production
 - 26:41 -- The BEAM takes about 5 seconds to restart which is a bit of down time
-- 27:57 -- DigitalOcean's Cloud Firewall is being used along with their monitoring tools
+- 28:50 -- DigitalOcean's Cloud Firewall is being used along with their monitoring tools
 - 32:00 -- nginx is taking care of basic rate limiting by IP address
-- 34:19 -- Best tips? Phoenix is a great choice for side projects but beware of websockets
+- 34:20 -- Best tips? Phoenix is a great choice for side projects but beware of websockets
 - 36:11 -- Not having end to end tests before launching was kind of a mistake
 - 37:34 -- Check out the site at <{{ page.guest_website }}>
 
