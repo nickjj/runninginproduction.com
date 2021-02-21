@@ -1,7 +1,7 @@
 ---
 layout: "tags"
 tag: "sentry"
-url: "https://sentry.io/w"
+url: "https://sentry.io/"
 
 title: "Websites Using Sentry for Error Tracking in Production"
 description:
