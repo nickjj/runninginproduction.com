@@ -68,7 +68,7 @@ features to develop and so much more.
 - 1:34:45 -- Getting notified of errors if something goes wrong
 - 1:37:53 -- Best tips? Framing out when and where to record things (ie. events, etc.)
 - 1:43:19 -- Using Notion to track bugs, roadmaps and collect user feature requests
-- 1:47:23 -- Justin has a [personal site](https://jmduke.com/) and checkout [Buttondown]({{ page.guest_website }})
+- 1:47:23 -- Justin has a [personal site](https://jmduke.com/) and check out [Buttondown]({{ page.guest_website }})
 
 ## Links
 
