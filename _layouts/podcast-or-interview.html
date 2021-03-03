@@ -13,23 +13,25 @@ layout: "default"
     <div class="col-sm-8 mb-4 mt-sm-0 order-1">
       <div class="card">
         <div id="podcast_or_interview" class="card-body item">
-          {% capture mp3_url %}{{ site.mp3_url_path }}{{ page.slug | split: "-" | first }}.mp3{% endcapture %}
-
-          {% if page.category == "podcast" %}
-            {% include subscribe.html %}
-            {% capture data-episode %}{{ page.slug | split: "-" | first }}{% endcapture %}
-            {% include audio-player.html mp3_url=mp3_url data-episode=data-episode %}
-          {% endif %}
           <h1 class="h2">{{ post.title | default: page.title }}</h1>
-          <ul class="list-inline pl-0">
-            {% for tag in page.tags %}
-              <li class="list-inline-item">
-                {% include item-tag.html bs_class="light" tag=tag %}
-              </li>
-            {% endfor %}
-          </ul>
+          {% unless page.under_review %}
+            {% capture mp3_url %}{{ site.mp3_url_path }}{{ page.slug | split: "-" | first }}.mp3{% endcapture %}
 
-          {% if page.date %}
+            {% if page.category == "podcast" %}
+              {% include subscribe.html %}
+              {% capture data-episode %}{{ page.slug | split: "-" | first }}{% endcapture %}
+              {% include audio-player.html mp3_url=mp3_url data-episode=data-episode %}
+            {% endif %}
+            <ul class="list-inline pl-0">
+              {% for tag in page.tags %}
+                <li class="list-inline-item">
+                  {% include item-tag.html bs_class="light" tag=tag %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endunless %}
+
+          {% if page.date and page.under_review != true %}
             {% if page.guest %}
               <div class="clearfix avatar--item mb-4">
                 {% capture avatar %}{{ page.guest_avatar | default: "unknown.jpg" }}{% endcapture %}
@@ -63,7 +65,7 @@ layout: "default"
 
           {{ content | audio_seek }}
 
-          {% if page.date %}
+          {% if page.date and page.under_review != true %}
             {% if page.category == "podcast" %}
               {% unless page.has_sponsor %}
                 {% include support-the-show.html source=page.url %}
