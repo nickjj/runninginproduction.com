@@ -37,7 +37,7 @@ DigitalOcean using Forge and has been up and running since mid 2019.
 
 Mubs talks about using a bit of Vue as needed, not upgrading to the latest
 Laravel immediately, interesting problems around parsing RSS feeds, how Forge
-lets him easily host his site, understanding the nuisances of your app's domain
+lets him easily host his site, understanding the nuances of your app's domain
 and more.
 
 ## Topics Include
@@ -57,7 +57,7 @@ and more.
 - 47:16 -- Secrets are managed through an env file that you put on your server
 - 48:41 -- Database backups happen every day and everything else is backed up too
 - 51:38 -- Sentry is in charge of exception handling and Uptime Robot for site monitoring
-- 55:26 -- Best tips? Understand the nuisances of the app you're building
+- 55:26 -- Best tips? Understand the nuances of the app you're building
 - 56:30 -- Web tech is moving fast, will HTML over the wire be main stream soon?
 - 59:06 -- Mubs has his own site at <https://mubs.me> and [he's on Twitter too](https://twitter.com/{{ page.guest_twitter }})
 
