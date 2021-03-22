@@ -89,7 +89,7 @@ GoRails. *Spoiler alert: Rails does scale*.
 - 1:02:34 -- Everything will come up automatically after a system reboot
 - 1:05:25 -- Environment variables are protected with Rails' encrypted credentials
 - 1:07:39 -- Best tips? Things are more changeable than you think, keep it simple initially
-- 1:08-20 -- Always keep your master branch deployable with automated tests
+- 1:08:20 -- Always keep your master branch deployable with automated tests
 - 1:10:12 -- Open sourcing and writing about the tools you've built helps everyone
 - 1:13:08 -- Chris is on twitter [@{{ page.guest_twitter }}](https://twitter.com/{{ page.guest_twitter }}), also check out [GoRails]({{ page.guest_website }}), [Hatchbox.io](https://www.hatchbox.io/) and [Jumpstart](https://jumpstartrails.com/)
 
