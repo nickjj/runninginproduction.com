@@ -5,6 +5,7 @@ mp3_bytes: "43:48"
 mp3_duration: "42057728"
 
 guest: "Nick Hnatiw"
+guest_avatar: "nick-hnatiw"
 guest_website: "http://passwordspace.com/"
 
 category: "podcast"
