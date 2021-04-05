@@ -285,7 +285,7 @@ of selecting a tech stack in production with good results.
 
 ## Where can we go to learn more?
 
-You can find my personal website at <https://sgoel.org>, and my Github at
+You can find my personal website at <https://sgoel.dev>, and my Github at
 <https://github.com/siddhantgoel>.
 
 My contact information is on my website. If you have any questions or comments
@@ -322,7 +322,7 @@ free to reach out!
 [Pelican]: https://blog.getpelican.com/
 [PyPI]: https://pypi.org/project/flask-filealchemy
 [Python]: https://www.python.org/
-[Siddhant]: https://sgoel.org
+[Siddhant]: https://sgoel.dev
 [Statik]: https://getstatik.com/
 [still seems to be]: https://github.com/thanethomson/statik/issues/70
 [Uptime Robot]: https://uptimerobot.com
