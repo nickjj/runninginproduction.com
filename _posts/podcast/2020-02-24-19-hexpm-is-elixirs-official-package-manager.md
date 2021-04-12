@@ -17,6 +17,7 @@ tags:
   - "docker"
   - "fastly"
   - "gcp"
+  - "gke"
   - "github-actions"
   - "kubernetes"
   - "open-source"
