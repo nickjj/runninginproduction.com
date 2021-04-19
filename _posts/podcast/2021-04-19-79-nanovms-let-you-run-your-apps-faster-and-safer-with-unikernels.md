@@ -51,7 +51,7 @@ etc.).
 - 16:51 -- Certain organizations are pushing decent traffic through their Unikernel driven apps
 - 19:02 -- How you can run a multi-service app with Nanos (web + worker + db + cache, etc.)
 - 22:59 -- ops.city and nanos.org are a single Go binary / 1 Unikernel driven app
-- 25:37 -- The nanosvm.com site is a bit more involved and has Stripe integration
+- 25:37 -- The nanovms.com site is a bit more involved and has Stripe integration
 - 28:08 -- I never heard of the term Unikernel until today
 - 30:20 -- nginx isn't sitting in front of the Go app and how Unikernels can be so fast
 - 40:29 -- With a Unikernel approach you can easily move between hosting providers
