@@ -110,6 +110,11 @@ audio {
   background-image: asset_url('audioplayer/fast_forward.svg');
 }
 
+.icon-rewind {
+  background-image: asset_url('audioplayer/fast_forward.svg');
+  transform: scaleX(-1);
+}
+
 .icon-volumeup {
   background-image: asset_url('audioplayer/volume_up.svg');
 }
