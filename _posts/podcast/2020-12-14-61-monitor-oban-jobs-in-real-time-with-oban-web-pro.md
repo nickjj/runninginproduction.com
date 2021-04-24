@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "1:01:26"
-mp3_duration: "58985856"
+mp3_bytes: "58985856"
+mp3_duration: "1:01:26"
 
 guest: "Parker Selbert"
 guest_avatar: "parker-selbert"

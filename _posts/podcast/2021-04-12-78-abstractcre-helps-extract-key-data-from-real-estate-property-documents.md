@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "1:40:19"
-mp3_duration: "96309248"
+mp3_bytes: "96309248"
+mp3_duration: "1:40:19"
 
 guest: "Cole Simmons"
 guest_avatar: "cole-simmons"

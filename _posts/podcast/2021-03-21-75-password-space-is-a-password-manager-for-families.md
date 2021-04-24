@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "43:48"
-mp3_duration: "42057728"
+mp3_bytes: "42057728"
+mp3_duration: "43:48"
 
 guest: "Nick Hnatiw"
 guest_avatar: "nick-hnatiw"
