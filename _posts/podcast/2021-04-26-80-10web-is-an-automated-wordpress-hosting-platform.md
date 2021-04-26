@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "69455872"
-mp3_duration: "1:12:20"
+mp3_bytes: "69197824"
+mp3_duration: "1:12:04"
 
 guest: "Tigran Nazaryan"
 guest_avatar: "tigran-nazaryan"
@@ -48,30 +48,30 @@ covered a lot of ground.
 
 ## Topics Include
 
-- 2:05 -- Thousands of customers have their site hosted there
-- 3:16 -- A break down of their stack (there's a lot going on)
-- 4:54 -- Motivation for choosing a mixture of programming languages and frameworks
-- 7:26 -- All of the services are independent and live in their own git repo
-- 9:39 -- The image optimizer service is written with Laravel
-- 12:50 -- MongoDB is quite heavily used by a number of services
-- 15:56 -- How to optimize CSS and JS bundles with many WordPress plugins
-- 21:29 -- The hosting service is written in Python with MySQL for a DB (hosted on GCP)
-- 24:08 -- It's mostly Linux containers being used but Docker is used in some spots
-- 25:27 -- End customers don't need to worry about things like nginx and SSL certs
-- 30:46 -- Other tech components that's in their stack
-- 32:16 -- Payments are handled monthly or annually with Stripe and PayPal
-- 33:38 -- Client sites are hosted on Google Cloud and their services are on OVH
-- 37:49 -- Some of the servers are pretty beefy with 32GB of memory and 8+ CPU cores
-- 40:12 -- Developers can run everything on their own laptops
-- 44:43 -- The developers who build a service are responsible for deploying it
-- 45:42 -- The process to set up a server is documented and automated when possible
-- 49:02 -- Customers can access their hosted sites very quickly after signing up
-- 51:29 -- The deployment process from development to production
-- 57:11 -- Databases are backed up and core services are load balanced
-- 59:20 -- Keeping track of errors, monitoring and alerting
-- 1:04:01 -- Cloudflare is sitting in front of the core services
-- 1:06:58 -- Best tips? Really focus on getting a good architecture designed early on
-- 1:10:52 -- Check out <{{ page.guest_website }}>, Tigran's [LinkedIn](https://www.linkedin.com/in/tnazaryan/) and their [Engineer blog](https://10web.io/blog/)
+- 1:49 -- Thousands of customers have their site hosted there
+- 3:00 -- A break down of their stack (there's a lot going on)
+- 4:38 -- Motivation for choosing a mixture of programming languages and frameworks
+- 7:10 -- All of the services are independent and live in their own git repo
+- 9:23 -- The image optimizer service is written with Laravel
+- 12:34 -- MongoDB is quite heavily used by a number of services
+- 15:40 -- How to optimize CSS and JS bundles with many WordPress plugins
+- 21:13 -- The hosting service is written in Python with MySQL for a DB (hosted on GCP)
+- 23:52 -- It's mostly Linux containers being used but Docker is used in some spots
+- 25:11 -- End customers don't need to worry about things like nginx and SSL certs
+- 30:30 -- Other tech components that's in their stack
+- 32:00 -- Payments are handled monthly or annually with Stripe and PayPal
+- 33:12 -- Client sites are hosted on Google Cloud and their services are on OVH
+- 37:33 -- Some of the servers are pretty beefy with 32GB of memory and 8+ CPU cores
+- 39:56 -- Developers can run everything on their own laptops
+- 44:27 -- The developers who build a service are responsible for deploying it
+- 45:26 -- The process to set up a server is documented and automated when possible
+- 48:46 -- Customers can access their hosted sites very quickly after signing up
+- 51:13 -- The deployment process from development to production
+- 56:55 -- Databases are backed up and core services are load balanced
+- 59:04 -- Keeping track of errors, monitoring and alerting
+- 1:03:45 -- Cloudflare is sitting in front of the core services
+- 1:06:42 -- Best tips? Really focus on getting a good architecture designed early on
+- 1:10:36 -- Check out <{{ page.guest_website }}>, Tigran's [LinkedIn](https://www.linkedin.com/in/tnazaryan/) and their [Engineer blog](https://10web.io/blog/)
 
 ## Links
 
