@@ -15,6 +15,7 @@ tags:
   - "ansible"
   - "digitalocean"
   - "lets-encrypt"
+  - "jupyter"
   - "nginx"
   - "open-source"
   - "sqlite"
