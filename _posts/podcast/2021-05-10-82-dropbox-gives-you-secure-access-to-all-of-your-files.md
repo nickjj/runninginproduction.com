@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "67170304"
-mp3_duration: "1:09:57"
+mp3_bytes: "67026944"
+mp3_duration: "1:09:49"
 
 guest: "Utsav Shah"
 guest_avatar: "utsav-shah"
