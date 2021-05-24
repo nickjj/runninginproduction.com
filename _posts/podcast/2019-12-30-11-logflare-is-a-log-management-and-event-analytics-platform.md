@@ -17,6 +17,7 @@ tags:
   - "cloudflare"
   - "docker"
   - "gcp"
+  - "logflare"
   - "open-source"
   - "postgres"
 
