@@ -31,7 +31,7 @@ description:
 
 In this episode of Running in Production, {{ page.guest }} goes over building a
 project management service using Phoenix and Elixir. It runs on Gigalixir along
-with Heroku and has been up and running since early 2018.
+with Heroku and has been up and running since early 2019.
 
 Ege talks about using Elixir for the last few years, upgrading to use Phoenix
 contexts, building a monolithic app with an API back-end / VueJS front-end,
@@ -40,7 +40,7 @@ more.
 
 ## Topics Include
 
-- 1:24 -- What it was like using Elixir back in early 2018
+- 1:24 -- What it was like using Elixir back in early 2019
 - 4:55 -- Motivation for using Phoenix and Elixir
 - 6:37 -- Phoenix Channels and Elixir GenServers are being used a bit
 - 10:14 -- It's a monolithic app with mostly an API back-end using VueJS on the front-end
