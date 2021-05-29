@@ -1,7 +1,7 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "53563392"
+mp3_bytes: "53561472"
 mp3_duration: "55:47"
 
 guest: "Sean Callaway"

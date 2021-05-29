@@ -1,7 +1,7 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "64610304"
+mp3_bytes: "64609920"
 mp3_duration: "1:07:18"
 
 guest: "Nate Rush"

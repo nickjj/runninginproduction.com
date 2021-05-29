@@ -1,7 +1,7 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "69197824"
+mp3_bytes: "69195264"
 mp3_duration: "1:12:04"
 
 guest: "Tigran Nazaryan"

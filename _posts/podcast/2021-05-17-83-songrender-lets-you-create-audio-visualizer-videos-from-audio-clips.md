@@ -1,7 +1,7 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "67534848"
+mp3_bytes: "67532544"
 mp3_duration: "1:10:20"
 
 guest: "Jake Lazaroff"

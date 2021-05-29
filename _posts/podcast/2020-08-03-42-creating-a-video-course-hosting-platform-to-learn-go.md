@@ -2,7 +2,7 @@
 layout: "podcast-or-interview"
 
 mp3_bytes: "76832256"
-mp3_duration: "1:20:02"
+mp3_duration: "1:20:01"
 
 guest: "Jon Calhoun"
 guest_avatar: "jon-calhoun"

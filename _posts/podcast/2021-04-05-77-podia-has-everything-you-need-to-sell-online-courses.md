@@ -1,7 +1,7 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "68808704"
+mp3_bytes: "68807424"
 mp3_duration: "1:11:40"
 
 guest: "Jason Charnes"

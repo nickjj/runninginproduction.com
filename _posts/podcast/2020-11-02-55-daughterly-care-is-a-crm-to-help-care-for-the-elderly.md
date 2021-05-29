@@ -2,7 +2,7 @@
 layout: "podcast-or-interview"
 
 mp3_bytes: "79600512"
-mp3_duration: "1:24:55"
+mp3_duration: "1:22:55"
 
 guest: "Barton Ip"
 guest_avatar: "barton-ip"

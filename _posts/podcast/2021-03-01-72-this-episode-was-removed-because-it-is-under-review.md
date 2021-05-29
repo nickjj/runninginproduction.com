@@ -3,7 +3,7 @@ layout: "podcast-or-interview"
 under_review: true
 
 mp3_bytes: "1014803"
-mp3_duration: "01:03"
+mp3_duration: "1:03"
 
 guest: "Anders Hovmöller"
 guest_avatar: "anders-hovmoller"

@@ -2,7 +2,7 @@
 layout: "podcast-or-interview"
 
 mp3_bytes: "60405888"
-mp3_duration: "1:02:51"
+mp3_duration: "1:02:55"
 
 guest: "Scott Johnson"
 guest_avatar: "scott-johnson.jpg"

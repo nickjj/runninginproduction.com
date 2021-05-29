@@ -1,7 +1,7 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "39399424"
+mp3_bytes: "39398400"
 mp3_duration: "41:02"
 
 guest: "Jonathan Adly"

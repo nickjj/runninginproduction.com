@@ -1,7 +1,7 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "57794560"
+mp3_bytes: "57793536"
 mp3_duration: "1:00:12"
 
 guest: "Ege Ersoz"

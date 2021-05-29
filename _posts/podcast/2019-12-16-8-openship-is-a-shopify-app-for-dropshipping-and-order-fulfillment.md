@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "54237727"
-mp3_duration: "56:29"
+mp3_bytes: "51253916"
+mp3_duration: "53:23"
 
 guest: "Junaid Kabani"
 guest_avatar: "junaid-kabani.jpg"

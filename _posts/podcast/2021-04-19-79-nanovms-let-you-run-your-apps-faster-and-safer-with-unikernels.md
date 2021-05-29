@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "96849920"
-mp3_duration: "1:40:53"
+mp3_bytes: "96848256"
+mp3_duration: "1:40:52"
 
 guest: "Ian Eyberg"
 guest_avatar: "ian-eyberg"

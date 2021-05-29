@@ -1,8 +1,8 @@
 ---
 layout: "podcast-or-interview"
 
-mp3_bytes: "57507840"
-mp3_duration: "59:54"
+mp3_bytes: "57504000"
+mp3_duration: "59:53"
 
 guest: "Mubashar Iqbal"
 guest_avatar: "mubashar-iqbal"
