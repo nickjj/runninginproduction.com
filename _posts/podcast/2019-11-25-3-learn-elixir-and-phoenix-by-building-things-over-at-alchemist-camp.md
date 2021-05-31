@@ -19,6 +19,7 @@ tags:
   - "mailchimp"
   - "nginx"
   - "postgres"
+  - "render"
   - "ses"
   - "stripe"
   - "systemd"
@@ -103,7 +104,6 @@ collects payments for subscriptions.
 - <https://github.com/turbolinks/turbolinks>
 - <https://github.com/google/brotli>
 - <https://stackoverflow.com/a/414258> (using setcap)
-- <https://render.com/>
 - <https://soundcloud.com/elixirtalk/episode-157-feat-chris-mccord-liveviewphoenix-part-deux>
 - <https://elixirforum.com/t/7-5-second-average-page-load-speed-for-200-visitors-hitting-a-phoenix-driven-website-on-a-5-month-digital-ocean-droplet/15073>
 - <https://convertkit.com/>
