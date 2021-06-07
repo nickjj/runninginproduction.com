@@ -33,7 +33,7 @@ tags:
   - "vercel"
   - "webpack"
 
-title: "QAWolf Helps You Create Automated Browser Tests as You Use Your Site"
+title: "QA Wolf Helps You Create Automated Browser Tests as You Use Your Site"
 description:
   Jon Perl goes over building an automated testing service with Node and React.
   It's hosted on Netlify, Vercel, Azure and DigitalOcean.
