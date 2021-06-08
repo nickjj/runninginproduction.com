@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+# Get mp3 file size in bytes and duration for a specific podcast episode.
+# Requires having ffmpeg installed, you can apt, brew, etc. install it.
+
+set -o pipefail
+
+SRC_DIRECTORY="."
+
+BASE_FILE_PATH="assets/podcast"
+EPISODE="${1}"
+FILE_PATH="${SRC_DIRECTORY}/${BASE_FILE_PATH}/running-in-production-${EPISODE}.mp3"
+
+DRY_RUN="${2}"
+
+[ -z "${EPISODE}" ] && echo "You must supply an episode number, usage: ${0} 42" && exit 1
+
+if [ ! -f "${FILE_PATH}" ]; then
+  LATEST=
+  LATEST="$(find "${SRC_DIRECTORY}/${BASE_FILE_PATH}" -maxdepth 1 -type f -printf "%f\n" | sort -V | tail -n 1)"
+
+  echo "That episode does not exist, here's the latest one: ${LATEST}"
+  exit 1
+fi
+
+FILE_SIZE_BYTES=
+FILE_SIZE_BYTES="$(wc -c < "${FILE_PATH}")"
+
+MP3_DURATION=
+MP3_DURATION="$(ffmpeg -i "${FILE_PATH}" 2>&1 | grep -oE "[0-9]{1}:[0-9]{2}:[0-9]{2}")"
+
+while [ "${MP3_DURATION::1}" == "0" ] || [ "${MP3_DURATION::1}" == ":" ]; do
+  MP3_DURATION="${MP3_DURATION:1}"
+done
+
+PUBLISHED_EPISODE_PATH="${SRC_DIRECTORY}/_posts/podcast"
+DRAFT_EPISODE_PATH="${SRC_DIRECTORY}/_drafts/podcast"
+EPISODE_REGEX="^[0-9]{4}-[0-9]{2}-[0-9]{2}-${EPISODE}-.*.md$"
+EPISODE_PATH=
+
+if EPISODE_PATH=$(find "${PUBLISHED_EPISODE_PATH}" -printf "%f\n" | grep -E "${EPISODE_REGEX}"); then
+  EPISODE_PATH="${PUBLISHED_EPISODE_PATH}/${EPISODE_PATH}"
+elif EPISODE_PATH=$(find "${DRAFT_EPISODE_PATH}" -printf "%f\n" | grep -E "${EPISODE_REGEX}"); then
+  EPISODE_PATH="${DRAFT_EPISODE_PATH}/${EPISODE_PATH}"
+fi
+
+if [ -z "${EPISODE_PATH}" ]; then
+  echo "Episode ${EPISODE} was not found, but here's the size and duration of the mp3:"
+
+  printf '\nmp3_bytes: "%s"\nmp3_duration: "%s"\n' "${FILE_SIZE_BYTES}" "${MP3_DURATION}"
+
+  exit 0
+fi
+
+if [ "${DRY_RUN}" == "--dry-run" ]; then
+  cat << EOF
+Episode ${EPISODE}'s mp3 details will be updated based on this:
+
+-- Current details --
+
+$(grep -oE "(^mp3_bytes: \".*\"$|mp3_duration: \".*\"$)" "${EPISODE_PATH}")
+
+-- New details --
+
+mp3_bytes: "${FILE_SIZE_BYTES}"
+mp3_duration: "${MP3_DURATION}"
+EOF
+else
+  perl -i \
+    -pe "s/^mp3_bytes: \".*\"$/mp3_bytes: \"${FILE_SIZE_BYTES}\"/g;" \
+    -pe "s/^mp3_duration: \".*\"$/mp3_duration: \"${MP3_DURATION}\"/g;" "${EPISODE_PATH}"
+fi
