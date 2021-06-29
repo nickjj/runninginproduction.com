@@ -10,6 +10,7 @@ function initPlayer(playerContainer) {
   const playButton = playerContainer.querySelector(".js-play");
   const pauseButton = playerContainer.querySelector(".js-pause");
   const loadingSpinner = playerContainer.querySelector(".js-spinner");
+  const playbackRewindButton = playerContainer.querySelector(".js-playback-rewind");
   const playbackSpeedButton = playerContainer.querySelector(".js-playback-speed");
   const volumeButton = playerContainer.querySelector(".js-volume");
   const copyTimeButton = playerContainer.querySelector(".js-copy-time");
@@ -67,6 +68,9 @@ function initPlayer(playerContainer) {
     });
     playbackSpeedButton.addEventListener("click", function() {
       speedPlay();
+    });
+    playbackRewindButton.addEventListener("click", function() {
+      rewind(10);
     });
     volumeButton.addEventListener("click", function() {
       toggleMute();
@@ -336,6 +340,10 @@ function initPlayer(playerContainer) {
 
   function seekPosition(fraction) {
     audio.currentTime = fraction * audio.duration;
+  }
+
+  function rewind(seconds) {
+    audio.currentTime -= seconds;
   }
 
   function copyUrlTime() {
