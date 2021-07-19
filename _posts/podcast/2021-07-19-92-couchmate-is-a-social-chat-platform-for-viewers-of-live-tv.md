@@ -34,7 +34,7 @@ tags:
 title: "Couchmate Is a Social Chat Platform for Viewers of Live TV"
 description:
   Matt Oliver goes over building a chat platform with Akka, Scala and React
-  Native. It's hosted on Digitalcoean with Kubernetes.
+  Native. It's hosted on DigitalOcean with Kubernetes.
 ---
 
 In this episode of Running in Production, {{ page.guest }} goes over building
