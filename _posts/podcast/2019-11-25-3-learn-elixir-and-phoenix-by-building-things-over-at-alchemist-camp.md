@@ -4,8 +4,8 @@ layout: "podcast-or-interview"
 mp3_bytes: "50249978"
 mp3_duration: "52:20"
 
-guest: "Mark Wilbur"
-guest_avatar: "mark-wilbur.jpg"
+guest: "Mark"
+guest_avatar: "mark.jpg"
 guest_website: "https://alchemist.camp/"
 guest_twitter: "AlchemistCamp"
 
@@ -27,7 +27,7 @@ tags:
 
 title: "Learn Elixir and Phoenix by Building Things Over at Alchemist Camp"
 description:
-  Mark Wilbur goes over how he built his platform using Phoenix and Elixir.
+  Mark goes over how he built his platform using Phoenix and Elixir.
   It's all hosted on a $10 a month DigitalOcean server.
 ---
 
