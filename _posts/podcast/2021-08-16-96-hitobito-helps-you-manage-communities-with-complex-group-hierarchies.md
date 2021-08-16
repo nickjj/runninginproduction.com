@@ -99,6 +99,6 @@ OpenShift and lots more.
 - <https://github.com/rubysherpas/paranoia>
 - <https://github.com/codez/wagons>
 - <https://github.com/pat/thinking-sphinx>
-- <https://github.com/influitive/apartment>
+- <https://github.com/rails-on-services/apartment>
 - <https://github.com/puzzle/bleib/>
 - <https://kustomize.io/>
