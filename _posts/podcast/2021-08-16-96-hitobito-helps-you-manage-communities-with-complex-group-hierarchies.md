@@ -25,7 +25,6 @@ tags:
   - "lets-encrypt"
   - "memcached"
   - "mysql"
-  - "mysql"
   - "nginx"
   - "open-source"
   - "openshift"
