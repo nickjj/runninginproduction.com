@@ -67,7 +67,7 @@ deploy new things and much more.
 - 1:15:13 -- A strategy for writing Jira tickets
 - 1:17:53 -- RDS snapshots are handling database backups
 - 1:21:14 -- Monitoring, alerting and the idea of "sharpening the saw"
-- 1:25:50 -- Best tips? Make safe decisions and improve skills such as reading documentation
+- 1:25:47 -- Best tips? Make safe decisions and improve skills such as reading documentation
 - 1:30:44 -- Check out Jason's site at <https://www.codewithjason.com/>
 
 ## Links
