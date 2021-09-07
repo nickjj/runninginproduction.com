@@ -76,6 +76,7 @@ deploy new things and much more.
 
 - <https://twitter.com/dhh> (Creator of Rails)
 - <https://en.wikipedia.org/wiki/Electronic_data_interchange>
+- [Jason's podcast where Nick was a guest talking about freelancing, Docker and Kubernetes](https://www.codewithjason.com/code-with-jason-podcast/episodes/111-dockerizing-development-and-production-with-nick-janetakis-Qo4XwuSP/)
 - <https://rtpg.co/2021/06/07/changes-checklist.html> (Database migration steps)
 - <https://nickjanetakis.com/blog/learning-a-new-web-framework-with-question-driven-development>
 - <https://www.codewithjason.com/best-programming-tips/>
