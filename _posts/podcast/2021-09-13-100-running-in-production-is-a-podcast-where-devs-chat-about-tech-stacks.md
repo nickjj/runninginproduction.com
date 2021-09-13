@@ -69,13 +69,14 @@ and more.
 
 ###### 📄 References
 
+- [https://buildasaasappwithflask.com](https://buildasaasappwithflask.com/?utm_source=nj&utm_medium=rip&utm_campaign=ep-100)
+- [https://diveintodocker.com](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign=ep-100)
+- <https://www.youtube.com/c/NickJanetakis>
 - <https://www.audacityteam.org/>
 - <https://www.blackmagicdesign.com/products/davinciresolve/>
 - <https://github.com/nickjj/runninginproduction.com>
 - <https://github.com/nickjj/runninginproduction.com/issues/1>
 - <https://nickjanetakis.com/blog/displaying-database-results-across-multiple-columns-with-1-line-of-css>
-- [https://buildasaasappwithflask.com](https://buildasaasappwithflask.com/?utm_source=nj&utm_medium=rip&utm_campaign=ep-100)
-- [https://diveintodocker.com](https://diveintodocker.com/?utm_source=nj&utm_medium=rip&utm_campaign=ep-100)
 - <https://nickjanetakis.com/blog/using-ffmpeg-to-get-an-mp3s-duration-and-4-ways-to-get-the-file-size>
 - <https://nickjanetakis.com/blog/transform-a-toshiba-chromebook-cb35-into-a-linux-development-environment-with-galliumos>
 
