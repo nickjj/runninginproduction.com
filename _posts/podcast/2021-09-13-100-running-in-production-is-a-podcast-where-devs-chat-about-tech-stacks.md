@@ -16,6 +16,7 @@ tags:
   - "ansible"
   - "bash"
   - "debian"
+  - "digitalocean"
   - "lets-encrypt"
   - "nginx"
   - "open-source"
