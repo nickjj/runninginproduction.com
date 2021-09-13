@@ -41,10 +41,10 @@ and more.
 
 ## Topics Include
 
-- 2:03 -- The podcast is not sponsored and it's done in Nick's spare time after hours
-- 2:34 -- What's involved end to end to put together an episode
+- 2:06 -- The podcast is not sponsored and it's done in Nick's spare time after hours
+- 2:30 -- What's involved end to end to put together an episode
 - 8:50 -- Each episode gets about 400 downloads or listens but it's hard to track
-- 10:40 -- Motivation for using Jekyll and Ruby
+- 10:41 -- Motivation for using Jekyll and Ruby
 - 13:03 -- A couple of custom Jekyll plugins to help building a podcast site
 - 16:55 -- So many static generators to choose from, just pick one
 - 18:09 -- Use the tools that you like and don't constantly second guess yourself
