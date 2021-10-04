@@ -16,6 +16,7 @@ tags:
   - "golang"
   - "aws"
   - "buildkite"
+  - "clickhouse"
   - "docker"
   - "fastly"
   - "gcp"
@@ -121,7 +122,6 @@ databases, metered billing and tons more.
 - <https://www.ycombinator.com/about/>
 - <https://bugzilla.mozilla.org/show_bug.cgi?id=356558>
 - <https://golang.org/>
-- <https://clickhouse.tech/>
 - <https://en.wikipedia.org/wiki/Column-oriented_DBMS>
 - <https://mux.com/blog/from-russia-with-love-how-clickhouse-saved-our-data/>
 - <https://en.wikipedia.org/wiki/WebVTT>
