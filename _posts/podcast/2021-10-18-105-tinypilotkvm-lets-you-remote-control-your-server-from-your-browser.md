@@ -22,7 +22,7 @@ tags:
 title: "TinyPilotKVM Lets You Remote Control Your Server from Your Browser"
 
 description:
-  Michael Lync goes over building a hardware device to remote control your
+  Michael Lynch goes over building a hardware device to remote control your
   server. It's been available since mid 2020.
 ---
 
