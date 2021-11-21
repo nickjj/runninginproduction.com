@@ -11,8 +11,8 @@ guest_twitter: "deliberatecoder"
 
 category: "podcast"
 tags:
-  - "python"
   - "flask"
+  - "python"
   - "ansible"
   - "bash"
   - "circle-ci"
