@@ -86,7 +86,7 @@ available platform for thousands of clients.
 
 ###### 📄 References
 
-- <https://guide.meteor.com/>
+- <https://www.meteor.com/>
 - <https://www.tinycapital.com/> (They acquired Meteor)
 
 ###### ⚙️ Tech Stack
